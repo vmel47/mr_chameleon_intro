@@ -92,7 +92,7 @@ ONLY CHANGE: the clothing and the addition of the half-mask. 100% identical othe
 
 **Then:** open the original master and the edited version in any editor with masks, and paint only the clothing and mask region of the edit onto the original. The skin around the eyes must be the master's original texture. This is the pass that keeps the face alive.
 
-**Wardrobe logic — why this and not a hazmat suit.** He is not protecting himself from the zone; he lives in it and it does not frighten him. The clothing is about not being noticed: muted, unbranded, unmilitary, the colour of wet concrete and birch. Someone who has walked a long way and expects to walk further. The mask reads as habit, not as safety equipment.
+**Wardrobe logic — why this and not a hazmat suit.** He is not protecting himself from the zone; he lives in it and it does not frighten him. The clothing is about not being noticed: muted, unbranded, unmilitary, the colour of wet concrete and birch. Someone who has walked many kilometres already and is walking home calmly and steadily. The mask reads as habit, not as safety equipment.
 
 ## 1.3 `@char_MC_employee` — the lab worker
 
@@ -228,7 +228,7 @@ soft key light with smooth falloff, plain matte dark background.
 
 **All Soul Cinema · 16:9 · 2k · shot in 3/4, never frontal.** Each carries an anchor object and one light logic.
 
-**Every location prompt ends with the `ENVIRONMENT LOCK` from `STYLE_PREFIX.md`, pasted word for word, plus this tail.** This is what makes twelve separately generated places read as one city on one afternoon — and it has to hold even when no reference image is attached. `@loc_MC_basement` is the only exception: it gets the basement light line instead.
+**Every location prompt ends with the `ENVIRONMENT LOCK` from `STYLE_PREFIX.md`, pasted word for word, plus this tail.** This is what makes twelve separately generated places read as one city at 1:00 PM — and it has to hold even when no reference image is attached. `@loc_MC_basement` is the only exception: it gets the basement light line instead.
 
 ```
 [TAIL] Palette of 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky,
@@ -275,7 +275,7 @@ white of enamel and glass.
 | 4 | `@char_MC_employee_civil` (wardrobe point change) | **Test both employee tags in one frame.** This is the hardest shot in the film — if the two faces drift here, fix it now. |
 | 5 | `@prop_MC_signs` | Test the pattern on both a forearm and a neck, under raking and flat light. It must vanish under flat light. |
 | 6 | `@char_MC_employee_signs` (pattern point change) | The face must stay completely unmarked. |
-| 7 | All 12 locations | Each carries the ENVIRONMENT LOCK. Generate them **in one sitting, back to back** — the whole point is that they read as one afternoon. Each must survive re-framing from three angles without inventing new geometry. |
+| 7 | All 12 locations | Each carries the ENVIRONMENT LOCK. Generate them **in one sitting, back to back** — the whole point is that they read as one 1:00 PM afternoon. Each must survive re-framing from three angles without inventing new geometry. |
 | 8 | Reverse angles for the flat and the basement | For the basement, generate `CAMERA POSITION 2` from the GEO map as its own sheet — generation 11 depends on it. |
 | 9 | → `SHOTLIST_PROMPTS.md` | Nothing generates before this line. |
 

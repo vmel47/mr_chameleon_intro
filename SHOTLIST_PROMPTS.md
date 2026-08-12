@@ -68,14 +68,15 @@ the map the mirror moves to another wall between takes and the copy walks in fro
 
 ---
 
-# 01 · FOREST · 16s · 0:00
+# 00 · DEEP FOREST · 16s
 
 ```
 SCENE CONTEXT
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no feet, no shadow of
-the viewer at any point. A person walks a forest path inside an abandoned zone, looks up at the sky, and
-comes out of the trees onto open ground where a distant built shape stands on the horizon. One continuous
-16-second take, no cuts.
+the viewer at any point. A person walks slowly, calmly and at an unhurried, leisurely, cinematic pace deep
+inside a dense, wild, untouched forest on raw forest floor in the abandoned exclusion zone. No trodden paths,
+no beaten tracks, no openings, no roads, no structures anywhere visible — only deep unbroken wild forest and
+dense canopy. One continuous 16-second take, no cuts.
 
 
 [paste ENVIRONMENT LOCK]
@@ -83,13 +84,78 @@ ACTIVE REFERENCES
 @loc_MC_forest for location reference — take only the space and the texture: dense pine and birch trunks,
 low undergrowth, deep leaf litter, thin daylight through the canopy. Do not use as a starting frame, do
 not inherit the composition, the angle or the grade.
-@loc_MC_pripyat_sign for location reference — take only the shape and the material of the distant
-structure on the horizon: a low horizontal concrete slab standing alone on open ground. Do not use as a
-starting frame, do not inherit the composition, the angle or the grade.
 
 FIRST FRAME AND SPATIAL BLOCKING
-First frame is already mid-stride on the path: trunks passing close on both sides, the overgrown route
-running away from camera toward a break in the trees dead ahead. No empty establishing beat.
+First frame is already mid-stride on raw wild forest floor deep in the woods: tall pine and birch trunks
+surrounding the viewer closely on all sides, dense unbroken canopy above, deep leaf litter and moss underfoot.
+No trodden path, no road, no horizon opening, no clearings.
+
+FORMAT MODE
+Single continuous take, real time, no cuts, no speed ramps.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, natural human-eye perspective. Deep enough
+focus to hold both the near trunks and the deeper forest background. No distortion.
+
+CAMERA
+The camera is a walking person's eyes and head, not a heavy rig or mechanical pan: effortless, natural,
+light head turns with organic human eye-line movement, vertical rise and fall on each stride, small lateral sway.
+It never stabilises into a heavy mechanical glide. Eye height throughout.
+
+ACTION TIMING
+0.0–7.0s — walking forward slowly, calmly and steadily facing straight ahead deep inside the wild forest at an unhurried, cinematic pace; tall pine and birch trunks pass smoothly on both sides through deep leaf litter and moss.
+7.0–10.0s — turn the camera slightly to the right, as if the walking person effortlessly looked to the right toward the soft sunlight filtering through the trees, while continuing the slow walk forward.
+10.0–12.0s — turn the camera slightly to the left, as if the walking person effortlessly looked to the left toward the passing forest undergrowth.
+12.0–16.0s — turn the camera back to centre, as if the walking person looked straight ahead again, continuing the calm, steady walk forward to the end of the take.
+
+PHYSICS
+Weight transfer on every slow step: heel contact, mass settling, toe push-off. The footfall sound and body's
+vertical bounce stay consistent on soft wild forest floor and leaf litter. Branches move gently on wind. Cloud
+moves at cloud speed, foliage on a separate faster frequency.
+
+LIGHTING
+Dappled, soft daylight filtering down through the dense forest canopy. Forest floor low key; small patches of
+soft sunlight where canopy gaps permit. Atmospheric haze between distant tree trunks.
+
+AUDIO
+Diegetic only — 0.0–4.0s near-total forest silence: subtle wind through pine needles and soft footsteps on
+leaf litter only. No bird calls or sharp sounds in the opening seconds. From ~5.0s onward: distant sparse
+bird calls, soft wind through leaves, drifting insects. No music. No narration. No voices.
+
+STYLE
+[paste STYLE PREFIX verbatim]
+
+QUALITY
+8K detail, bark and lichen at material level, clean cloud gradation, no jitter, no flicker.
+
+POSITIVE CONSTRAINTS
+Zero people visible anywhere. No hands, no arms, no feet, no body part and no cast shadow of the viewer
+enters frame at any time. The slow walk never stops — the body keeps moving slowly forward.
+No trodden paths, no beaten tracks, no roads, no clearings, no buildings, no signs, no vehicles anywhere.
+Deep unbroken forest only. Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
+```
+
+---
+
+# 01 · FOREST · 16s · 0:00
+
+```
+SCENE CONTEXT
+EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no feet, no shadow of
+the viewer at any point. A person walks slowly, calmly and at an unhurried, leisurely, cinematic pace through
+wild forest floor inside an abandoned zone, looks up at the sky, and comes out of the trees toward an empty
+perpendicular road running across in the distance. One continuous 16-second take, no cuts.
+
+
+[paste ENVIRONMENT LOCK]
+ACTIVE REFERENCES
+@loc_MC_forest for location reference — take only the space and the texture: dense pine and birch trunks,
+low undergrowth, deep leaf litter, thin daylight through the canopy. Do not use as a starting frame, do
+not inherit the composition, the angle or the grade.
+
+FIRST FRAME AND SPATIAL BLOCKING
+First frame is already mid-stride on wild forest floor: trunks passing close on both sides, stepping forward
+through leaf litter toward a break in the trees dead ahead. No empty establishing beat.
 
 FORMAT MODE
 Single continuous take, real time, no cuts, no speed ramps.
@@ -99,24 +165,24 @@ OPTICS
 focus to hold both the near trunks and the distant horizon. No distortion.
 
 CAMERA
-The camera is a walking body, not a rig: vertical rise and fall on each stride, small lateral sway,
-organic imperfect correction after every step. It never stabilises into a glide. Exactly two deliberate
-moves in the whole take — one look up, one look back down. Eye height throughout.
+The camera is a walking body moving at a slow, calm, unhurried gait, not a rig: gentle vertical rise
+and fall on each stride, small lateral sway, organic imperfect correction after every step. It never
+stabilises into a glide. Exactly two deliberate moves in the whole take — one look up, one look back down.
+Eye height throughout.
 
 ACTION TIMING
-0.0–5.0s — walking forward at a steady confident pace; trunks enter close on the left and pass out; the
-break in the trees ahead widens and brightens.
+0.0–5.0s — walking forward slowly at an unhurried, calm, leisurely cinematic pace; trunks enter close on
+the left and pass out slowly; the break in the trees ahead widens and brightens.
 5.0–8.0s — the gaze lifts to the sky: broken cloud with one gap of direct sun, thin branches crossing it.
-The walk continues underneath the tilt without breaking rhythm. The tilt eases in and settles.
+The slow walk continues underneath the tilt without breaking rhythm. The tilt eases in and settles.
 8.0–9.0s — the gaze comes back down to the route, slower than it left.
 9.0–13.0s — the last trunks fall away left and right; the sky opens across the top of frame; the ground
 underfoot changes from leaf litter to dry grass and broken asphalt.
-13.0–16.0s — open ground. Far off in the haze, low and horizontal at frame-CENTRE, a pale built shape
-that is clearly not vegetation. The head drifts a few degrees to hold it centred. It stays too distant
-to read.
+13.0–16.0s — open ground. Far off about fifty metres ahead in the haze, an empty perpendicular road opens up
+running horizontally across in the background. The head drifts a few degrees to hold it centred.
 
 PHYSICS
-Weight transfer on every step: heel contact, mass settling, toe push-off. The footfall sound and the
+Weight transfer on every slow step: heel contact, mass settling, toe push-off. The footfall sound and the
 body's vertical bounce change when the ground changes from soft litter to hard asphalt. Branches move on
 contact and rebound. Cloud moves at cloud speed, branches on a separate faster frequency. Wind is
 stronger in the open than under the canopy and moves the grass in travelling waves.
@@ -127,8 +193,7 @@ upward look the frame exposes for the sky and the branches fall to near silhouet
 thickens with distance over the open ground.
 
 AUDIO
-Diegetic only — footfall on leaf litter then on grass and asphalt, breath at walking effort, wind through
-pine, distant crows, insects. No music. No narration. No voices.
+Diegetic only — 0.0–4.0s near-total forest silence: subtle wind through pine needles and soft footsteps on leaf litter only. No bird calls or sharp sounds in the opening seconds. From ~5.0s onward: distant sparse bird calls, soft wind, drifting insects. No music. No narration. No voices.
 
 STYLE
 [paste STYLE PREFIX verbatim]
@@ -138,10 +203,9 @@ QUALITY
 
 POSITIVE CONSTRAINTS
 Zero people visible anywhere. No hands, no arms, no feet, no body part and no cast shadow of the viewer
-enters frame at any time. The walk never stops — the body keeps moving through the upward look. Exactly
-ONE break in the cloud; no clear blue sky, no aircraft, no contrails. The distant structure stays
-unreadable — no legible lettering at any point. Exactly ONE structure on the horizon, standing alone; no
-other buildings, no towers, no vehicles. Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
+enters frame at any time. The slow walk never stops — the body keeps moving slowly through the upward look.
+Exactly ONE break in the cloud; no clear blue sky, no aircraft, no contrails. No vehicles, no buildings, no signs.
+Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
 ```
 
 ---
@@ -692,7 +756,7 @@ vegetation moves around him; he does not.
 6.0–9.0s — he crosses the entrance hall past the mailboxes and starts the first flight; the camera follows
 into the stairwell.
 9.0–13.0s — first flight and the half-landing turn: his hand never takes the handrail, his pace is even,
-plaster grit crunching under each step; he rounds the turn without slowing and the camera takes it a beat
+plaster grit crunching under each step; he rounds the turn at the same calm, steady pace and the camera takes it a beat
 later.
 13.0–16.0s — second flight to the landing; he is ALREADY mid-push at the flat door, his shoulder ALREADY
 into it, the door ALREADY cracking against its swollen frame. It gives all at once and swings.

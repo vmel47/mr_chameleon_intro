@@ -9,16 +9,12 @@
 **Paste into every location asset prompt and every exterior or daylight-interior video prompt.** This is what makes the city read as one place on one day instead of eleven separate generations. It has to hold even when no city reference image is attached.
 
 ```
-ENVIRONMENT LOCK — identical in every shot of this film, no exceptions:
-Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything
-overgrown, everything alive and taking the place back.
-Sky: half broken cloud, slow-moving, with real gaps of pale blue between the cloud masses.
-Sun: high and soft behind thin cloud — present, warm and directional, never blinding, never a hard
-flare, never a sunbeam effect. It sits in the same place in every shot: high and three-quarters
-behind the subject, so edges catch a soft warm rim and the camera side sits a stop and a half under.
-Shadows: soft-edged and long, never hard, never doubled, all falling the same way.
-Air: light haze thickening with distance, pollen and insects drifting in the bright gaps.
-Time: one single afternoon. Nothing in this film happens at another hour or in another weather.
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
 ```
 
 **The basement is the one exception** — no daylight reaches it. It carries its own light logic: one dim overhead fixture above the work table, the rest of the room falling away into shade. The environment lock is not pasted into basement prompts.
@@ -34,7 +30,7 @@ Time: one single afternoon. Nothing in this film happens at another hour or in a
 ```
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
 Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
 Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.

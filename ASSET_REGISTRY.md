@@ -53,9 +53,9 @@ All location sheets shot in **3/4, never frontal**. Each carries an anchor objec
 
 ## THE ENVIRONMENT LOCK
 
-Every location except the basement is generated under the **same** season, sky and sun — see `STYLE_PREFIX.md`. Late spring into early summer, half broken cloud, soft sun high and three-quarters behind the subject, one single afternoon.
+Every location except the basement is generated under the **same** season, sky and sun — see `STYLE_PREFIX.md`. Late spring into early summer, half broken cloud, soft sun high and three-quarters behind the subject, 1:00 PM (early afternoon).
 
-**Generate all the daylight locations back to back in one sitting.** The whole point is that twelve separately generated places read as one city on one afternoon. Come back a week later and the palette will have drifted.
+**Generate all the daylight locations back to back in one sitting.** The whole point is that twelve separately generated places read as one city at 1:00 PM. Come back a week later and the palette will have drifted.
 
 The reactor confinement is not its own tag — it lives inside `@loc_MC_pripyat_city` and `@loc_MC_home_area` as a horizon element, because it is only ever seen at distance.
 
