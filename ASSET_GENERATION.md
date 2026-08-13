@@ -6,148 +6,246 @@ Prompts for building every asset in the film. **Nothing in `SHOTLIST_PROMPTS.md`
 
 | Asset | Model | Notes |
 |---|---|---|
-| Character sheets | **Soul 2.0**, aspect 16:9, quality 2k | Soul ID on. Reference photo attached where noted |
+| Character sheets | **Soul 2.0**, aspect 16:9, quality 2k | Soul ID on. **No reference images anywhere in this project** — every identity is carried by its descriptor. |
 | Location sheets | **Soul Cinema**, aspect 16:9, quality 2k | 3/4 angle, never frontal |
 | Prop sheet (the signs) | **Nano Banana Pro**, 1:1 or 4:3, 2k–4k | |
 | Wardrobe / mask variants | **Nano Banana Pro** point change, then masked back onto the original by hand | Never re-run a full sheet through a model twice |
 
-## THE THREE RULES THAT BREAK THINGS IF IGNORED
+## THE RULES THAT BREAK THINGS IF IGNORED
 
-1. **The character sheet is deliberately boring.** Neutral grey backdrop, flat even light, real pores, no retouch, **no film grain, no cinematic lens, no colour grade**. The cinema look lives in the locations and the video prompts. Bake it into the sheet and he carries it into every scene and stops reacting to new light.
-2. **The front full-body figure has no head.** On wide shots the model pulls the face from the small blurry full-body figure instead of the portrait. Remove that head and there is exactly one place the face can come from.
-3. **An image never runs through a model twice in full.** Mask, coat, dust — point changes only, composited back onto the original by hand. Two full passes and the face turns plastic and symmetrical, and dead texture kills the acting later in video.
+1. **Follow one template, not two.** The character prompts below are the Lira 3-panel template as written — three panels, all with heads, a palette line and a tech block at the end. Mixing it with techniques from other pipelines is what produced the malformed first attempt.
+2. **The tech block is not optional.** Without a camera and lens named at the end, the model has no photographic anchor and drifts to illustration. Use the *clean digital* register — no film grain, no heavy desaturation — so the sheet stays neutral and does not carry a look into every scene.
+3. **The sheet stays neutral.** Grey backdrop, one soft directional light, real pores, no retouch, no grade. The cinema look lives in the locations and the video prompts. Bake it into the sheet and the character carries it everywhere and stops reacting to new light.
+4. **An image never runs through a model twice in full.** Mask, wardrobe, marks — point changes only, composited back onto the original by hand. Two full passes and the face turns plastic and symmetrical, and dead texture kills the acting in video later.
+5. **Never write** `character reference sheet` or `painterly` — both trigger illustration. Say `film character sheet` and `studio photographs`. **Never write** `rule of thirds` on a sheet.
 
 ---
 
 # 1 · CHARACTERS
 
-## 1.1 `@char_MC_mr_chameleon_face` — identity master (unmasked)
+> **Fast path, try this first.** **Cinema Studio AI Cast** builds a character reference sheet automatically
+> — it is a standalone tool on Higgsfield, all parameters set in its own UI, no prompt needed. If it gives
+> a usable sheet, take it and skip the prompts below. The prompts are for when you need full control.
 
-**Generate this first.** It is never seen in the film. It exists so that the eyes and brow stay identical across every masked shot, and so the Soul ID has a full face to lock onto.
+**Built on the Lira character-sheet template exactly.** Earlier drafts of this file merged that template
+with a different one and produced garbage — specifically a headless front figure, which the Lira template
+does not use, and a missing tech block, without which the model has no idea it is meant to be shooting a
+photograph. Both are fixed below.
 
-**Model:** Soul 2.0 · 16:9 · 2k · **attach the reference photo** · Soul ID: create
+**Platform parameters:** Soul 2.0 · aspect 16:9 · quality 2k · Soul ID on. Aspect and quality go in the UI,
+never in the prompt text.
+
+---
+
+## 1.0 · AI CAST INPUT
+
+**Keep it short.** The first attempt at this file ran ~350 words of anatomy and produced a monster: giant
+flesh flaps where the ears should be, a bodybuilder physique, and no clothing at all. Lira's own rule is
+`a tight 80–150-word prompt beats a scattered 400-word one`, and this is why.
+
+```
+A tall, solidly built man — broad shoulders, an even natural frame, ordinary proportions,
+clearly strong but not a bodybuilder. 185 cm, 88 kg.
+
+Dark brown hair cut short — trimmed close at the sides and back, never touching the collar.
+No long hair. A high forehead. Thick
+straight dark eyebrows set low and almost level. Deep-set dark brown eyes with heavy upper
+lids. A straight nose. Full lips, mouth closed. Wide cheekbones, a square jaw. Pale skin with
+visible pores and light stubble. No glasses. A calm, neutral, unsmiling face.
+
+He wears a thin faded khaki cotton-canvas jacket, sun-bleached almost to grey, worn open,
+one pocket torn and hand-stitched back on; a dark grey long-sleeved shirt underneath with
+the sleeves pushed up the forearm; heavy canvas trousers, dirty at the knee, tucked into
+short black rubber boots; a flat canvas bag on a worn leather strap across the chest.
+Everything faded to a different shade, nothing matches, nothing is new, no logos.
+```
+
+### WARDROBE LAW — one summer outfit, worn for the whole film
+
+The action is a **hot early-summer afternoon**. Nothing quilted, nothing lined, nothing heavy.
+
+The look is a man who walks long distances through an abandoned zone and does not want to be noticed —
+**not** an outdoor catalogue and **not** a soldier. It comes from three things:
+
+1. **Natural fabrics only** — cotton canvas, cotton shirting, leather strap, rubber boots. The first
+   version said `softshell`, `technical fabric` and `low-profile pack`, and that single word `softshell`
+   is what made the result look like modern European outdoor gear.
+2. **Nothing matches.** Jacket one shade, shirt another, trousers a third. A matching olive set reads as
+   a uniform or a product shot, which is exactly what came out the first time.
+3. **Rubber boots, not boots.** Short black rubber boots are the zone detail — wet grass, contamination —
+   and they are the single strongest signal against a tactical read.
+
+### What broke the long version — do not put these back
+
+| Wording | What it produced |
+|---|---|
+| `long straight sideburns running down past the ear` | The model read it as ear geometry and grew a flesh flange off the side of the head |
+| `heavy trapezius`, `deep chest`, `thick forearms with visible tendon and vein` | Named muscle groups render literally, as an anatomy plate — bodybuilder, not a person |
+| `slightly tired`, shadows under the lids, two separate facial creases | Aging cues stack. Each one reads small; four together add fifteen years |
+| A 350-word block | Past roughly 150 words every extra clause dilutes attention and whole sections drop out — the wardrobe was the first thing to go |
+
+**General principle:** describe a person the way a casting note would, not the way an anatomy textbook
+would. Simple shapes and plain words. The model already knows what a man looks like.
+
+**No mask at this stage** — the sheet is built on the full face so the identity locks, and the mask goes on
+afterwards as a point change (1.2).
+
+**Do not paste into AI Cast:** the three-panel description, the grey backdrop, the studio lighting line,
+the ARRI tech block, the palette, or any aspect ratio. AI Cast handles all of it in its own UI.
+
+**If AI Cast strips the clothing again**, it is a body-base tool and will not dress a character. Go to the
+manual Soul 2.0 route in 1.1, where the wardrobe is part of the sheet prompt itself.
+
+---
+
+## 1.1 `@char_MC_mr_chameleon_face` — identity master, dressed, no mask (manual Soul 2.0 route)
+
+**Generate this first.** It never appears in the film — the mask is on him in every shot. It exists so the
+Soul ID locks onto a complete face, and so his eyes and brow stay identical everywhere the mask covers the
+rest.
 
 ```
 Three studio photographs of the same man arranged side by side on a flat neutral mid-grey studio
-backdrop, a film character sheet: a full-body front photograph on the left with the head cropped out of
-frame above the shoulders, a full-body back photograph in the middle, and a large close-up portrait
-photograph on the right turned slightly to three-quarter view. The same real person in all three,
-consistent across panels. Soft directional studio lighting from one side, gentle natural shadow falloff,
-clean neutral look, no styling.
+backdrop, a film character sheet: full-body front photo on the left, full-body back photo in the middle,
+close-up portrait photo on the right, the same real person in all three, consistent across panels. Soft
+directional cinematic studio lighting from one side, gentle natural shadow falloff, clean neutral
+cinematic look.
 
-The man: tall and athletically built, broad through the shoulders and chest, lean at the waist, standing
-with a naturally low and grounded centre of gravity. Dark brown hair, short at the sides and longer on
-top, swept back and slightly to one side, the hairline set back at the temples so the forehead reads
-high and square. Long sideburns running past the ear. Thick straight dark eyebrows set low and close to
-the eye, one sitting a fraction lower than the other. A single deep vertical furrow between the brows,
-present even at rest. Deep-set dark brown eyes with heavy hooded upper lids. A straight narrow nose with
-a defined tip. Full lips with a sharply cut upper lip line. Broad flat cheekbones, a wide jaw, a slightly
-heavy chin. Pale skin with visible pores and a faint stubble shadow along the jaw and upper lip. A
-neutral unsmiling resting face that reads slightly tired and completely calm.
+The man: tall and solidly built — broad shoulders, an even natural frame, ordinary proportions,
+clearly strong but not a bodybuilder. 185 cm, 88 kg.
 
-Wardrobe, consistent in all panels: a plain dark grey long-sleeved base layer and plain dark trousers.
-Nothing else — no jacket, no bag, no accessories.
+Dark brown hair cut short — trimmed close at the sides and back, never touching the collar.
+No long hair. A high forehead. Thick
+straight dark eyebrows set low and almost level. Deep-set dark brown eyes with heavy upper
+lids. A straight nose. Full lips, mouth closed. Wide cheekbones, a square jaw. Pale skin with
+visible pores and light stubble. No glasses. A calm, neutral, unsmiling face.
 
-On the left panel he stands straight facing camera in a neutral pose, arms relaxed at the sides, feet
-shoulder width, the frame cut across the top of the shoulders so no head is visible. In the middle panel
-the same standing pose seen from directly behind, full figure head to feet. On the right panel a large
-close-up head-and-shoulders portrait turned to three-quarter view, eyes to camera, mouth closed, a clear
-catch-light in each pupil.
+Wardrobe, strictly identical in all panels: a buttoned dark olive-green canvas field jacket with a neat collar; a dark charcoal crewneck shirt underneath; matching dark olive tactical cargo trousers tucked into dark brown leather hiking boots; a dark brown leather strap across the chest holding a compact canvas messenger bag. Clean, practical, unified outdoor outfit with no logos, no torn fabric, no mismatched shades.
 
-Clean dry skin, natural skin tones, even exposure, sharp focus on the face.
+On the left panel the man stands straight facing the camera in a neutral pose, arms relaxed at the sides,
+full figure head to feet. In the middle panel the same standing pose is seen from behind, full figure
+head to feet. On the right panel a close-up head-and-shoulders portrait, calm neutral expression, mouth
+closed, eyes to camera with a clear catch-light in each pupil, the skin real and unretouched.
+
+Muted palette of 60 percent dark olive green, 30 percent neutral mid-grey backdrop, 10 percent dark leather and charcoal. Shot on ARRI Alexa Mini LF with ARRI Signature Prime lens, clean modern digital cinematic
+capture, crisp natural detail, minimal fine grain, soft cinematic falloff, hyperrealistic photographic
+detail, natural living skin tones, medium contrast, true-to-life modern colour, no heavy desaturation.
 ```
 
-**Rules:** no "character reference sheet" and no "painterly" in the prompt — both trigger illustration. No rule of thirds on sheets. Check the catch-lights before accepting: dark eyes without a reflection in the pupil read dead, and no video model can act with a dead face.
+**What changed and why, so it does not get re-broken:**
 
-## 1.2 `@char_MC_mr_chameleon` — the film version (masked, dressed)
+| Was | Now | Reason |
+|---|---|---|
+| Front figure cropped headless | Full figure head to feet, all three panels | The headless trick belongs to a different template. Here it produces malformed bodies. |
+| No tech block | ARRI Alexa Mini LF + Signature Prime, clean digital register | Without it the model has no photographic anchor and drifts to illustration. The *clean* register on purpose — no film grain, no heavy desaturation — so the sheet does not carry a look into every scene. |
+| No palette line | 60/30/10 | Lira's template requires one. |
+| 350 words of anatomy | ~110 words, plain casting-note language | Named muscle groups render as an anatomy plate; ear and sideburn geometry grew flesh flaps; stacked aging cues added fifteen years; and past ~150 words the wardrobe simply dropped out. |
 
-Built as a **point change on the locked master**, not a new generation.
+**Do not add** the words `character reference sheet` or `painterly` — both trigger illustration. **Do not add** `rule of thirds` — sheets are exempt. **Check the catch-lights** before accepting: dark eyes with no reflection in the pupil read dead, and no video model can act with a dead face.
 
-**Model:** Nano Banana Pro, edit on the master sheet · then composite back by hand with a mask
+**If wide shots later pull a blurry face** from the small full-body figure instead of the portrait, regenerate the sheet with the front figure cropped above the shoulders. Use that as a fix for an observed problem, not as a default.
+
+---
+
+## 1.2 `@char_MC_mr_chameleon` — the film version, masked
+
+Point change on the locked master. **Nano Banana Pro**, then composite back by hand.
 
 ```
-Edit the image: dress the man and add a face mask, changing nothing about the face above the eyes.
+Edit the image: add a face mask to the man in all three panels.
 
-CHANGE:
-Add a dark grey technical half-mask covering the nose, mouth, chin and jaw, with its top edge sitting
-just under the lower eyelids. Matte woven fabric with a soft moulded shape over the nose bridge, an
-elastic strap disappearing behind the ear, worn and slightly dusty. Not a medical mask, not a
-respirator cartridge, no valves, no filters, no branding.
-Dress him in a faded olive-grey softshell field jacket, hood down, storm flap over the zip, no
-insignia and no logos anywhere; a dark grey base layer at the collar; washed olive-khaki cargo
-trousers gathered into scuffed black nylon-and-leather boots; thin dark gloves. Everything worn,
-dust-loaded at the shoulders and thighs, colours desaturated toward concrete and birch bark.
+CHANGE: Add a dark charcoal technical half-mask covering the nose, mouth, chin and jaw, its top edge
+sitting just under the lower eyelids. Matte woven fabric, a soft moulded shape over the nose bridge,
+an elastic strap running back behind the ear, worn and lightly dusted. Not a medical mask, not a
+respirator — no valves, no filters, no cartridges, no branding. In the back panel only the strap and
+the edge of the mask are visible past the jaw.
 
 PRESERVE EXACTLY:
-- The eyes, brow, forehead, hairline, hair and ears — pixel for pixel
+- The eyes, brow, forehead, hairline, hair, ears and the skin around the eyes — pixel for pixel
 - The eye colour, the hooded lids, the furrow between the brows, the catch-lights
 - Head angle and gaze direction in every panel
-- Body proportions, stance and the position of every limb
-- The headless crop on the left panel
-- Neutral grey backdrop, flat lighting, all existing shadows
+- All clothing, every fold, the pack, the boots, the gloves
+- Body proportions, stance and the position of every limb in all three panels
+- Neutral grey backdrop, the lighting, all existing shadows
 - Colour grade, palette, contrast, grain, falloff
 
-ONLY CHANGE: the clothing and the addition of the half-mask. 100% identical otherwise.
+ONLY CHANGE: the addition of the half-mask. 100% identical otherwise.
 ```
 
-**Then:** open the original master and the edited version in any editor with masks, and paint only the clothing and mask region of the edit onto the original. The skin around the eyes must be the master's original texture. This is the pass that keeps the face alive.
+**Then composite by hand.** Open the master and the edit side by side in any editor with masks and paint
+only the mask region of the edit onto the master. The skin around the eyes must be the master's original
+pixels. This is the pass that keeps the face alive — a full second pass through a model turns skin plastic
+and symmetrical, and dead texture ruins the acting in video later.
 
-**Wardrobe logic — why this and not a hazmat suit.** He is not protecting himself from the zone; he lives in it and it does not frighten him. The clothing is about not being noticed: muted, unbranded, unmilitary, the colour of wet concrete and birch. Someone who has walked many kilometres already and is walking home calmly and steadily. The mask reads as habit, not as safety equipment.
+**Wardrobe logic.** He is not protecting himself from the zone; he lives in it and it does not frighten
+him. The clothing is about not being noticed — muted, unbranded, unmilitary, the colour of wet concrete
+and birch. A man who has walked a long way and is walking home. The mask reads as habit, not as safety
+equipment.
+
+---
 
 ## 1.3 `@char_MC_employee` — the lab worker
 
-**Model:** Soul 2.0 · 16:9 · 2k · Soul ID: create
+**Soul 2.0 · 16:9 · 2k · Soul ID: create**
 
 ```
 Three studio photographs of the same woman arranged side by side on a flat neutral mid-grey studio
-backdrop, a film character sheet: a full-body front photograph on the left with the head cropped out of
-frame above the shoulders, a full-body back photograph in the middle, and a large close-up portrait
-photograph on the right turned slightly to three-quarter view. The same real person in all three,
-consistent across panels. Soft directional studio lighting from one side, gentle natural shadow falloff,
-clean neutral look, no styling.
+backdrop, a film character sheet: full-body front photo on the left, full-body back photo in the middle,
+close-up portrait photo on the right, the same real person in all three, consistent across panels. Soft
+directional cinematic studio lighting from one side, gentle natural shadow falloff, clean neutral
+cinematic look.
 
-The woman: ordinary build, medium height, unremarkable and entirely believable as someone who has worked
-the same job for years. Mid-brown hair pulled back and pinned, a few strands loose at the temple. Plain
-face, no makeup, tired around the eyes, slightly dry skin with visible pores and a faint natural flush
-across the cheekbones. Grey-blue eyes with a clear catch-light in each pupil. A closed, neutral, slightly
-absent expression — she is thinking about something else.
+The woman: ordinary build, medium height, entirely believable as someone who has worked the same job for
+years. Mid-brown hair pulled back and pinned, a few strands loose at the temple. Plain face, no makeup,
+tired around the eyes, slightly dry skin with visible pores and a faint natural flush across the
+cheekbones. Grey-blue eyes. A closed, neutral, slightly absent expression — she is thinking about
+something else.
 
-Wardrobe, consistent in all panels: a plain white cotton medical coat, buttoned, slightly grey with age
-and pressed flat; a plain light blue medical mask pulled down and sitting loose under her chin so the
-whole face is open; plain dark trousers and flat closed shoes underneath.
+Wardrobe, consistent in all panels: a plain white cotton medical coat, buttoned, gone slightly grey with
+age; a plain light blue medical mask pulled down and sitting loose under her chin so the whole face is
+open; plain dark trousers and flat closed shoes.
 
-On the left panel she stands straight facing camera in a neutral pose, arms relaxed at the sides, the
-frame cut across the top of the shoulders so no head is visible. In the middle panel the same standing
-pose seen from directly behind. On the right panel a large close-up head-and-shoulders portrait turned to
-three-quarter view, eyes to camera, mouth closed, the mask visible under the chin.
+On the left panel the woman stands straight facing the camera in a neutral pose, arms relaxed at the
+sides, full figure head to feet. In the middle panel the same standing pose is seen from behind, full
+figure head to feet. On the right panel a close-up head-and-shoulders portrait, mouth closed, eyes to
+camera with a clear catch-light in each pupil, the mask visible loose under the chin, the skin real and
+unretouched.
 
-Clean dry skin, natural skin tones, even exposure, sharp focus on the face.
+Muted palette of 60 percent off-white cotton, 30 percent neutral mid-grey backdrop, 10 percent pale
+medical blue. Shot on ARRI Alexa Mini LF with ARRI Signature Prime lens, clean modern digital cinematic
+capture, crisp natural detail, minimal fine grain, soft cinematic falloff, hyperrealistic photographic
+detail, natural living skin tones, medium contrast, true-to-life modern colour, no heavy desaturation.
 ```
+
+---
 
 ## 1.4 `@char_MC_employee_civil` — the copy in the mirror
 
-Built as a **point change on the locked `@char_MC_employee` sheet**, so the face is guaranteed identical.
+Point change on the locked `@char_MC_employee` sheet, so the face is guaranteed identical.
 
 ```
-Edit the image: change only the clothing.
+Edit the image: change only the clothing, in all three panels.
 
 CHANGE: Replace the white medical coat and the medical mask with ordinary everyday civilian clothes —
-a plain dark knit sweater over a collared shirt, and plain dark trousers. No coat, no mask anywhere in
-frame, nothing medical, nothing institutional.
+a plain dark knit sweater over a collared shirt, and plain dark trousers. No coat and no mask anywhere
+in frame, nothing medical, nothing institutional.
 
 PRESERVE EXACTLY:
 - The face, pixel for pixel — every feature, the skin texture, the catch-lights
 - The hair, exactly as pinned, including the loose strands
 - Head angle, gaze direction and expression in every panel
-- Body proportions, stance and the position of every limb
-- The headless crop on the left panel
-- Neutral grey backdrop, flat lighting, all existing shadows
+- Body proportions, stance and the position of every limb in all three panels
+- Neutral grey backdrop, the lighting, all existing shadows
 - Colour grade, palette, contrast, grain, falloff
 
 ONLY CHANGE: the clothing. 100% identical otherwise.
 ```
 
-> **Why this is a separate tag and not an adjective.** In generation 11 both versions stand in the same mirror at the same time. Written as one tag with "in ordinary clothes" attached, the model mixes the states between takes — you get two coats, or two sweaters, or the coat on the wrong one. Two tags, one face, one wardrobe each.
+> **Why a separate tag.** In generation 11 both versions stand in the same mirror at the same time. Written
+> as one tag with "in ordinary clothes" attached, the model mixes the states between takes — two coats, or
+> two sweaters, or the coat on the wrong one. Two tags, one face, one wardrobe each.
+
+---
 
 ## 1.5 `@char_MC_employee_signs` — the marked state
 
@@ -226,42 +324,305 @@ soft key light with smooth falloff, plain matte dark background.
 
 # 3 · LOCATIONS
 
-**All Soul Cinema · 16:9 · 2k · shot in 3/4, never frontal.** Each carries an anchor object and one light logic.
+**Soul Cinema · 16:9 · 2k · every sheet shot in 3/4, never frontal.**
 
-**Every location prompt ends with the `ENVIRONMENT LOCK` from `STYLE_PREFIX.md`, pasted word for word, plus this tail.** This is what makes twelve separately generated places read as one city at 1:00 PM — and it has to hold even when no reference image is attached. `@loc_MC_basement` is the only exception: it gets the basement light line instead.
+## THE RULE THAT FIXES ALL OF THESE
+
+**Name the real place.** Pripyat is one of the most photographed locations on earth and the model knows it —
+the panel-block layout, the Palace of Culture, the yellow Ferris wheel, the crests on the rooftops. An
+early draft of this file said `an abandoned Soviet city` and got a generic Eastern European ruin. Saying
+`Pripyat, Ukraine` gets Pripyat.
+
+Real places are not IP. Name them. Name the street, the building, the ride.
+
+**No reference images are needed for any location in this film.** Every one of these is either a real place
+the model knows or a generic interior. A reference would actually hurt: almost every real photograph of the
+zone is shot in autumn under flat grey, and it will drag its season and sky in and break the environment
+lock. **The only case for attaching one** is if the concrete keeps coming out too clean after three or four
+tries — then attach a photo and add this line, nothing else:
 
 ```
-[TAIL] Palette of 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky,
-10% rust-orange oxidised metal. Empty deserted place, no people anywhere, no vehicles, no lit windows,
-no intact glazing. Vegetation growing through every hard surface. Cinematic film still, natural film
-texture, no grain stacking.
+Take only the material and surface texture from the reference — precast concrete panel seams, spalled
+render, rust streaking. Do not inherit the season, the sky, the foliage colour, the composition, the
+angle or the grade.
+```
+
+## TWO CONSTANTS — paste both at the end of every location prompt below
+
+```
+[ENVIRONMENT LOCK — copy from STYLE_PREFIX.md]
 ```
 
 ```
-[BASEMENT LIGHT — replaces the ENVIRONMENT LOCK for @loc_MC_basement only]
+[LOCATION TAIL]
+Palette of 60 percent new-growth birch and grass green, 30 percent weathered concrete grey and pale sky,
+10 percent rust-orange oxidised metal. Empty deserted place, no people anywhere, no vehicles, no lit
+windows, no intact glazing, no modern signage. Vegetation growing through every hard surface. Cinematic
+film still, natural film texture, no grain stacking.
+```
+
+The basement is the only exception — it gets the `[BASEMENT LIGHT]` block instead of the environment lock:
+
+```
+[BASEMENT LIGHT]
 No daylight of any kind. One dim overhead fixture directly above the work table, everything else falling
-away two stops into shade. Palette of 60% dead institutional green-grey, 30% deep shade, 10% the cold
-white of enamel and glass.
+away two stops into shade. Palette of 60 percent dead institutional green-grey, 30 percent deep shade,
+10 percent the cold white of enamel and glass.
 ```
 
-| Tag | Prompt body (add `[TAIL]`) |
-|---|---|
-| `@loc_MC_forest` | *High three-quarter wide shot, camera at eye height looking diagonally down an overgrown path.* Dense mixed pine and birch forest inside an exclusion zone, tall bare trunks, deep leaf litter, low undergrowth, a single overgrown path running away toward a bright break in the treeline ahead. **Anchor: the break in the trees.** |
-| `@loc_MC_pripyat_sign` | *Three-quarter wide shot from the roadside, camera at chest height, the sign angled across frame.* A freestanding Soviet concrete city sign standing alone on open ground, raised relief lettering and a date, weathered white surface, lichen crust in the letter troughs, rust bleed at the fixings, grass and birch saplings at the base, flat empty ground behind it. **Anchor: the slab.** |
-| `@loc_MC_pripyat_entrance` | *Three-quarter wide shot along the road, camera at eye height.* A cracked asphalt approach road into an abandoned city, the surface split open by birch saplings, overgrown verges, the first derelict concrete apartment blocks rising behind a screen of mature trees. **Anchor: the roadway centre line.** |
-| `@loc_MC_dk_energetic` | *High three-quarter wide shot, camera above head height looking diagonally down across the square.* A long modernist colonnaded Palace of Culture on a wide paved civic square, ruined façade, empty window openings, spalled concrete, moss on the steps, the paving broken open by birch saplings. **Anchor: the colonnade.** |
-| `@loc_MC_pripyat_city` | *Aerial three-quarter view from fifty metres, looking diagonally down and across.* An abandoned Soviet city reclaimed by forest — rows of sixteen-storey and five-storey concrete blocks with empty window openings, mature birch and poplar filling every street and courtyard, a flat treeless horizon beyond with a vast arched steel confinement structure far off on it. **Anchor: the tallest block.** |
-| `@loc_MC_park` | *Three-quarter wide shot, camera at standing height, the rides angled across frame.* An abandoned amusement park gone to forest — a Ferris wheel with yellow rusted cabins on an oxide-streaked steel frame, an open-sided bumper-car pavilion with painted steel cars rusted in place under a contact grid, rusted swing boats and a small carousel with a collapsed canopy, birch grown up through the asphalt everywhere. **Anchor: the Ferris wheel.** |
-| `@loc_MC_home_area` | *Three-quarter wide shot from the courtyard, camera low looking slightly up at the façade.* The entrance and courtyard of a derelict concrete apartment block, spalled render, empty window openings, a dark entrance doorway, overgrown asphalt and birch saplings, an arched steel confinement structure visible far off on the horizon. **Anchor: the entrance doorway.** |
-| `@loc_MC_home_stairs` | *Three-quarter interior view up the flight, camera at chest height.* A derelict Soviet apartment stairwell — torn-open mailboxes in the entrance hall, bare concrete flights with a steel handrail, plaster fallen across the treads, tall stairwell windows with all glazing gone. **Anchor: the half-landing window.** |
-| `@loc_MC_home_appartment` | *Three-quarter interior wide, camera at chest height in the doorway.* A derelict Soviet three-room flat — a hallway with patterned wallpaper hanging in sheets, a bedroom with an iron bed frame and rotted mattress under the window, a living room with a glazed display cabinet and a rotted carpet where a window has been torn out and a mature tree branch has grown into the room, a small kitchen with a rounded enamel fridge and mould blooming above the sink. **Anchor: the torn-out window with the tree.** |
-| `@loc_MC_basement` | *Three-quarter interior view, camera low at seated height, the table angled across frame.* A low windowless institutional basement room, painted brick walls, one closed steel door, a work table against the far wall with glass syringes, tubes and instrument trays on it, a mirror mounted on the wall directly above the table, one dim overhead fixture. **Anchor: the mirror.** *(Override the tail here: no daylight — one dim overhead source above the table, the room falling away into deep shade at the edges.)* |
-| `@loc_MC_school` | *Three-quarter interior wide, camera low at desk height.* An abandoned Soviet school interior — a gymnasium with a buckled sprung wooden floor, wall bars and a rusted goal frame; and a classroom of wooden desks in rows under fallen plaster and scattered paper, tall windows, peeling green wall paint. **Anchor: the window wall.** |
-| `@loc_MC_shop` | *Three-quarter interior wide, camera at chest height along the racks.* An abandoned Soviet shop interior — empty steel shelving racks in rows, a tiled floor under plaster dust, a shopfront of empty window frames along one side, peeling cream paint. **Anchor: the shopfront.** |
+---
 
-**Reverse angles** — needed for `@loc_MC_home_appartment` and `@loc_MC_basement`. Two ways:
-1. GPT Image 2, describing the **new object arrangement explicitly** — what was frame-right is now frame-left, object by object.
-2. Better: generate a short video of the empty location with the camera walking slowly through it, screenshot the angle you need, then improve textures in Seedream 4.5 or NBP. A full location sheet out of one image.
+## 3.1 `@loc_MC_forest`
+
+```
+A three-quarter wide view along an overgrown path through the forest of the Chernobyl Exclusion Zone
+outside Pripyat, Ukraine, camera at eye height looking diagonally down the route. Dense mixed pine and
+silver birch, tall bare trunks, deep leaf litter, low undergrowth, the path barely readable under grass
+and saplings. Ahead the trees thin toward a bright break in the treeline.
+```
+
+**Anchor:** the break in the trees ahead.
+
+---
+
+## 3.1B `@loc_MC_duga_fragment` — OPTIONAL
+
+> Only needed if the Duga shot in `OPTIONAL_SHOTS.md` is used. Not part of the film's spine.
+
+**A fragment, never the object.** This is the Duga over-the-horizon radar array outside Pripyat — but it is
+only ever seen as a piece of itself, close, through trees. The full silhouette is the spoiler: anyone who
+recognises that profile knows where the film is set, and the reveal at the city sign dies. Shown as a
+fragment it reads as *something enormous and man-made, unexplained* — which builds the unease instead of
+spending it.
+
+```
+A three-quarter view from an overgrown forest track, camera at chest height among the trees, looking
+diagonally up and past a huge rusted steel lattice structure standing among the trunks. Only a fragment of
+it is visible: one enormous latticed leg of riveted steel angle, wider than a tree, rising straight up and
+out of the top of frame, with a section of fine steel mesh and cable strung between it and the next leg
+further back. A square concrete anchor block sits in the grass at its foot, cracked and mossed over. Pine
+and birch stand hard against it and in front of it on every side, occluding it in every direction.
+
+The structure is far too large to fit the frame and its extent is never visible. No horizon, no clearing,
+no wide view, no skyline. Rust has bled down the steel in long streaks; the paint is gone; young trees
+have grown up through the lattice itself.
+
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+Palette of 60 percent new-growth birch and grass green, 30 percent weathered steel grey and pale sky,
+10 percent rust-orange oxidised metal. Empty deserted place, no people anywhere, still air. Cinematic film
+still, natural film texture, no grain stacking.
+```
+
+**Anchor:** the single lattice leg and its concrete foot.
+
+**The three bans that keep it a fragment** — without these the model draws the whole array every time:
+
+```
+Only a fragment of the structure is ever visible. The full silhouette is NEVER shown, the structure NEVER
+reads as a recognisable shape, and its horizontal extent is NEVER visible. Trees occlude it on all sides
+at all times. No wide view, no clearing, no skyline, no distant view of the whole.
+```
+
+---
+
+## 3.2 `@loc_MC_pripyat_sign`
+
+```
+A three-quarter view from the roadside of the concrete city sign of Pripyat, Ukraine — the white
+wedge-shaped monument on the approach road from Chernobyl, the word ПРИПЯТЬ in tall raised relief letters
+across the top slab and the year 1970 on the lower panel. Camera at chest height, the sign angled across
+frame. Weathered white concrete, lichen crust in the letter troughs, rust bleed at the fixings, grass and
+birch saplings grown up around the base, flat empty ground and treeline behind it.
+```
+
+**Anchor:** the slab itself. **Note:** no flowers, no wreaths, no tourist markers, no modern signage.
+
+---
+
+## 3.3 `@loc_MC_pripyat_city`
+
+```
+An aerial three-quarter view over Pripyat, Ukraine — the abandoned city beside the Chernobyl nuclear power
+plant, seen today. Camera fifty metres above the ground, looking diagonally down and across the rooftops.
+Rows of sixteen-storey and five-storey precast concrete panel blocks, every window opening empty and black,
+render spalled off in patches, rust streaks running from the balconies; the Soviet crests still mounted on
+the roofs of the tall blocks; the Polissya Hotel and the Palace of Culture Energetik on the central square
+in the middle distance. Mature birch and poplar forest has grown through every street and courtyard, canopy
+reaching the third and fourth floors, so the streets read as green corridors instead of roads. On the flat
+horizon three kilometres away, the vast pale steel arch of the New Safe Confinement over reactor four.
+```
+
+**Anchor:** the tallest block with the rooftop crest.
+
+---
+
+## 3.4 `@loc_MC_pripyat_entrance`
+
+```
+A three-quarter view along the approach road into Pripyat, Ukraine, camera at eye height in the middle of
+the roadway looking diagonally down its length. Cracked asphalt split open by birch saplings growing
+through it, the verges gone to tall grass and young trees, the first five-storey precast concrete panel
+blocks of the city standing up behind a thick screen of poplar and birch ahead.
+```
+
+**Anchor:** the centre line of the road.
+
+---
+
+## 3.5 `@loc_MC_dk_energetic`
+
+```
+A high three-quarter wide view across the central square of Pripyat, Ukraine, camera above head height
+looking diagonally down at the Palace of Culture Energetik — the long modernist civic building on the
+square, its tall glazed façade empty of glass, the concrete relief panels spalled, the wide steps mossed
+over. The Polissya Hotel stands further along the same square. The paving of the square is broken open by
+birch saplings growing through it in every direction.
+```
+
+**Anchor:** the façade of the Palace of Culture.
+
+---
+
+## 3.6 `@loc_MC_park`
+
+```
+A three-quarter wide view of the abandoned amusement park in Pripyat, Ukraine — the fairground that never
+opened. Camera at standing height, the rides angled across frame. The yellow-cabined Ferris wheel on its
+oxide-streaked steel frame; the open-sided bumper-car pavilion with painted steel cars rusted in place on a
+metal floor under the contact grid; the swing boats seized on their frames and the small paratrooper
+carousel with its canopy partly collapsed. Birch and poplar grown up through the asphalt everywhere,
+between and underneath all of it.
+```
+
+**Anchor:** the Ferris wheel.
+
+---
+
+## 3.7 `@loc_MC_home_area`
+
+```
+A three-quarter view from the courtyard of a residential block in Pripyat, Ukraine, camera low and looking
+slightly up at the façade. A nine-storey precast concrete panel building, render spalled off in patches,
+every window opening empty and black, balconies rusted and sagging, a dark entrance doorway at the base.
+The courtyard asphalt is broken open by birch saplings and tall grass. Far off on the flat horizon, the
+vast pale steel arch of the New Safe Confinement over reactor four.
+```
+
+**Anchor:** the entrance doorway. **Note:** the arch stays small and distant — it is a horizon element, never the subject.
+
+---
+
+## 3.8 `@loc_MC_home_stairs`
+
+```
+A three-quarter interior view up a stairwell in a Pripyat apartment block, camera at chest height on the
+half-landing looking up the flight. Torn-open steel mailboxes in the entrance hall below, bare concrete
+flights with a plain steel handrail, plaster fallen in sheets across the treads, tall stairwell windows
+with every pane gone and green daylight coming through them.
+```
+
+**Anchor:** the half-landing window.
+
+---
+
+## 3.9 `@loc_MC_home_appartment`
+
+```
+A three-quarter interior wide view inside a derelict three-room flat in a Pripyat apartment block, camera
+at chest height in the hallway doorway. Patterned Soviet wallpaper hanging off the walls in sheets, parquet
+lifted and buckled, a padded torn entrance door behind. Through the doorways: a small bedroom with an iron
+bed frame and rotted mattress under the window and a veneered wardrobe; a living room with a glazed display
+cabinet, a rotted carpet and a window opening partly torn out where a mature tree branch has grown into the
+room over a floor of leaf litter; a small kitchen with a rounded enamel fridge and dark mould blooming
+above the sink.
+```
+
+**Anchor:** the torn-out window with the tree.
+
+---
+
+## 3.10 `@loc_MC_school`
+
+```
+A three-quarter interior wide view inside an abandoned school in Pripyat, Ukraine, camera low at desk
+height. A classroom of wooden desks in rows under decades of fallen plaster and scattered paper, peeling
+green and cream wall paint, a boarded blackboard wall, tall windows with every pane gone and birch visible
+outside them. Beyond, through the doorway, the school gymnasium with its sprung wooden floor lifted and
+buckled across the room and a rusted goal frame standing on it.
+```
+
+**Anchor:** the window wall. **Note:** no legible text on the blackboard, no dolls, no toys, no gas masks staged in frame.
+
+---
+
+## 3.11 `@loc_MC_shop`
+
+```
+A three-quarter interior wide view inside an abandoned Soviet department store in Pripyat, Ukraine, camera
+at chest height looking down the length of the racks. Empty steel shelving in rows, a tiled floor under
+plaster dust and fallen ceiling panels, peeling cream paint, a long shopfront of empty window frames along
+one side with green daylight coming through.
+```
+
+**Anchor:** the shopfront.
+
+---
+
+## 3.12 `@loc_MC_basement` — CAMERA POSITION 1
+
+Uses `[BASEMENT LIGHT]`, **not** the environment lock. Not a real place — no name to give it.
+
+```
+A three-quarter interior view of a low windowless institutional basement room about seven metres deep,
+camera low at seated height on the near side of the room, the work table angled across frame at
+FRONT-LEFT. Painted brick walls, a bare concrete floor, a closed steel door in the far wall dead ahead six
+metres away. Against the LEFT wall a work table with glass syringes, tubes and instrument trays on it, and
+a mirror mounted on the wall directly above the table facing across the room. One dim caged fixture above
+the table is the only light.
+```
+
+**Anchor:** the mirror above the table.
+
+---
+
+## 3.13 `@loc_MC_basement_rev` — CAMERA POSITION 2
+
+**This one uses `@loc_MC_basement` as a reference** — the only place in the project where a reference is
+required, because it has to be the *same room* from a different angle. Attach the locked basement sheet and
+add the inheritance ban line.
+
+```
+The same low windowless basement room seen from a second camera position: standing height, on the room's
+near side and half a metre to the LEFT of the work table, looking over toward the mirror on the LEFT wall
+so the mirror fills the upper half of frame and the table sits below it. The closed steel door is out of
+frame behind camera-right. Painted brick walls, bare concrete floor, one dim caged fixture above the table.
+
+@loc_MC_basement for location reference — take only the room, the materials, the table, the instruments and
+the mirror. Do not use as a starting frame, do not inherit the composition, the angle or the grade.
+```
+
+**Anchor:** the mirror, filling the upper frame.
+
+**Alternative if this drifts:** generate a short video of the empty room with the camera walking slowly
+across it, screenshot the angle you need, and clean the texture up in Nano Banana Pro. A second location
+sheet out of one image.
+
+---
+
+## WHERE REFERENCES ARE ACTUALLY NEEDED
+
+| Asset | Reference? |
+|---|---|
+| All eleven Pripyat locations | **No.** Naming the real place is stronger, and a real photo drags autumn in with it. |
+| `@loc_MC_basement` | **No.** Generic interior, nothing to match. |
+| `@loc_MC_basement_rev` | **Yes** — the locked `@loc_MC_basement` sheet. Same room, second angle. |
+| Concrete looking too clean after 3–4 tries | Optional texture-only reference with the inheritance ban line above. |
 
 ---
 

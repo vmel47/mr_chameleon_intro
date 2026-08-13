@@ -15,7 +15,7 @@ Nothing gets generated as video until every tag below is `LOCKED`.
 | `@char_MC_employee` | Lab worker. White medical coat, medical mask pulled down under the chin, face open. Soviet-era institutional look. | Same 3-panel structure. | TODO |
 | `@char_MC_employee_civil` | **Same face as `@char_MC_employee`, ordinary civilian clothes, no coat, no mask.** This is the double in the mirror. | Point change only: wardrobe swapped on the original sheet via NBP/Seedream, masked back onto the original by hand. Face texture must be pixel-identical to `@char_MC_employee`. | TODO |
 | `@char_MC_employee_signs` | Same woman, same coat — with the marks surfaced under the skin of the neck, hand and forearm. The **target end state** for generation 10. | Point change on the locked base sheet. Face stays completely unmarked. | TODO |
-| `@char_MC_mr_chameleon_face` | Identity master, unmasked. **Never appears in the film.** Exists so the Soul ID locks a full face and the eyes never drift under the mask. | Built first, from the reference photos. Everything else is a point change on it. | TODO |
+| `@char_MC_mr_chameleon_face` | Identity master, unmasked. **Never appears in the film.** Exists so the Soul ID locks a full face and the eyes never drift under the mask. | Built first, from the descriptor alone — no reference image. Everything else is a point change on it. | TODO |
 
 > `@char_MC_employee_civil` is **not optional**. The mirror scene shows two identical faces in one frame. Written as one tag with a wardrobe adjective, the model mixes the states between shots.
 
@@ -30,6 +30,7 @@ All location sheets shot in **3/4, never frontal**. Each carries an anchor objec
 | Tag | What | Anchor | Status |
 |---|---|---|---|
 | `@loc_MC_forest` | Dense pine/birch forest inside the zone, full new green, low undergrowth, an overgrown path. | The gap in the trees ahead | TODO |
+| `@loc_MC_duga_fragment` | **OPTIONAL** — only if the Duga shot in `OPTIONAL_SHOTS.md` is used. A fragment of the Duga radar array among the trees — one lattice leg and a section of mesh, never the full silhouette. Seen before the city sign, so it must stay unrecognisable. | The lattice leg and its concrete foot | TODO |
 | `@loc_MC_pripyat_sign` | The concrete "ПРИПЯТЬ 1970" city sign at the approach road. | The sign slab itself | TODO |
 | `@loc_MC_pripyat_city` | Master reference for the whole city — texture, palette, atmosphere, era. Used as an atmosphere anchor in interior clips and for the aerial panorama. | Skyline of 16-storey blocks | TODO |
 | `@loc_MC_pripyat_entrance` | The road into the city, first buildings, overgrown asphalt. | Roadway centre line | TODO |

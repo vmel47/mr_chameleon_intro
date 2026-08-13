@@ -1,37 +1,62 @@
 # MR. CHAMELEON — SHOTLIST & VIDEO PROMPTS
 
-**13 generations · 3:42 total · 16:9 · Seedance 2.5 (Higgsfield), 20s max per generation**
+**15 generations · 4:16 of raw material · 16:9 · Seedance 2.5 (Higgsfield), 20s max per generation**
+
+**Generate everything. Nothing is trimmed at the prompt stage.** Some blocks deliberately overlap — 02B and the opening of 03 both cover the entry into the city. Final length and which coverage is used are decided in the edit, not here.
 
 One generation per script block. Beats live inside `ACTION TIMING`, by the second. Where a block genuinely changes camera position, it is written as a controlled multi-shot with an explicit `HARD CUT` — still one generation.
 
 ## HOW TO USE
 
-1. Paste the `ENVIRONMENT LOCK` block from `STYLE_PREFIX.md` directly under `SCENE CONTEXT` in **every generation except 10 and 11** (the basement has no daylight and carries its own light logic).
-2. Paste the `STYLE PREFIX` block from `STYLE_PREFIX.md` **word for word** into the `STYLE` slot, then the closing technical line with the duration filled in.
-3. Duration and aspect ratio are UI settings, not prompt text.
-4. `GEO-BASEMENT` is pasted into generations 10 and 11 **unchanged**. It exists only because those two share one room, one mirror and one axis. Nothing else in this film needs a map.
-5. Nothing generates until every tag in `ASSET_REGISTRY.md` is `LOCKED`.
-6. One line changed per iteration. Everything into the log at the bottom.
-7. **No generated audio is used in this film.** The `AUDIO` blocks below exist to shape the performance and to stop the model inventing speech — the finished soundtrack is built separately in post. Cut every clip on picture alone.
+1. **Every prompt below is complete.** Copy the whole block and paste it. Nothing to assemble, nothing to look up in another file.
+2. Duration and aspect ratio are UI settings, not prompt text.
+3. Nothing generates until every tag in `ASSET_REGISTRY.md` is `LOCKED`.
+4. One line changed per iteration. Everything into the log at the bottom.
+6. Shots that are not part of the film's spine live in `OPTIONAL_SHOTS.md`. Nothing there is needed for the cut to work.
+5. If the environment or style constants ever change, edit `STYLE_PREFIX.md` first, then re-inline them here — they are duplicated into every prompt on purpose, so that a prompt is copy-and-go.
+
+## WALK LOCK — the same gait in every shot he moves in
+
+He walks **slowly, calmly and at an unhurried, leisurely, cinematic pace** — never brisk, never purposeful,
+never hurried. Long relaxed stride, a clear pause of weight on each foot, the pace never changing anywhere
+in a shot or between shots. He is a man walking around the place he grew up in, not a man going somewhere.
+
+The camera line is identical in every walking prompt:
+
+```
+The camera is a walking body moving at a slow, calm, unhurried gait, not a rig: gentle vertical rise
+and fall on each stride, small lateral sway, organic imperfect correction after every step. It never
+stabilises into a glide.
+```
+
+This is already inlined in generations 01, 02, 02B, 03, 06, 07 and 08. If a new walking shot is ever added,
+paste it there too — the walk is as much a character trait as the face.
+7. **Generated environmental sound is kept and used**, including the scream in generation 11. Only the narration is recorded separately by a person and must never be generated — that is why every prompt carries `No narration`.
 
 ## RUNNING ORDER
 
-# ⏱ TOTAL RUNTIME — 3:42 (222 seconds), + 2s held black = 3:44 delivered
+# ⏱ RAW MATERIAL — 4:16 (256 seconds). Final cut decided in the edit.
 
 | # | Block | Length | In | Out | Narration |
 |---|---|---|---|---|---|
-| 01 | Forest | 16s | 0:00 | 0:16 | VO-01 |
-| 02 | Arrival | 8s | 0:16 | 0:24 | VO-02 |
-| 03 | City square | 20s | 0:24 | 0:44 | — |
-| 04A | City panorama — aerial | 20s | 0:44 | 1:04 | VO-03 |
-| 04B | City interiors | 20s | 1:04 | 1:24 | — |
-| 05A | Park — wheel & bumper cars | 20s | 1:24 | 1:44 | VO-04 |
-| 05B | Park — swings & wide | 12s | 1:44 | 1:56 | — |
-| 06 | Home entry | 20s | 1:56 | 2:16 | VO-05 |
-| 07 | Inside — room / hall | 16s | 2:16 | 2:32 | VO-06, VO-07 |
-| 08 | Kitchen | 14s | 2:32 | 2:46 | VO-08 |
-| 09 · 10 · 11 | **The ending**, crosscut from three generations | 56s | 2:46 | 3:42 | VO-09 … VO-13 |
-| | **TOTAL** | **222s** | | **3:42** | 13 cues |
+| 00 | Deep forest | 16s | 0:00 | 0:16 | — |
+| 01 | Forest | 16s | 0:16 | 0:32 | VO-01 |
+| 02 | Arrival | 12s | 0:32 | 0:44 | VO-02 |
+| 02B | Entrance — into the city | 14s | 0:44 | 0:58 | — |
+| 03 | City square | 20s | 0:58 | 1:18 | — |
+| 04A | City panorama — aerial | 20s | 1:18 | 1:38 | VO-03 |
+| 04B | City interiors | 20s | 1:38 | 1:58 | — |
+| 05A | Park — wheel & bumper cars | 20s | 1:58 | 2:18 | VO-04 |
+| 05B | Park — swings & wide | 12s | 2:18 | 2:30 | — |
+| 06 | Home entry | 20s | 2:30 | 2:50 | VO-05 |
+| 07 | Inside — room / hall | 16s | 2:50 | 3:06 | VO-06, VO-07 |
+| 08 | Kitchen | 14s | 3:06 | 3:20 | VO-08 |
+| 09 · 10 · 11 | **The ending**, crosscut from three generations | 56s | 3:20 | 4:16 | VO-09 … VO-13 |
+| | **TOTAL** | **256s** | | **4:16** | 13 cues |
+
+**Generation 00 was added after this table was first written and never entered into it** — which is where
+the stale 4:00 / 240-second figure came from. The film is 4:16 of raw material. Comfortably inside the
+3–5 minute target with room to trim.
 
 **Where the extra 32 seconds went.** Two blocks were carrying more locations than 20 seconds can hold:
 the panorama had an aerial plus three interiors at four seconds each, and the park had three rides at
@@ -79,7 +104,27 @@ no beaten tracks, no openings, no roads, no structures anywhere visible — only
 dense canopy. One continuous 16-second take, no cuts.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
+
+ROUTE
+One continuous walk along one route: deep forest, out to a road, then along that road to the city sign.
+00 — deep inside the forest. Canopy closed overhead, no sky visible, no road anywhere in frame. The darkest of the three.
+01 — the same forest thinning out. The canopy opens, sky appears, the light steadily increases, and at the end an asphalt road.
+02 — on that same road, walking along it. The city sign stands on the right-hand verge.
+The light gets BRIGHTER from 00 through 01 to 02 and never darker. The forest is the closed dark part of the walk; the road is the open bright part. Same asphalt, same verges, same direction of travel, same afternoon.
 ACTIVE REFERENCES
 @loc_MC_forest for location reference — take only the space and the texture: dense pine and birch trunks,
 low undergrowth, deep leaf litter, thin daylight through the canopy. Do not use as a starting frame, do
@@ -103,36 +148,66 @@ light head turns with organic human eye-line movement, vertical rise and fall on
 It never stabilises into a heavy mechanical glide. Eye height throughout.
 
 ACTION TIMING
-0.0–7.0s — walking forward slowly, calmly and steadily facing straight ahead deep inside the wild forest at an unhurried, cinematic pace; tall pine and birch trunks pass smoothly on both sides through deep leaf litter and moss.
+0.0–7.0s — walking forward slowly, calmly and steadily facing straight ahead deep inside the wild forest at an unhurried, cinematic pace; tall pine and birch trunks pass smoothly on both sides through deep leaf litter and moss. The canopy is closed overhead and stays closed — no sky, no opening, no brightening anywhere in the take.
 7.0–10.0s — turn the camera slightly to the right, as if the walking person effortlessly looked to the right toward the soft sunlight filtering through the trees, while continuing the slow walk forward.
 10.0–12.0s — turn the camera slightly to the left, as if the walking person effortlessly looked to the left toward the passing forest undergrowth.
 12.0–16.0s — turn the camera back to centre, as if the walking person looked straight ahead again, continuing the calm, steady walk forward to the end of the take.
 
 PHYSICS
-Weight transfer on every slow step: heel contact, mass settling, toe push-off. The footfall sound and body's
-vertical bounce stay consistent on soft wild forest floor and leaf litter. Branches move gently on wind. Cloud
-moves at cloud speed, foliage on a separate faster frequency.
+Weight transfer on every slow step: heel contact, mass settling, toe push-off. Footfall bounce stays consistent on soft wild forest floor and leaf litter. Branches move gently on wind. Cloud moves at cloud speed, foliage on a separate faster frequency.
+
+COLLIDER — the camera is a body, not a flying camera
+The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
+mass, and nothing in the world passes through it.
+Do not place anything in the path. Do not invent branches, bushes or obstacles in front of the camera — the
+way ahead stays clear and open, and the vegetation lives at the sides of frame, trunks and undergrowth
+passing by as the walk goes on.
+But if anything does end up in the path — a bush, a clump of tall grass, a low branch, thick undergrowth —
+it reacts. It bends, shakes and folds away where the unseen body meets it, and it recovers a beat later. It
+is never passed through as if it were not there.
+Grass and undergrowth underfoot bend and flatten where each step lands, then spring back after the foot
+lifts, one beat behind the walk. Dust, pollen and leaf litter lift from the ground where the foot lands.
+No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is seen is the vegetation
+reacting, never the body that made it react.
+No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
 
 LIGHTING
-Dappled, soft daylight filtering down through the dense forest canopy. Forest floor low key; small patches of
-soft sunlight where canopy gaps permit. Atmospheric haze between distant tree trunks.
+This is the CLOSED, DARK end of the walk — the darkest shot in the opening sequence, and it never brightens
+across the take. The canopy is shut overhead: no open sky anywhere in frame at any point. Light arrives only
+as small soft dapple patches on the forest floor where the canopy thins, moving slowly as the branches move.
+Mid-tones stay open and readable, shadows stay dark but never crushed to black. The overall level is
+consistently one stop under generation 01 and two stops under generation 02, and it does not change from the
+first frame to the last.
 
 AUDIO
 Diegetic only — 0.0–4.0s near-total forest silence: subtle wind through pine needles and soft footsteps on
 leaf litter only. No bird calls or sharp sounds in the opening seconds. From ~5.0s onward: distant sparse
-bird calls, soft wind through leaves, drifting insects. No music. No narration. No voices.
+bird calls, soft wind through leaves, drifting insects. No loud impact SFX. No music. No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, bark and lichen at material level, clean cloud gradation, no jitter, no flicker.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Zero people visible anywhere. No hands, no arms, no feet, no body part and no cast shadow of the viewer
 enters frame at any time. The slow walk never stops — the body keeps moving slowly forward.
 No trodden paths, no beaten tracks, no roads, no clearings, no buildings, no signs, no vehicles anywhere.
-Deep unbroken forest only. Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
+Deep unbroken forest only. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
 ```
 
 ---
@@ -147,7 +222,27 @@ wild forest floor inside an abandoned zone, looks up at the sky, and comes out o
 perpendicular road running across in the distance. One continuous 16-second take, no cuts.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
+
+ROUTE
+One continuous walk along one route: deep forest, out to a road, then along that road to the city sign.
+00 — deep inside the forest. Canopy closed overhead, no sky visible, no road anywhere in frame. The darkest of the three.
+01 — the same forest thinning out. The canopy opens, sky appears, the light steadily increases, and at the end an asphalt road.
+02 — on that same road, walking along it. The city sign stands on the right-hand verge.
+The light gets BRIGHTER from 00 through 01 to 02 and never darker. The forest is the closed dark part of the walk; the road is the open bright part. Same asphalt, same verges, same direction of travel, same afternoon.
 ACTIVE REFERENCES
 @loc_MC_forest for location reference — take only the space and the texture: dense pine and birch trunks,
 low undergrowth, deep leaf litter, thin daylight through the canopy. Do not use as a starting frame, do
@@ -171,7 +266,7 @@ stabilises into a glide. Exactly two deliberate moves in the whole take — one 
 Eye height throughout.
 
 ACTION TIMING
-0.0–5.0s — walking forward slowly at an unhurried, calm, leisurely cinematic pace; trunks enter close on
+0.0–5.0s — the canopy is still closed overhead and the light is low; walking forward slowly at an unhurried, calm, leisurely cinematic pace; trunks enter close on
 the left and pass out slowly; the break in the trees ahead widens and brightens.
 5.0–8.0s — the gaze lifts to the sky: broken cloud with one gap of direct sun, thin branches crossing it.
 The slow walk continues underneath the tilt without breaking rhythm. The tilt eases in and settles.
@@ -180,28 +275,58 @@ The slow walk continues underneath the tilt without breaking rhythm. The tilt ea
 underfoot changes from leaf litter to dry grass and broken asphalt.
 13.0–16.0s — open ground. Far off about fifty metres ahead in the haze, an empty perpendicular road opens up
 running horizontally across in the background. The head drifts a few degrees to hold it centred.
+COLLIDER — the camera is a body, not a flying camera
+The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
+mass, and nothing in the world passes through it.
+Do not place anything in the path. Do not invent branches, bushes or obstacles in front of the camera — the
+way ahead stays clear and open, and the vegetation lives at the sides of frame, trunks and undergrowth
+passing by as the walk goes on.
+But if anything does end up in the path — a bush, a clump of tall grass, a low branch, thick undergrowth —
+it reacts. It bends, shakes and folds away where the unseen body meets it, and it recovers a beat later. It
+is never passed through as if it were not there.
+Grass and undergrowth underfoot bend and flatten where each step lands, then spring back after the foot
+lifts, one beat behind the walk. Dust, pollen and leaf litter lift from the ground where the foot lands.
+No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is seen is the vegetation
+reacting, never the body that made it react.
+No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
 
 PHYSICS
 Weight transfer on every slow step: heel contact, mass settling, toe push-off. The footfall sound and the
 body's vertical bounce change when the ground changes from soft litter to hard asphalt. Branches move on
-contact and rebound. Cloud moves at cloud speed, branches on a separate faster frequency. Wind is
+wind and rebound. Cloud moves at cloud speed, branches on a separate faster frequency. Wind is
 stronger in the open than under the canopy and moves the grass in travelling waves.
 
 LIGHTING
-Flat overcast above the canopy. Forest floor low key; the break in the trees two stops brighter. On the
-upward look the frame exposes for the sky and the branches fall to near silhouette. Atmospheric haze
-thickens with distance over the open ground.
+This is the TRANSITION between the closed forest and the open road, and the light RISES steadily across the
+whole take — it starts one stop under and ends level with the open daylight of generation 02, and it never
+goes the other way. At the start the canopy is still mostly closed and the floor sits low key with moving
+dapple. As the trees thin, more sky enters the top of frame and the overall level climbs continuously. By
+the last beat the frame is open daylight. Mid-tones stay open throughout, shadows stay dark but never
+crushed, sky highlights are retained and never clipped.
 
 AUDIO
 Diegetic only — 0.0–4.0s near-total forest silence: subtle wind through pine needles and soft footsteps on leaf litter only. No bird calls or sharp sounds in the opening seconds. From ~5.0s onward: distant sparse bird calls, soft wind, drifting insects. No music. No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, bark and lichen at material level, clean cloud gradation, no jitter, no flicker.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Zero people visible anywhere. No hands, no arms, no feet, no body part and no cast shadow of the viewer
 enters frame at any time. The slow walk never stops — the body keeps moving slowly through the upward look.
 Exactly ONE break in the cloud; no clear blue sky, no aircraft, no contrails. No vehicles, no buildings, no signs.
@@ -210,69 +335,251 @@ Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
 
 ---
 
-# 02 · ARRIVAL · 8s · 0:16
+# 02 · ARRIVAL · 12s · 0:16
 
 ```
 SCENE CONTEXT
-EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. A person walks the last stretch toward the concrete
-city sign standing alone on open ground, stops in front of it, and looks it over. One continuous 8-second
-take, no cuts.
+EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. A person walks along the approach road toward
+Pripyat. The concrete city sign stands at the right-hand verge ahead, the way a town-entrance sign always
+does. He walks up level with it, stops, and looks at it. One continuous 12-second take, no cuts.
 
-
-[paste ENVIRONMENT LOCK]
 ACTIVE REFERENCES
-@loc_MC_pripyat_sign for location reference — take only the space and the texture: a freestanding
-Soviet-era concrete city sign, raised relief lettering and a date, weathered white surface, lichen crust
-in the letterforms, rust bleed at the fixings, grass and saplings at its base. Do not use as a starting
-frame, do not inherit the composition, the angle or the grade.
+@loc_MC_pripyat_sign for location reference — take only the space and the texture: the white wedge-shaped
+concrete city sign of Pripyat standing at the roadside, the word ПРИПЯТЬ in tall raised relief letters
+across the top slab and the year 1970 on the lower panel, lichen crust in the letter troughs, rust bleed
+at the fixings, grass and birch saplings at its base. Do not use as a starting frame, do not inherit the
+composition, the angle or the grade.
+
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
+
+ROUTE
+One continuous walk along one route: deep forest, out to a road, then along that road to the city sign.
+00 — deep inside the forest. Canopy closed overhead, no sky visible, no road anywhere in frame. The darkest of the three.
+01 — the same forest thinning out. The canopy opens, sky appears, the light steadily increases, and at the end an asphalt road.
+02 — on that same road, walking along it. The city sign stands on the right-hand verge.
+The light gets BRIGHTER from 00 through 01 to 02 and never darker. The forest is the closed dark part of the walk; the road is the open bright part. Same asphalt, same verges, same direction of travel, same afternoon.
 
 FIRST FRAME AND SPATIAL BLOCKING
-First frame already has the sign at readable size in the middle third of frame, its base cut by grass,
-open ground running to it. No empty establishing beat.
+First frame is already walking on the road: cracked asphalt running away from camera down frame-CENTRE,
+overgrown verges on both sides, and the city sign standing on the RIGHT verge ahead at the edge of the
+carriageway, angled slightly toward the road so its face reads to anyone arriving. Treeline behind it,
+flat empty ground beyond. No empty establishing beat.
 
 FORMAT MODE
 Single continuous take, real time, no cuts.
 
 OPTICS
-47° diagonal field of view, standard normal lens character. Focus rides forward with the walk and holds
-the sign face sharp; the horizon behind falls slightly soft.
+47° diagonal field of view, standard normal lens character, natural human-eye perspective. Deep enough
+focus to hold the road surface and the sign face together. No distortion.
 
 CAMERA
-A walking body approaching a fixed object, then a standing body. The object grows in frame from the walk
-alone — no zoom, no push. After the stop, breath-driven micro-motion and one slow lateral drift as the
-gaze travels the sign, then a full settle.
+A walking body, then a standing body. Stride rise and fall, lateral sway, organic imperfect correction.
+The sign grows in frame from the walk alone — no zoom, no push. After the stop, one deliberate head turn
+to frame-RIGHT onto the sign, then breath-driven micro-motion only.
 
 ACTION TIMING
-0.0–2.5s — the sign grows in frame; relief lettering separates from the flat of the slab.
-2.5–4.0s — surface detail arrives: lichen in the letter troughs, rust runs, spalled concrete at the lower
-edge. The stride shortens; the last step is a half step; the body settles forward and back once and stops.
-4.0–6.5s — standing. The gaze travels slowly along the lettering to one end and stops there.
-6.5–8.0s — the frame comes back a few degrees to centre and stops completely. Nothing moves but the grass
-and one slow blink event.
+0.0–3.0s — walking up the road slowly, calmly, at an unhurried leisurely cinematic pace; the sign passes from small at the right edge to filling
+the right half of frame; the relief lettering separates from the flat of the slab and becomes readable.
+3.0–5.0s — the stride shortens, the last step is a half step, the body settles forward and back once and
+stops on the road level with the sign.
+5.0–7.0s — the head turns to frame-RIGHT onto the sign and holds. The lettering sits readable and nothing
+happens at all — only grass moving on the wind and one slow blink.
+7.0–10.0s — the gaze travels slowly along the lettering to one end, holds there, and comes back.
+10.0–12.0s — the frame stops moving entirely. Two full seconds of stillness: grass on the wind, one slow
+blink, nothing else.
 
 PHYSICS
-The deceleration is a real body decelerating — shorter final stride, reduced vertical bounce, mass
-settling once. Grass and saplings at the base move continuously on wind; the slab does not.
+Weight transfer on every slow step: heel contact, mass settling, toe push-off, footfall on cracked
+asphalt and loose grit. The deceleration is a real body decelerating — shorter final
+stride, reduced vertical bounce, mass settling once. Grass and birch saplings at the base of the sign move
+continuously on wind; the slab does not. Once the body stops, only breath moves the frame.
+
+COLLIDER — the camera is a body, not a flying camera
+The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
+mass, and nothing in the world passes through it.
+Do not place anything in the path. Do not invent branches, bushes or obstacles in front of the camera — the
+way ahead stays clear and open, and the vegetation lives at the sides of frame, trunks and undergrowth
+passing by as the walk goes on.
+But if anything does end up in the path — a bush, a clump of tall grass, a low branch, thick undergrowth —
+it reacts. It bends, shakes and folds away where the unseen body meets it, and it recovers a beat later. It
+is never passed through as if it were not there.
+Grass and undergrowth underfoot bend and flatten where each step lands, then spring back after the foot
+lifts, one beat behind the walk. Dust, pollen and leaf litter lift from the ground where the foot lands.
+No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is seen is the vegetation
+reacting, never the body that made it react.
+No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
 
 LIGHTING
-Flat overcast, no hard shadow anywhere. The relief throws only soft wide shadow. The white slab holds the
-top of the exposure without clipping; the ground sits a stop and a half under it.
+This is the OPEN, BRIGHT end of the walk — the brightest of the three shots, full open daylight with no
+canopy overhead, and the level does not change across the take. Soft sun behind thin cloud, no hard shadow
+anywhere. The relief throws only soft wide shadow across the slab face. The white concrete holds the top of
+the exposure without clipping; the asphalt and grass sit a stop and a half under it. Mid-tones open,
+shadows never crushed.
 
 AUDIO
-Diegetic only — footfall on grass and grit, breath slowing to rest, wind across open ground, grass
+Diegetic only — footfall on asphalt and grit, breath slowing to rest, wind across open ground, grass
 movement, distant birds, complete absence of any machine sound. No music. No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Key light from sky only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, wet concrete stain, rusted steel, decades of settled dust. Nothing looks recently placed.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Environment identical across every cut.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, concrete pore and lichen at material level, crisp relief edges, no jitter, no flicker.
 
 POSITIVE CONSTRAINTS
-Zero people visible. No body part and no cast shadow of the viewer in frame at any time. Exactly ONE sign,
-standing alone, never duplicated. No vehicles, no fences, no power lines, no modern signage, no graffiti,
-no tourist markers, no flowers or wreaths at its base. The last two seconds are held stillness — the frame
-does not drift, push or reframe. Photoreal. NON-IP. 16:9. 8s. SFX only. NO CGI. Cinematic.
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
+Zero people visible. No hands, no arms, no feet, no body part and no cast shadow of the viewer in frame at
+any time. Exactly ONE sign, standing at the right-hand verge of the road, never duplicated and never in
+the middle of the carriageway. The lettering reads ПРИПЯТЬ in correct Cyrillic, sharp and legible. No
+vehicles, no fences, no power lines, no modern signage, no graffiti, no tourist markers, no flowers or
+wreaths at its base. The last two seconds are held stillness — the frame does not drift, push or reframe.
+Photoreal. NON-IP. 16:9. 12s. SFX only. NO CGI. Cinematic. Present tense. Short sentences.
+```
+
+---
+
+# 02B · ENTRANCE · 14s · 0:28
+
+**Overlaps deliberately with the first five seconds of generation 03.** Both are generated; which one
+carries the entry into the city is decided in the edit.
+
+```
+SCENE CONTEXT
+EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. A person keeps walking the approach road after the
+city sign. The forest on both sides thins, the first apartment blocks rise out of the treeline ahead, and
+by the end of the shot the road has become a street with buildings on both sides. He is inside the city.
+One continuous 14-second take, no cuts.
+
+ACTIVE REFERENCES
+@loc_MC_pripyat_entrance for location reference — take only the space and the texture: the cracked asphalt
+approach road into Pripyat, the surface split open by birch saplings, overgrown verges, the first
+five-storey precast concrete panel blocks standing behind a thick screen of poplar and birch. Do not use
+as a starting frame, do not inherit the composition, the angle or the grade.
+
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
+
+FIRST FRAME AND SPATIAL BLOCKING
+First frame is already walking on the road: cracked asphalt running away from camera to a vanishing point
+at frame-CENTRE, tall grass verges and a dense tree screen on both sides. Above the treeline dead ahead,
+the flat roofline and top two floors of a concrete apartment block are just visible over the canopy. No
+empty establishing beat.
+
+FORMAT MODE
+Single continuous take, real time, no cuts.
+
+OPTICS
+47° diagonal field of view, standard normal lens character, natural human-eye perspective. Deep enough
+focus to hold the road surface underfoot and the buildings ahead in one read. No distortion.
+
+CAMERA
+The camera is a walking body moving at a slow, calm, unhurried gait, not a rig: gentle vertical rise
+and fall on each stride, small lateral sway, organic imperfect correction after every step. It never
+stabilises into a glide. No push, no zoom. Exactly ONE deliberate move in the whole take — a slow
+head turn to frame-LEFT near the end and back. Eye height throughout.
+
+ACTION TIMING
+0.0–4.0s — walking forward slowly, calmly and steadily at an unhurried, leisurely cinematic pace; the tree screen passes close on both sides; the roofline
+ahead grows from a strip above the canopy into a recognisable building.
+4.0–8.0s — the trees on the RIGHT fall away and the end wall of a five-storey concrete panel block stands
+right at the roadside, ten metres off, every window opening empty and black. He walks slowly past it
+without changing pace.
+8.0–11.0s — more blocks open up on the LEFT as well; the head turns slowly to frame-LEFT to take one in as
+he passes, then comes back to the direction of travel. The verges become a broken kerb and pavement.
+11.0–14.0s — the road is now a street: buildings on both sides, saplings through the asphalt, leaning
+dead street lamps passing on the right. He keeps walking straight down the middle of it at the same slow,
+calm, unhurried pace.
+
+PHYSICS
+Weight transfer on every slow step: heel contact, mass settling, toe push-off, a clear pause of weight on
+each foot. Footfall changes as the surface goes from open road asphalt to broken street asphalt and grit. Saplings the body passes bend on contact
+and rebound. Wind moves the whole tree screen in travelling waves, and the sound changes as the trees give
+way to hard building faces — the openness closes in.
+
+COLLIDER — the camera is a body, not a flying camera
+The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
+mass, and nothing in the world passes through it.
+Do not place anything in the path. Do not invent branches, bushes or obstacles in front of the camera — the
+way ahead stays clear and open, and the vegetation lives at the sides of frame, trunks and undergrowth
+passing by as the walk goes on.
+But if anything does end up in the path — a bush, a clump of tall grass, a low branch, thick undergrowth —
+it reacts. It bends, shakes and folds away where the unseen body meets it, and it recovers a beat later. It
+is never passed through as if it were not there.
+Grass and undergrowth underfoot bend and flatten where each step lands, then spring back after the foot
+lifts, one beat behind the walk. Dust, pollen and leaf litter lift from the ground where the foot lands.
+No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is seen is the vegetation
+reacting, never the body that made it react.
+No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
+
+LIGHTING
+Soft sun behind thin cloud from high and three-quarters behind. Under the tree screen the road sits low
+key with moving dapple; as the trees open the light broadens and the concrete faces catch a warm rim on
+their upper edges. Every shadow falls the same way throughout. No fill from the camera side.
+
+AUDIO
+Diegetic only — footfall on asphalt and grit, breath at walking effort, wind through poplar and birch,
+distant crows. As the buildings arrive the ambience tightens and gains a faint hard-surface reflection.
+Total absence of traffic, machinery or any human sound. No music. No narration. No voices.
+
+STYLE
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Key light from sky only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, wet concrete stain, rusted steel, decades of settled dust. Nothing looks recently placed.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Environment identical across every cut.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
+
+QUALITY
+8K detail, asphalt, concrete panel seams and foliage at material level, no jitter, no flicker.
+
+POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
+Zero people visible anywhere in the city. No hands, no arms, no feet, no body part and no cast shadow of
+the viewer in frame at any time. The walk is slow, calm and unhurried from the first frame to the last —
+never brisk, never purposeful, never hurried. The body never stops and the pace never changes. No
+working vehicles, no lit windows, no intact glazing, no modern signage, no barriers, no checkpoint. Every
+building is derelict with empty window openings. Vegetation grows through every hard surface. Photoreal.
+NON-IP. 16:9. 14s. SFX only. NO CGI. Cinematic. Present tense. Short sentences.
 ```
 
 ---
@@ -287,7 +594,20 @@ passes. The last four seconds cut to an outside view of him crossing the same sq
 visible at any point. Controlled multi-shot sequence with ONE HARD CUT at 16.0 seconds. Real time.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @char_MC_mr_chameleon for character reference — walking, muted field clothing, a dark half-mask covering
 the lower face up to just under the eyes; seen from behind and three-quarters away from camera. Visible in
@@ -322,14 +642,14 @@ reach, not physical proximity. Foreground occlusion is mandatory: an out-of-focu
 lower-LEFT third as an oversized dark bokeh shape. Atmospheric haze between camera and subject.
 
 CAMERA
-SHOT A — a walking body: stride rise and fall, lateral sway, organic correction. Exactly ONE deliberate
+SHOT A — The camera is a walking body moving at a slow, calm, unhurried gait, not a rig: gentle vertical rise and fall on each stride, small lateral sway, organic imperfect correction after every step. It never stabilises into a glide. Exactly ONE deliberate
 move: a head turn to frame-RIGHT onto the building and back. No push, no zoom, no whip.
 SHOT B — locked off on a long lens on sticks with the faintest operator drift. It does not track him; he
 walks through the frame.
 
 ACTION TIMING
-0.0–5.0s — first person, walking the approach road; saplings pass close; the façades come clear above the
-tree screen and grow from the walk alone.
+0.0–5.0s — first person, walking the approach road slowly, calmly, at an unhurried leisurely cinematic
+pace; saplings pass close; the façades come clear above the tree screen and grow from the walk alone.
 5.0–10.0s — the road opens into the square; the colonnade of the Palace of Culture arrives along
 frame-RIGHT and begins passing.
 10.0–15.0s — the head turns to frame-RIGHT onto the ruin — the eyeline arrives before the framing does —
@@ -338,13 +658,27 @@ colonnade. The walking rhythm never breaks under the turn. At 15.0s the head sta
 direction of travel.
 16.0s — HARD CUT.
 16.0–20.0s — outside view: he walks from the left third toward frame-CENTRE and on toward the right third,
-stride even and unhurried, no glances around. The frame holds and does not follow him.
+slowly and calmly, stride long and relaxed, no glances around. The frame holds and does not follow him.
 
 PHYSICS
 Footfall changes from asphalt to broken paving and grit. Saplings bend on contact and rebound. In SHOT A
 the vertical walking bounce continues at the same tempo throughout the head turn. In SHOT B real ground
 contact, opposing arm swing and weight transfer are visible even at distance; his clothing moves a beat
 behind him on the wind; the foreground sapling moves on its own faster frequency in front of the lens.
+
+COLLIDER — the camera is a body, not a flying camera
+Nothing in the world passes through the camera or through him.
+Do not place anything in the path and do not invent obstacles — the way ahead stays clear and open, and the
+vegetation lives at the sides of frame.
+BEFORE THE HARD CUT (first person): the body carrying the camera is never seen, but it occupies space. If a
+bush, a clump of tall grass or a low branch does end up in the path it bends, shakes and folds away where
+the unseen body meets it and recovers a beat later. Grass underfoot flattens where each step lands and
+springs back after the foot lifts. No arms, hands, shoulders, legs or feet ever enter frame — what is seen
+is the vegetation reacting, never the body that made it react.
+AFTER THE HARD CUT (outside view): he is fully in frame. Grass parts around his shins and closes behind
+him, folding under each footfall and recovering a beat later, leaving a flattened track behind his walk.
+Nothing intersects his body or his clothing.
+No clipping. Nothing touches the lens.
 
 LIGHTING
 Flat overcast from directly above in both shots — the same light, the same direction, the same time of
@@ -363,20 +697,33 @@ wasted motion. What is missing from him is the tell: he never scans, never check
 never reacts to the ruin around him. What changes across the shot: nothing at all.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, concrete, moss and asphalt at material level, clean shade detail in the colonnade, the figure
 razor-sharp against a dissolved background in SHOT B, no jitter, no flicker.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Exactly ONE person in the entire sequence and no one else anywhere in the city. He wears the half-mask
 throughout and it never comes off. In SHOT B he is seen in three-quarter profile from behind — the mask
 reads clearly at the edge of the jaw, but he never turns toward the lens and his eyes are never legible at
 this distance. He walks continuously and never stops. The camera stays on the open-square side
 of his walking line and never crosses to the building side. Exactly ONE colonnaded building, never
 duplicated. Exactly ONE hard cut, at 16.0 seconds. No working vehicles, no lit windows, no intact glazing,
-no modern signage. Photoreal. NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic.
+no modern signage. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic.
 ```
 
 ---
@@ -389,7 +736,20 @@ EXACT 0 CHARACTERS — the city itself is the subject. One slow, unbroken aerial
 city from fifty metres up. Nothing else happens. One continuous 20-second take, no cuts.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @loc_MC_pripyat_city for location reference — take only the space and the texture: rows of sixteen-storey
 and five-storey concrete apartment blocks, empty window openings, mature birch and poplar forest filling
@@ -437,7 +797,19 @@ Diegetic only — high open wind, distant crows, the vast quiet of a city with n
 No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, concrete, canopy, wood and plaster at material level, no jitter, no flicker, no stutter in the
@@ -447,7 +819,7 @@ POSITIVE CONSTRAINTS
 Zero people anywhere. Zero moving vehicles, zero lit windows, zero smoke, zero aircraft, zero contrails.
 Every building is derelict with empty window openings; forest grows through every street and courtyard.
 The pan runs at one constant rate from the first frame to the last and never stops, never reverses, never
-changes height. Photoreal. NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic.
+changes height. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic.
 ```
 
 ---
@@ -460,7 +832,20 @@ EXACT 0 CHARACTERS — three real interiors of the abandoned city, each held sti
 classroom, a shop. Controlled multi-shot sequence with TWO HARD CUTS. Real time.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @loc_MC_pripyat_city for location reference — take only the material and the atmosphere: Soviet
 institutional interiors abandoned for decades, peeling green and cream wall paint, fallen plaster,
@@ -517,16 +902,29 @@ dead classroom, a long hard-tiled shop. Wind through broken glazing, paper movin
 structural tick, distant crows outside. No music. No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, parquet, plaster crust, paper, painted steel and tile at material level, no jitter, no flicker.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Zero people, zero animals in any shot. No legible text on the blackboard, on any sign, on any shelf label
 or on any paper. No dolls, no toys, no gas masks, no personal items and no photographs staged anywhere in
 frame — nothing is arranged and nothing is freshly disturbed. Every window opening is empty of glass. No
-lit fixtures, no power anywhere. Exactly TWO hard cuts, at 7.0 and 14.0 seconds. Photoreal. NON-IP. 16:9.
+lit fixtures, no power anywhere. Exactly TWO hard cuts, at 7.0 and 14.0 seconds. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9.
 20s. SFX only. NO CGI. Cinematic.
 ```
 
@@ -541,7 +939,20 @@ still: the Ferris wheel, then the bumper-car pavilion. Nothing works, nothing tu
 Controlled multi-shot sequence with ONE HARD CUT at 10.0 seconds. Real time.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @loc_MC_park for location reference — take only the space and the texture: a small amusement park gone to
 forest; a Ferris wheel with yellow rusted cabins on an oxide-streaked steel frame; an open-sided
@@ -601,17 +1012,30 @@ groan as the cabin moves, a dry leaf skittering on metal, a loose piece of the c
 distant crows. No music. No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, oxidised steel, flaking paint and moss at material level, clean sky gradation with no banding,
 no jitter, no flicker, no crawling on thin steelwork against the sky.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Zero people, zero animals in either shot. The Ferris wheel NEVER rotates — exactly ONE cabin moves, and
 only a few degrees. No bumper car moves at any point, ever. No power anywhere: no lit bulbs, no sparks at
 the contact grid, no music box, no machinery sound. Nothing is arranged and nothing is freshly disturbed.
-Exactly ONE hard cut, at 10.0 seconds. Photoreal. NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic.
+Exactly ONE hard cut, at 10.0 seconds. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic.
 ```
 
 ---
@@ -624,7 +1048,20 @@ EXACT 0 CHARACTERS — the swing boats and carousel, then the whole park in one 
 closing in on it. Controlled multi-shot sequence with ONE HARD CUT at 6.0 seconds. Real time.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @loc_MC_park for location reference — take only the space and the texture: rusted swing boats hanging
 dead-still on their frames, a small carousel behind them with its canopy partly collapsed, asphalt broken
@@ -680,13 +1117,26 @@ it, distant crows; in the wide, open wind across the whole park with a low tonal
 steel, and nothing else at all. No music. No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, rusted steel, flaking paint and torn fabric at material level, clean sky gradation with no
 banding, no jitter, no flicker, no crawling on thin steelwork against the sky.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Zero people, zero animals in either shot. The swings NEVER swing and the carousel NEVER turns, not by a
 degree, not even in the gust — this stillness is the shot. The Ferris wheel in the wide NEVER rotates. No
 lit bulbs, no music box, no machinery sound, no power anywhere. Exactly ONE hard cut, at 6.0 seconds.
@@ -705,7 +1155,20 @@ open and walks into the apartment with the camera following him. His face is not
 Controlled multi-shot sequence with ONE HARD CUT at 6.0 seconds. Real time.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @char_MC_mr_chameleon for character reference — muted field clothing, a dark half-mask covering the lower
 face up to just under the eyes; standing with his back to the entrance in the first shot, then seen from
@@ -753,9 +1216,10 @@ ACTION TIMING
 vegetation moves around him; he does not.
 3.0–6.0s — one small weight shift from one foot to the other, and nothing else. The head does not lift.
 6.0s — HARD CUT.
-6.0–9.0s — he crosses the entrance hall past the mailboxes and starts the first flight; the camera follows
-into the stairwell.
-9.0–13.0s — first flight and the half-landing turn: his hand never takes the handrail, his pace is even,
+6.0–9.0s — he crosses the entrance hall past the mailboxes slowly and calmly and starts the first flight;
+the camera follows into the stairwell.
+9.0–13.0s — first flight and the half-landing turn: his hand never takes the handrail, his pace is slow,
+calm and unhurried,
 plaster grit crunching under each step; he rounds the turn at the same calm, steady pace and the camera takes it a beat
 later.
 13.0–16.0s — second flight to the landing; he is ALREADY mid-push at the flat door, his shoulder ALREADY
@@ -770,6 +1234,17 @@ crushing underfoot with a change of sound on every step. The camera's mass lags 
 up. The door has real mass and a swollen frame — it resists, gives suddenly, swings past its stop and
 rebounds a few centimetres; dust lifts off its edge and hangs in the doorway light. Floorboards flex under
 both sets of weight. His clothing moves a beat behind his body.
+
+COLLIDER — his body displaces what it touches
+Nothing in the world passes through him. No grass, branch or object intersects his body or his clothing at
+any point.
+Do not place anything in his path and do not invent obstacles for him — he walks a clear route, and the
+vegetation lives around him rather than in front of him.
+But whatever he does walk through reacts: grass parts around his shins and closes behind him, folds under
+each footfall and springs back a beat later, leaving a flattened track behind his walk. Anything he brushes
+bends away and recovers.
+Dust and grit lift where his feet land. He never changes pace for any of it and never looks at it.
+No clipping, no intersection, no vegetation ignoring his mass.
 
 LIGHTING
 Flat overcast on the façade, and the entrance doorway is a black void three stops under it. Inside, the
@@ -791,18 +1266,31 @@ at the flat door to consider it — he simply puts his shoulder through it, beca
 across the shot: nothing. He does not slow down anywhere in this building.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, concrete, render, plaster, rusted steel, torn door padding and wallpaper at material level,
 clean detail in the dark bands and the doorway void, no jitter beyond the intended handheld, no flicker.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Exactly ONE person in the entire sequence and no one else anywhere in the building. He wears the half-mask
 throughout and it never comes off. Head down and turned away in the first shot, seen from directly behind
 for the whole second shot; he never looks back and never turns at the landing.
 He opens the door by shoulder alone — he never touches a handle and never uses a key. Exactly ONE building,
-exactly ONE door opening. Exactly ONE hard cut, at 6.0 seconds. Photoreal. NON-IP. 16:9. 20s. SFX only.
+exactly ONE door opening. Exactly ONE hard cut, at 6.0 seconds. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 20s. SFX only.
 NO CGI. Cinematic.
 ```
 
@@ -818,7 +1306,20 @@ over, then moves through into the main room, where a window has been torn out an
 branches inside. Controlled multi-shot sequence with ONE HARD CUT at 8.0 seconds. Real time.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @loc_MC_home_appartment for location reference — take only the space and the texture: a small Soviet
 bedroom with an iron bed frame and rotted mattress under the window, a veneered wardrobe, a small writing
@@ -849,12 +1350,13 @@ slow head turn that eases in and eases out. Handheld with breath-driven micro-mo
 one turn per shot. No push, no zoom.
 
 ACTION TIMING
-0.0–3.0s — two steps into the bedroom; the bed frame grows in frame; dust lifts where the feet land and
-hangs in the window light.
+0.0–3.0s — two slow, unhurried steps into the bedroom; the bed frame grows in frame; dust lifts where the
+feet land and hangs in the window light.
 3.0–6.0s — the body stops. The gaze turns slowly to the desk at frame-RIGHT and holds on it.
 6.0–8.0s — the gaze comes back toward the window, slower than it left, and settles. One slow blink event.
 8.0s — HARD CUT.
-8.0–11.5s — three steps into the living room; the tree branch and the torn window opening grow in frame.
+8.0–11.5s — three slow, unhurried steps into the living room; the tree branch and the torn window opening
+grow in frame.
 11.5–14.0s — the body stops. The gaze crosses slowly from the cabinet at frame-LEFT to the tree at
 frame-RIGHT.
 14.0–16.0s — held on the tree. The branch moves on the outside wind, inside the room. One slow blink event.
@@ -864,6 +1366,20 @@ Floorboards flex and sound under each step. Dust lifts on footfall and hangs, th
 slow air. The branch is a real branch outdoors moving on real wind, and the part inside the room moves with
 the same motion delayed by its length. Leaf litter lifts at its edges on the draught through the opening.
 Wallpaper sheets move only at their loose edges. Nothing in either room is disturbed by the walk.
+
+COLLIDER — the camera is a body, not a flying camera
+The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
+mass, and nothing in the world passes through it.
+Do not place anything in the path. Do not invent obstacles in front of the camera — the way ahead stays
+clear and open.
+But if anything does end up in the path — a branch grown in through a window, a sapling on the steps, tall
+grass through the concrete, hanging debris — it reacts. It bends, shakes and folds away where the unseen
+body meets it, and it recovers a beat later. It is never passed through as if it were not there.
+Underfoot: dust, fallen plaster, broken glass, dry leaves and moss react to every step — the surface
+compresses or shifts under the weight, and settled dust lifts where the foot lands.
+No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is seen is the object reacting,
+never the body that made it react.
+No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
 
 LIGHTING
 Overcast daylight from the far wall of each room and nothing else. In the bedroom it rakes across the bed
@@ -877,18 +1393,31 @@ leaf movement, a branch scraping the frame edge, glass grit underfoot, a dead fl
 No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, veneer, rusted iron, rotted fabric, glazed cabinet, carpet fibre, bark and leaf at material
 level, clean detail in the dark corners, no jitter, no flicker.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Zero people visible in either shot. No hands, no arms, no feet, no body part and no cast shadow of the
 viewer enters frame at any time. NO MIRROR in either room, and THE GLAZED CABINET NEVER RETURNS A FACE —
 it reflects only the window and the room. No photographs, no portraits, no dolls, no toys, no legible text
 anywhere in frame. Exactly ONE tree branch through exactly ONE window opening. Nothing is touched or moved.
-Exactly ONE hard cut, at 8.0 seconds. Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
+Exactly ONE hard cut, at 8.0 seconds. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
 ```
 
 ---
@@ -902,7 +1431,20 @@ the viewer at any point. A person walks into the kitchen of the flat. Everything
 is long dead. One continuous 14-second take, no cuts.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @loc_MC_home_appartment for location reference — take only the space and the texture: a small Soviet
 kitchen, a rounded enamel fridge in the far corner with rust bleeding through the paint, a table under the
@@ -928,8 +1470,8 @@ to the shelves and down to the table, with no reversal mid-turn. Handheld with b
 throughout. No push, no zoom.
 
 ACTION TIMING
-0.0–3.0s — two steps in; the fridge and the table both come fully into frame; dust lifts where the feet
-land.
+0.0–3.0s — two slow, unhurried steps in; the fridge and the table both come fully into frame; dust lifts
+where the feet land.
 3.0–7.0s — the body stops. The gaze travels slowly left to right across the fridge, the mould wall and the
 shelves.
 7.0–11.0s — the gaze settles on the table and the objects still standing on it.
@@ -938,6 +1480,20 @@ shelves.
 PHYSICS
 Floorboards and grit under each step. Dust lifts on footfall and hangs. The curled oilcloth moves only at
 its lifted corner on the draught. Nothing on the shelves moves. Nothing is touched.
+
+COLLIDER — the camera is a body, not a flying camera
+The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
+mass, and nothing in the world passes through it.
+Do not place anything in the path. Do not invent obstacles in front of the camera — the way ahead stays
+clear and open.
+But if anything does end up in the path — a branch grown in through a window, a sapling on the steps, tall
+grass through the concrete, hanging debris — it reacts. It bends, shakes and folds away where the unseen
+body meets it, and it recovers a beat later. It is never passed through as if it were not there.
+Underfoot: dust, fallen plaster, broken glass, dry leaves and moss react to every step — the surface
+compresses or shifts under the weight, and settled dust lifts where the foot lands.
+No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is seen is the object reacting,
+never the body that made it react.
+No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
 
 LIGHTING
 Overcast daylight from the window behind the table — the table edge and the objects on it are rim-lit
@@ -949,17 +1505,30 @@ Diegetic only — footfall on grit, breath, a slow irregular drip somewhere out 
 opening, a small hard-surfaced room tone. No music. No narration. No voices.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, chipped enamel, rust bleed, mould bloom and curled oilcloth at material level, clean detail in
 the dark corner, no jitter, no flicker.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Zero people visible. No hands, no arms, no feet, no body part and no cast shadow of the viewer enters frame
 at any time. No mirror and no reflective surface that could return a face — the window glazing is gone, not
 intact. No legible text or branding on any object or packaging. Exactly ONE fridge, never duplicated.
-Nothing in the kitchen is touched or moved. Photoreal. NON-IP. 16:9. 14s. SFX only. NO CGI. Cinematic.
+Nothing in the kitchen is touched or moved. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 14s. SFX only. NO CGI. Cinematic.
 ```
 
 ---
@@ -975,7 +1544,20 @@ holds — and his dark pupils take on a green cast from inside. Controlled multi
 CUT at 3.0 seconds. Real time.
 
 
-[paste ENVIRONMENT LOCK]
+ENVIRONMENT
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: soft-edged and long, all falling the same way.
+Air: light haze thickening with distance, pollen drifting in bright gaps.
+Time: 1:00 PM, early afternoon daylight.
+
+COLOUR AND GRADE
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @char_MC_mr_chameleon for character reference — standing still, muted field clothing, a dark half-mask
 covering the lower face up to just under the eyes; turned away from the lens in the first shot, facing
@@ -1039,6 +1621,17 @@ chest, hair and collar moving on the courtyard wind. The camera's own mass shows
 float on the dolly. The green sits BEHIND the wet surface of the eye, under the corneal reflection, never
 on top of it; the sky catch-light stays exactly where it was throughout and is never overwritten.
 
+COLLIDER — his body displaces what it touches
+Nothing in the world passes through him. No grass, branch or object intersects his body or his clothing at
+any point.
+Do not place anything in his path and do not invent obstacles for him — he walks a clear route, and the
+vegetation lives around him rather than in front of him.
+But whatever he does walk through reacts: grass parts around his shins and closes behind him, folds under
+each footfall and springs back a beat later, leaving a flattened track behind his walk. Anything he brushes
+bends away and recovers.
+Dust and grit lift where his feet land. He never changes pace for any of it and never looks at it.
+No clipping, no intersection, no vegetation ignoring his mass.
+
 LIGHTING
 Flat overcast from a high sky in both shots — one light, one time of day, no hard shadows. His eyes carry a
 clear catch-light from the open sky; the eye sockets stay open and readable, never crushed. Nothing in the
@@ -1060,7 +1653,19 @@ that unbroken while a camera walks into his face, and then not reacting when his
 entire performance.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, pore-level skin around the eyes, brow and temple, individual lashes, iris fibre structure at
@@ -1068,6 +1673,7 @@ the closest framing, woven mask fabric texture, wet living eyes with catch-light
 no identity drift between the first and last frame.
 
 POSITIVE CONSTRAINTS
+Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Exactly ONE person in the entire sequence and no one else anywhere. In SHOT A he is turned away and never faces camera. In SHOT B he faces camera and holds the lens for the whole shot — he never
 looks away, never turns his head, never steps back, and his expression stays neutral throughout with no
 smile and no widening of the eyes. THE MASK NEVER COMES OFF and never slips — everything below the eyes stays
@@ -1075,7 +1681,7 @@ covered for the entire shot, and the eyes and brow match the reference exactly a
 move. The green stays INSIDE the pupils only: no glow on the skin, no light cast on the face, no light in the air, no
 lens flare, no particles, no rays. Both eyes change identically and at the same rate. The catch-light stays
 in both eyes throughout. Exactly ONE confinement structure on the horizon, never duplicated. No vehicles,
-no aircraft, no lit windows, no smoke. Exactly ONE hard cut, at 3.0 seconds. Photoreal. NON-IP. 16:9. 20s.
+no aircraft, no lit windows, no smoke. Exactly ONE hard cut, at 3.0 seconds. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 20s.
 SFX only. NO CGI. Cinematic.
 ```
 
@@ -1100,7 +1706,27 @@ institutional basement room, painted brick walls, a work table against the far w
 and instrument trays on it, one dim overhead fixture, a mirror mounted on the wall above the table, a
 closed steel door. Do not use as a starting frame, do not inherit the composition, the angle or the grade.
 
-[paste GEO-BASEMENT]
+GEO SPATIAL LAYOUT (locked across both basement shots — pure spatial map):
+— ROOM = a low windowless basement room about seven metres deep, painted brick walls, concrete floor.
+— THE DOOR: a closed steel door in the FAR wall, dead ahead of the seated viewpoint, six metres away.
+  It stays shut for the whole scene.
+— THE WORK TABLE: against the LEFT wall, three metres from the seated viewpoint, FRONT-LEFT in frame.
+— THE MIRROR: mounted on the LEFT wall directly above the work table, facing across the room.
+— THE WORKER: standing at the table, front-left, body turned to the table and the mirror, back
+  three-quarters to the seated viewpoint, head down over her work.
+— CAMERA POSITION 1 (generation 10): the seated viewpoint — low, on the near side of the room, facing
+  the far door, with the table and the worker at FRONT-LEFT.
+— CAMERA POSITION 2 (generation 11): standing height, behind the worker and half a metre to HER LEFT,
+  looking over her shoulder into the mirror on the left wall.
+— 180° AXIS: both camera positions live on the same side of the worker. The camera NEVER crosses to the
+  far side of the table, and the door is ALWAYS ahead of camera, never behind it.
+— LIGHT: one dim overhead fixture directly above the work table. The door end of the room falls away
+  two stops into shade. No daylight anywhere.
+
+COLOUR AND GRADE
+Neutral white balance, no colour cast of any kind. Natural saturation — the coat reads true off-white, the brick reads neutral. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones readable, shadows dark but never crushed to black — detail visible in every part of frame.
+Medium contrast. NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 
 FIRST FRAME AND SPATIAL BLOCKING
 First frame already contains her: THE WORKER at the work table at FRONT-LEFT, three metres from the seated
@@ -1161,7 +1787,19 @@ What changes across the shot: nothing about her changes at all — the marks arr
 aware of them, and the absence of any reaction is what makes them frightening.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, glass, enamel, coat fabric and pore-level skin with the pattern reading as structure beneath it,
@@ -1198,7 +1836,27 @@ coat and no mask, standing upright and calm.
 work table, instruments, dim overhead fixture, and the mirror mounted on the wall above the table. Do not
 use as a starting frame, do not inherit the composition, the angle or the grade.
 
-[paste GEO-BASEMENT]
+GEO SPATIAL LAYOUT (locked across both basement shots — pure spatial map):
+— ROOM = a low windowless basement room about seven metres deep, painted brick walls, concrete floor.
+— THE DOOR: a closed steel door in the FAR wall, dead ahead of the seated viewpoint, six metres away.
+  It stays shut for the whole scene.
+— THE WORK TABLE: against the LEFT wall, three metres from the seated viewpoint, FRONT-LEFT in frame.
+— THE MIRROR: mounted on the LEFT wall directly above the work table, facing across the room.
+— THE WORKER: standing at the table, front-left, body turned to the table and the mirror, back
+  three-quarters to the seated viewpoint, head down over her work.
+— CAMERA POSITION 1 (generation 10): the seated viewpoint — low, on the near side of the room, facing
+  the far door, with the table and the worker at FRONT-LEFT.
+— CAMERA POSITION 2 (generation 11): standing height, behind the worker and half a metre to HER LEFT,
+  looking over her shoulder into the mirror on the left wall.
+— 180° AXIS: both camera positions live on the same side of the worker. The camera NEVER crosses to the
+  far side of the table, and the door is ALWAYS ahead of camera, never behind it.
+— LIGHT: one dim overhead fixture directly above the work table. The door end of the room falls away
+  two stops into shade. No daylight anywhere.
+
+COLOUR AND GRADE
+Neutral white balance, no colour cast of any kind. Natural saturation — the coat reads true off-white, the brick reads neutral. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones readable, shadows dark but never crushed to black — detail visible in every part of frame.
+Medium contrast. NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 
 FIRST FRAME AND SPATIAL BLOCKING
 First frame already contains her: THE WORKER seen from behind and half a metre to HER LEFT, filling the
@@ -1261,8 +1919,9 @@ Diegetic only — glass and instruments at the table, the fixture hum, a small d
 one set of quiet footsteps arriving and stopping, instruments ringing as she folds over the table, and one
 human scream, raw and unmodulated, from THE WORKER and nobody else, with real short reverberation on the
 voice. This is the ONLY human vocal sound anywhere in the film. No music. No narration. No words — the
-scream contains no language. (The scream is written here so the body performs it — throat, tendons, chest,
-shoulders. The generated audio itself is discarded and replaced in post.)
+scream contains no language. (Written out in full because a written scream is a physical
+instruction — it gets a throat working, tendons standing out, a chest emptying, shoulders climbing. The
+generated scream is kept and used.)
 
 CHARACTER ACTING
 THE WORKER — for the first thirteen seconds: absorbed, routine, head down, hands working, no awareness of
@@ -1278,7 +1937,19 @@ not look at herself; she simply looks into the glass. She is not frightened and 
 simply present, and the fact that she does not react is worse than anything she could do.
 
 STYLE
-[paste STYLE PREFIX verbatim]
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
+Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Camera: Physical cine lens. 180° shutter motion blur.
+Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
+Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
+Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
+Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Composition: Rule of thirds + golden ratio.
+Continuity: Characters, props, environment identical across every cut. No identity drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 
 QUALITY
 8K detail, pore-level skin on both faces, identical facial structure between the two, glass surface dust
@@ -1317,18 +1988,21 @@ From **11** (20s): `B3` 0.0–13.0 · `B4` 13.0–20.0
 
 ## Assembly order
 
+The ending starts at **3:20** in the film.
+
 | # | Piece | Source | Len | Film time | What the audience gets | VO |
 |---|---|---|---|---|---|---|
-| 1 | `WIDE` | 09 | 3s | 2:46 | Him tiny, the reactor stacked behind him | — |
-| 2 | `A1` | 09 | 5s | 2:49 | The approach starts | VO-09 @ 2:50 |
-| 3 | `B1` | 10 | 7s | 2:54 | Cut away. A basement. She works, never looks up | VO-10 @ 2:55 |
-| 4 | `A2` | 09 | 4s | 3:01 | Back to him — closer than we left him | — |
-| 5 | `B2` | 10 | 9s | 3:05 | The marks surface on her skin | VO-11 @ 3:07 |
-| 6 | `A3` | 09 | 8s | 3:14 | Back to him, closest — eyes above the mask, held, and the pupils go green | — |
-| 7 | `B3` | 11 | 13s | 3:22 | Push to the mirror. The copy walks in. Nobody reacts | VO-12 @ 3:24 |
-| 8 | `B4` | 11 | 7s | 3:35 | She lifts her head. The scream. **CUT TO BLACK** | VO-13 @ 3:36 |
+| 1 | `WIDE` | 09 | 3s | 3:20 | Him tiny, the reactor stacked behind him | — |
+| 2 | `A1` | 09 | 5s | 3:23 | The approach starts | VO-09 @ 3:24 |
+| 3 | `B1` | 10 | 7s | 3:28 | Cut away. A basement. She works, never looks up | VO-10 @ 3:29 |
+| 4 | `A2` | 09 | 4s | 3:35 | Back to him — closer than we left him | — |
+| 5 | `B2` | 10 | 9s | 3:39 | The marks surface on her skin | VO-11 @ 3:41 |
+| 6 | `A3` | 09 | 8s | 3:48 | Back to him, closest — eyes above the mask, held, and the pupils go green | — |
+| 7 | `B3` | 11 | 13s | 3:56 | Push to the mirror. The copy walks in. Nobody reacts | VO-12 @ 3:58 |
+| 8 | `B4` | 11 | 7s | 4:09 | She lifts her head. The scream. **CUT TO BLACK** | VO-13 @ 4:10 |
 
-**Runs out at 3:42.** Two seconds of held black, then the end card.
+**Runs out at 4:16.** Two seconds of held black, then the end card.
+
 
 ## Why it ends on the scream, not on him
 
@@ -1354,14 +2028,68 @@ together without a visual effect. One line changed in generation 09; everything 
 
 # GENERATION ORDER
 
+## PHASE 1 — CHARACTER-FREE. 160 seconds of 256, or 62% of the raw material.
+
+Ten of the fifteen generations contain no person at all. **Every one of them can be generated today** —
+they need only location sheets, and no character asset has to be locked first.
+
+| Gen | Length | Location sheets needed | What it is |
+|---|---|---|---|
+| 00 | 16s | `@loc_MC_forest` | POV, deep forest |
+| 01 | 16s | `@loc_MC_forest` | POV, forest thinning to the road |
+| 02 | 12s | `@loc_MC_pripyat_sign` | POV, the ПРИПЯТЬ sign |
+| 02B | 14s | `@loc_MC_pripyat_entrance` | POV, into the city |
+| 04A | 20s | `@loc_MC_pripyat_city` | Aerial pan, no people |
+| 04B | 20s | `@loc_MC_school`, `@loc_MC_shop` | Three held interiors, dust only |
+| 05A | 20s | `@loc_MC_park` | Ferris wheel, bumper cars, held |
+| 05B | 12s | `@loc_MC_park` | Swings and the wide park, held |
+| 07 | 16s | `@loc_MC_home_appartment` | POV, his room and the living room |
+| 08 | 14s | `@loc_MC_home_appartment` | POV, the kitchen |
+
+**Eight location sheets unlock all ten.** `forest`, `pripyat_sign`, `pripyat_entrance`, `pripyat_city`,
+`school`, `shop`, `park`, `home_appartment`.
+
+**Generate all eight sheets back to back in one sitting** — the ENVIRONMENT LOCK is only worth anything if
+they come out of the same session. Come back a week later and the palette has drifted.
+
+**Then generate 00, 01 and 02 back to back too**, in that order, and check them against each other before
+moving on. They are one continuous walk under the ROUTE LOCK and the light has to climb across the three.
+
+### Order inside phase 1
+
 | Pass | Generations | Why |
 |---|---|---|
-| **1** | 11, 09 | Two identical faces in one frame, and the push to his eyes. The hardest things in the film — prove them first, while there is budget to solve them. |
-| **2** | 10, 06, 03 | The characters and the basement. Second-hardest. |
-| **3** | 01, 02, 07, 08 | POV walking and interiors. |
-| **4** | 04A, 04B, 05A, 05B | Held frames where almost nothing moves. Cheapest, lowest risk, generate last. |
+| **1A** | 00, 01, 02, 02B | The opening walk. Route and light continuity is the one thing here that can fail, so prove it first. |
+| **1B** | 07, 08 | POV interiors. Same camera language, no continuity chain to break. |
+| **1C** | 04A, 04B, 05A, 05B | Held frames where almost nothing moves. Cheapest, lowest risk, generate last. |
 
-This is the order to **generate** in, not the order of the film. The film runs 01 → 11.
+## PHASE 2 — MR CHAMELEON. 60 seconds.
+
+Blocked until `@char_MC_mr_chameleon` is `LOCKED`. Also needs `@loc_MC_dk_energetic`, `@loc_MC_home_area`,
+`@loc_MC_home_stairs`.
+
+| Gen | Length | Note |
+|---|---|---|
+| 09 | 20s | The push onto his eyes. **Hardest shot in the film — generate it first of the three**, while there is budget to solve it. |
+| 06 | 20s | Entrance, stairwell, the door. |
+| 03 | 20s | 16s of POV, then a 4s outside view of him after the hard cut. |
+
+> **03 can be pulled forward if you want.** Only its last four seconds contain him. Generated as a 16s
+> POV-only version it belongs in phase 1 and the outside view becomes a separate short generation later.
+> It costs one extra generation and it unblocks 20 more seconds now.
+
+## PHASE 3 — THE WOMAN. 36 seconds.
+
+Blocked until `@char_MC_employee`, `@char_MC_employee_civil` and `@char_MC_employee_signs` are all `LOCKED`
+— a separate character set from Mr Chameleon, and 11 needs two of them in the same frame. Also needs
+`@loc_MC_basement` and `@loc_MC_basement_rev`.
+
+| Gen | Length | Note |
+|---|---|---|
+| 11 | 20s | Two identical faces in one frame. The single hardest technical problem in the project. |
+| 10 | 16s | The marks surfacing. |
+
+**This is the order to generate in, not the order of the film.** The film runs 00 → 11.
 
 # ITERATION LOG
 

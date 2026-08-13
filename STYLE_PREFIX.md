@@ -23,6 +23,110 @@ Time: 1:00 PM, early afternoon daylight.
 
 ---
 
+# 1B · COLOUR LOCK
+
+**The single biggest consistency problem in this film is grade drift** — one clip comes out bright and
+pleasant, the next comes out dark and cold, and no amount of colour work in post glues them back together
+cleanly. Grading fourteen separately generated clips into one look is hours of work. Getting them out of
+the model already matching is a paragraph.
+
+**Paste this block into every prompt — video and location sheet alike, including the basement.**
+
+```
+COLOUR AND GRADE — identical in every shot of this film:
+Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast
+of any kind.
+Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No
+teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
+Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky
+retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
+Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across
+the entire frame.
+```
+
+**The vignette is a separate, repeated ban.** Some generations produce it and some do not, which is worse
+than all of them having it — it cannot be matched in post. Besides the block above, every prompt carries
+`no vignette, no edge darkening, even exposure corner to corner` in its `POSITIVE CONSTRAINTS` as well. Two
+mentions, because one is not enough.
+
+---
+
+# 1C · ROUTE LOCK — the opening walk
+
+Generations 00, 01 and 02 are one continuous walk on one route. They kept coming out as three unrelated
+places at three different times of day. This is the map.
+
+```
+ROUTE — locked across generations 00, 01 and 02:
+One continuous walk along one route: deep forest, out to a road, then along that road to the city sign.
+00 — deep inside the forest. Canopy closed overhead, no sky visible, no road anywhere in frame. This is
+     the darkest shot of the three.
+01 — the same forest thinning out. The canopy opens, sky appears, the light steadily increases, and at
+     the end an asphalt road.
+02 — on that same road, walking along it. The city sign stands on the right-hand verge.
+The light gets BRIGHTER from 00 through 01 to 02 and never darker. The forest is the closed dark part of
+the walk; the road is the open bright part. Same asphalt, same verges, same direction of travel, same
+afternoon.
+```
+
+**This is why the current forest clips fight each other.** The light was running backwards — bright under
+the canopy, dark at the exit. In a real forest it is the other way round, and the audience feels it even
+if they cannot name it.
+
+---
+
+# 1D · COLLIDER LOCK
+
+**The problem is one thing and only one thing: the camera has no collider.** A big bush stands in the path,
+the walk goes straight through it, and not a leaf moves. The shot stops being a person and becomes a camera
+flying through geometry, and the audience reads it as fake before they can name why.
+
+**This is not a licence to invent obstacles.** Nothing gets staged in front of the camera. No scripted
+branches, no timed events, no hand reaching in to push anything aside — there is no character yet and there
+is nothing to push with. The walk is clean and the way ahead is open. Trees and undergrowth live at the
+sides of frame and pass by, and that is all.
+
+**The rule is only about what happens *if* something ends up in the path.** Then it has to react. That is
+the whole fix.
+
+**Paste into every prompt where the body moves. Not the aerial, not the held frames, not the basement.**
+
+```
+COLLIDER — the camera is a body, not a flying camera
+The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
+mass, and nothing in the world passes through it.
+Do not place anything in the path. Do not invent branches, bushes or obstacles in front of the camera — the
+way ahead stays clear and open, and the vegetation lives at the sides of frame, trunks and undergrowth
+passing by as the walk goes on.
+But if anything does end up in the path — a bush, a clump of tall grass, a low branch, thick undergrowth —
+it reacts. It bends, shakes and folds away where the unseen body meets it, and it recovers a beat later. It
+is never passed through as if it were not there.
+Grass and undergrowth underfoot bend and flatten where each step lands, then spring back after the foot
+lifts, one beat behind the walk. Dust, pollen and leaf litter lift from the ground where the foot lands.
+No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is seen is the vegetation
+reacting, never the body that made it react.
+No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
+```
+
+**Interiors get a variant** — same law, different objects: branches grown in through broken windows,
+saplings on the steps, fallen plaster, glass and dry leaves underfoot.
+
+**Character shots get a variant** — 06 and 09, where he is in frame: grass parts around his shins and
+closes behind him, leaving a flattened track; nothing intersects his body or his clothing; he never changes
+pace for it and never looks at it. 03 carries both, split at the hard cut.
+
+**The held frames get nothing** — 04A, 05A and 05B have no walk, so there is no collider to write.
+
+**Three mentions per prompt, like the vignette.** Its own block after `ACTION TIMING`, a clause in the
+`Physics:` line of the style block, and a line in `POSITIVE CONSTRAINTS`. One mention gets dropped.
+
+**The two-beat rule is the whole trick.** Vegetation that bends *and stays bent* looks as wrong as
+vegetation that does not move at all. What reads as real is the recovery — springing back one beat behind
+the body.
+
+---
+
 # 2 · STYLE PREFIX
 
 **Paste word for word at the end of every video prompt, in the `STYLE` slot.**
@@ -36,11 +140,11 @@ Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
 Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
 Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
-Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props.
+Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
 Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
 Composition: Rule of thirds + golden ratio.
 Continuity: Characters, props, environment identical across every cut. No identity drift.
-Technical: 24fps smooth motion. 8K detail. No jitter. No flicker.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 Audio: Environmental SFX only. No music. No subtitles. No narration. No voices unless written in the AUDIO block.
 ```
 
@@ -56,35 +160,38 @@ Photoreal. NON-IP. 16:9. [N]s. SFX only. NO CGI. Cinematic. Present tense. Short
 
 # 3 · AUDIO — THIS EPISODE
 
-**A decision for this film, not a permanent rule.** Future episodes may work differently.
+**There is no rule against generating sound.** Sound gets generated, and it gets used. The decisions below
+are about *this* film, not about the pipeline. Later episodes may work differently — dialogue included.
 
-**Nothing generated by Seedance ends up in the finished soundtrack.** The entire audio bed — ambience, effects, the scream, and the narration — is built separately in post with other tools. Whatever the video model produces is reference only and gets thrown away.
+| Layer | How it is made | Used in the film |
+|---|---|---|
+| Environmental sound — wind, footfall, structure, birds, water | **Generated with the shot.** Keep it. | Yes |
+| The scream in generation 11 | **Generated**, a real scream, from the shot itself | Yes |
+| Narration | **Not generated.** Spoken by a person and recorded separately. See `NARRATION.md`. | Yes |
+| Music | Not used anywhere | No |
+| Dialogue | There is none in this film — nobody in the story speaks. This is a story fact, not a technical limit. | No |
 
-**So why write `AUDIO` blocks in the prompts at all?** Two reasons, and both are about picture, not sound:
-
-1. **It shapes the performance.** A prompt that says a woman screams gets a throat working, tendons standing out, a chest emptying and shoulders climbing. Delete the line and you get a mouth opening. The vocal instruction is a *physical* instruction.
-2. **It blocks invention.** Without an explicit audio law the model adds its own mumbling, chuckles, half-words and lip movement to characters who are supposed to be silent. `Nobody speaks` in the prompt is what keeps mouths still.
-
-## What every prompt must still say
+## What every prompt says, and why
 
 ```
 Diegetic environmental sound only — <the specific sounds of this place>. No music. No narration.
 No voices. Nobody speaks.
 ```
 
-The one exception is generation 11, where the scream is written in full so the body performs it. The audio itself is discarded and replaced in post.
+`No narration` is there because the narration is recorded separately and a generated voice-over on top of
+it is unusable. `Nobody speaks` is there because without it the model gives silent characters mumbling,
+chuckles and half-words, and moves their mouths for it. Both lines are protecting the picture as much as
+the track.
 
-## Post-production audio plan
+**Generation 11 is the exception** and the scream is written out in full — because a written scream is a
+*physical* instruction. It gets a throat working, tendons standing out, a chest emptying, shoulders
+climbing. Delete the line and you get a mouth opening.
 
-| Layer | Source |
-|---|---|
-| Continuous ambience per location | Built in post. One shared atmosphere under the whole film — this is what glues separately generated shots into one space, even where the picture drifts. |
-| Spot effects — footsteps, doors, glass, metal, wind gusts | Built in post, cut to picture. |
-| The scream | Recorded or generated separately, synced to the performance in generation 11. |
-| Narration | Recorded separately. See `NARRATION.md`. |
-| Music | None anywhere in this film. |
+## Post
 
-**Practical consequence:** every clip is cut on picture alone. Do not let a good generated sound talk you into keeping a weaker take.
+Generated ambience is the bed; spot effects and a continuous room tone per location are layered on top in
+post — one shared atmosphere under the whole film is what glues separately generated shots into one space
+even where the picture drifts. Narration sits above it, dry and close. No music at any point.
 
 ---
 
@@ -103,3 +210,11 @@ Grow this list every time a shot fails because of wording.
 | overcast / grey day | half broken cloud, soft sun behind thin cloud |
 | autumn, golden leaves | new green, late spring |
 | any age or age word, in any language | role, clothing, action |
+| softshell, technical fabric, performance shell | cotton canvas, cotton shirting, worn leather |
+| cargo pants, tactical, low-profile pack | heavy canvas trousers, canvas bag on a leather strap |
+| a matching olive outfit | every garment a different faded shade, nothing matches |
+| hiking boots, combat boots | short black rubber boots |
+| quilted, padded, lined, parka | thin, worn open, sleeves pushed up — it is a hot afternoon |
+| *(silence about contact)* — the model walks through bushes untouched | the CONTACT LOCK block, all three mentions |
+| staged branches and bushes in the path | nothing placed in the path — the collider rule covers whatever happens to be there |
+| a hand or arm pushing anything aside | no limbs in frame; the plant reacts, the body that moved it is never seen |

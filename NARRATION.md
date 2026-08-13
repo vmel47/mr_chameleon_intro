@@ -5,25 +5,25 @@ Every prompt carries `No narration` in its audio constraints.
 
 **Voice direction.** One male voice. Flat, unhurried, quiet — the calm of someone who has never had to raise his voice. No performance, no warmth added. He is showing someone around his home. The horror is that he means it. Record dry, place in the room later.
 
-**Total lines:** 13 · **First cue:** 0:06 · **Last cue:** 3:36 · **Runtime:** 3:42
+**Total lines:** 13 · **First cue:** 0:22 · **Last cue:** 4:10 · **Runtime:** 4:16
 
 ---
 
 | # | In | Out | Over generation | Line |
 |---|---|---|---|---|
-| VO-01 | 0:06 | 0:10 | 01 — the look up at the sky | "I remember. I know these places well." |
-| VO-02 | 0:21 | 0:24 | 02 — stopped at the Pripyat sign | "Home, sweet home." |
-| VO-03 | 0:46 | 0:52 | 04A — the aerial panorama | "My favourite city. You are more beautiful than I remember you." |
-| VO-04 | 1:26 | 1:32 | 05A — the Ferris wheel | "I like to walk here. It is so quiet. Nobody bothers me." |
-| VO-05 | 1:58 | 2:00 | 06 — standing before the block | "This is me." |
-| VO-06 | 2:18 | 2:23 | 07 — his room | "This is my room. I did my homework here." |
-| VO-07 | 2:26 | 2:29 | 07 — the living room | "This is our living room." |
-| VO-08 | 2:35 | 2:38 | 08 — the kitchen | "And this is the kitchen." |
-| VO-09 | 2:50 | 2:54 | ending `A1` — the approach begins | "They say the radiation changed me." |
-| VO-10 | 2:55 | 3:00 | ending `B1` — first cut to the basement | "It was in the basement that I started to see things." |
-| VO-11 | 3:07 | 3:10 | ending `B2` — the marks surfacing on her skin | "Things nobody else can see." |
-| VO-12 | 3:24 | 3:27 | ending `B3` — the push toward the mirror | "That is when I started to change." |
-| VO-13 | 3:36 | 3:41 | ending `B4` — over the scream, into black | "But I am still good old me." *(beat)* "Or am I?" |
+| VO-01 | 0:22 | 0:26 | 01 — the look up at the sky | "I remember. I know these places well." |
+| VO-02 | 0:39 | 0:42 | 02 — stopped at the Pripyat sign, lands on the held beat | "Home, sweet home." |
+| VO-03 | 1:22 | 1:28 | 04A — the aerial panorama | "My favourite city. You are more beautiful than I remember you." |
+| VO-04 | 2:02 | 2:08 | 05A — the Ferris wheel | "I like to walk here. It is so quiet. Nobody bothers me." |
+| VO-05 | 2:34 | 2:36 | 06 — standing before the block | "This is me." |
+| VO-06 | 2:52 | 2:57 | 07 — his room | "This is my room. I did my homework here." |
+| VO-07 | 3:00 | 3:03 | 07 — the living room | "This is our living room." |
+| VO-08 | 3:09 | 3:12 | 08 — the kitchen | "And this is the kitchen." |
+| VO-09 | 3:24 | 3:28 | ending `A1` — the approach begins | "They say the radiation changed me." |
+| VO-10 | 3:29 | 3:34 | ending `B1` — first cut to the basement | "It was in the basement that I started to see things." |
+| VO-11 | 3:41 | 3:44 | ending `B2` — the marks surfacing on her skin | "Things nobody else can see." |
+| VO-12 | 3:58 | 4:01 | ending `B3` — the push toward the mirror | "That is when I started to change." |
+| VO-13 | 4:10 | 4:15 | ending `B4` — over the scream, into black | "But I am still good old me." *(beat)* "Or am I?" |
 
 The last five cues sit inside the crosscut ending — see **ENDING ASSEMBLY** in `SHOTLIST_PROMPTS.md` for the exact slice each one lands on.
 
@@ -47,7 +47,7 @@ The last five cues sit inside the crosscut ending — see **ENDING ASSEMBLY** in
 
 - Narration sits close and dry, above the ambience.
 - Ambience ducks under every line and returns immediately after.
-- The scream is **not** taken from the generation — it is recorded or generated separately and synced to the performance in generation 11. It runs under VO-13 and comes forward on the cut to black.
-- No audio from Seedance survives into the finished film. Ambience, effects, the scream and this narration are all built in post.
+- The scream is **generated with the shot and kept** — a real scream from generation 11. It runs under VO-13 and comes forward on the cut to black.
+- Generated environmental sound is the bed for the whole film. This narration is the only layer recorded separately, by a person.
 - No music anywhere in the film.
 - Two seconds of held black after the last frame.
