@@ -31,9 +31,10 @@ All location sheets shot in **3/4, never frontal**. Each carries an anchor objec
 |---|---|---|---|
 | `@loc_MC_forest` | Dense pine/birch forest inside the zone, full new green, low undergrowth, an overgrown path. | The gap in the trees ahead | TODO |
 | `@loc_MC_duga_fragment` | **OPTIONAL** — only if the Duga shot in `OPTIONAL_SHOTS.md` is used. A fragment of the Duga radar array among the trees — one lattice leg and a section of mesh, never the full silhouette. Seen before the city sign, so it must stay unrecognisable. | The lattice leg and its concrete foot | TODO |
-| `@loc_MC_pripyat_sign` | The concrete "ПРИПЯТЬ 1970" city sign at the approach road. | The sign slab itself | TODO |
+| `@loc_MC_forest_pripyat_sign_path` | **BUILT.** The route: the road out of the forest that leads to the city sign. Carries the season, the light and the palette for generations 01 and 02. Source of the environment for the whole opening walk. | The road running away between the trees | DRAFT |
+| `@loc_pripyat_sign_2` | **BUILT.** The concrete "ПРИПЯТЬ 1970" city sign, weathered, standing on the right-hand verge and turned slightly toward the road. Made by rotating a reference frame in Nano Banana Pro until the angle read right. | The sign slab itself | DRAFT |
 | `@loc_MC_pripyat_city` | Master reference for the whole city — texture, palette, atmosphere, era. Used as an atmosphere anchor in interior clips and for the aerial panorama. | Skyline of 16-storey blocks | TODO |
-| `@loc_MC_pripyat_entrance` | The road into the city, first buildings, overgrown asphalt. | Roadway centre line | TODO |
+| `@loc_MC_pripyat_street` | A long street **inside** the city: a row of six or more panel blocks receding down the LEFT side, forest and nothing else down the RIGHT, wide cracked asphalt with saplings through every seam. Replaces the old `pripyat_entrance` — the approach road is already covered by generations 02 and 02B's opening. | The receding row of blocks | TODO |
 | `@loc_MC_dk_energetic` | The Palace of Culture "Energetik" on the central square, ruined façade, colonnade. | The colonnade | TODO |
 | `@loc_MC_park` | The amusement park — Ferris wheel, bumper-car pavilion, swings and carousel, moss and birch growing through the asphalt. | The Ferris wheel | TODO |
 | `@loc_MC_home_area` | The courtyard and façade of his residential block, seen from outside. Reactor 4 sarcophagus on the horizon. | The entrance doorway | TODO |

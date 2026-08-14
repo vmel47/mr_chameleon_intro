@@ -2,3 +2,9 @@ Adobe Premiere Pro Auto-Save/
 Adobe Premiere Pro Video Previews/
 *.prin
 Videos/
+Blender/walk_ref/
+Blender/check*/
+Blender/speedtest/
+Blender/smoke/
+Blender/out/*.mp4
+References/

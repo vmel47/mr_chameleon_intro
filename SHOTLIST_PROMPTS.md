@@ -2028,7 +2028,7 @@ together without a visual effect. One line changed in generation 09; everything 
 
 # GENERATION ORDER
 
-## PHASE 1 — CHARACTER-FREE. 160 seconds of 256, or 62% of the raw material.
+## PHASE 1 — CHARACTER-FREE. 176 seconds of 256, or 69% of the raw material.
 
 Ten of the fifteen generations contain no person at all. **Every one of them can be generated today** —
 they need only location sheets, and no character asset has to be locked first.
@@ -2045,6 +2045,7 @@ they need only location sheets, and no character asset has to be locked first.
 | 05B | 12s | `@loc_MC_park` | Swings and the wide park, held |
 | 07 | 16s | `@loc_MC_home_appartment` | POV, his room and the living room |
 | 08 | 14s | `@loc_MC_home_appartment` | POV, the kitchen |
+| 03A | 16s | `@loc_MC_dk_energetic` | POV along the colonnade — **generation 03 split in two** |
 
 **Eight location sheets unlock all ten.** `forest`, `pripyat_sign`, `pripyat_entrance`, `pripyat_city`,
 `school`, `shop`, `park`, `home_appartment`.
@@ -2063,7 +2064,7 @@ moving on. They are one continuous walk under the ROUTE LOCK and the light has t
 | **1B** | 07, 08 | POV interiors. Same camera language, no continuity chain to break. |
 | **1C** | 04A, 04B, 05A, 05B | Held frames where almost nothing moves. Cheapest, lowest risk, generate last. |
 
-## PHASE 2 — MR CHAMELEON. 60 seconds.
+## PHASE 2 — MR CHAMELEON. 44 seconds.
 
 Blocked until `@char_MC_mr_chameleon` is `LOCKED`. Also needs `@loc_MC_dk_energetic`, `@loc_MC_home_area`,
 `@loc_MC_home_stairs`.
@@ -2072,11 +2073,11 @@ Blocked until `@char_MC_mr_chameleon` is `LOCKED`. Also needs `@loc_MC_dk_energe
 |---|---|---|
 | 09 | 20s | The push onto his eyes. **Hardest shot in the film — generate it first of the three**, while there is budget to solve it. |
 | 06 | 20s | Entrance, stairwell, the door. |
-| 03 | 20s | 16s of POV, then a 4s outside view of him after the hard cut. |
+| 03B | 4–6s | The outside view of him crossing the square. The POV half is now `03A` and is shot without him. |
 
-> **03 can be pulled forward if you want.** Only its last four seconds contain him. Generated as a 16s
-> POV-only version it belongs in phase 1 and the outside view becomes a separate short generation later.
-> It costs one extra generation and it unblocks 20 more seconds now.
+> **03 is now split in two.** `03A` is the 16 s POV walk along the colonnade — no person in it, so it moves
+> into phase 1 and is shot now. `03B` is the 4–6 s outside view of him crossing the square, and it waits for
+> the character. One extra generation, and it moves 16 seconds out of the blocked pile.
 
 ## PHASE 3 — THE WOMAN. 36 seconds.
 
