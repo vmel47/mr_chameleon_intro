@@ -918,4 +918,129 @@ no CGI, no game-engine look. No text, no watermark, no logo anywhere in frame.
 
 # 6 · ВИДЕО, 26 СЕК
 
-Пишу после того, как вернутся локации — чтобы описывать реальные кадры, а не предполагаемые.
+**Модель:** Seedance 2.5 · Text-to-Video · 16:9 · **26s** · референсов нет
+
+```
+EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, hands, arms, shoulders, legs, feet, reflection or cast shadow of the viewer enters frame at any moment. We only ever see what he sees.
+
+SCENE CONTEXT
+A person enters his former apartment inside a nine-storey late-Soviet panel block in Pripyat. The flat has stood unheated and abandoned for roughly forty years. It has been looted, repeatedly entered and physically damaged by moisture, frost, wind and vegetation. He moves through the landing, hallway, his small room, the living room and the kitchen. This was his home. He knows every doorway and does not explore it like a visitor.
+
+One continuous 26-second first-person take. No references. Generate the entire location from the architectural and material description below.
+
+APARTMENT TYPE AND FIXED LAYOUT
+An ordinary improved late-Soviet two- or three-room apartment inside a 1970s–1980s Ukrainian precast-panel block, not a Khrushchev-era flat and not a custom luxury apartment. Ceiling height about 2.6 metres. Small entrance hall and short narrow distribution corridor. Simple veneered or painted timber doorframes.
+
+The geometry never changes:
+STRAIGHT AHEAD from the front door is HIS ROOM, about 10 square metres.
+LEFT from the hallway is the LIVING ROOM, about 17 square metres, the largest room.
+RIGHT from the hallway is the KITCHEN, about 7 square metres.
+Two narrow doors near the kitchen lead to the separate bathroom and toilet, but the camera never enters them.
+The apartment is on the third floor. A mature tree outside has pushed one thick limb through the broken living-room window.
+
+REAL DECAY REGISTER
+This is not a preserved time capsule and not a decorated horror set. Most valuable furniture, appliances and metal have been removed over decades. What remains is sparse, asymmetric, broken and displaced.
+
+Walls carry several layers of faded small-pattern Soviet wallpaper. Whole sheets have detached and hang from one edge; other sections lie collapsed across the floor, exposing yellowed newspaper backing, grey-beige plaster and panel concrete. Whitewash and plaster have fallen from the ceiling in broad irregular patches. Black and brown moisture runs descend from window corners and panel seams. Local mould blooms in damp corners. No radioactive glow.
+
+Hallway and kitchen linoleum is swollen into blisters, split into curling strips and missing down to the rough screed. Room floors are cheap herringbone parquet: blocks lifted by moisture, sprung apart and missing in patches down to dark bitumen. Broken glass, plaster, paint flakes, wallpaper, dry leaves and small wood fragments cover the floor unevenly. Do not cover every surface with an impossible uniform dust layer.
+
+Doors are swollen and out of square. Veneer peels from their lower edges. One interior door hangs low on a single strained hinge. Door handles and much metal hardware are missing, leaving dark screw holes and exposed latch cavities. Electrical switches are cracked; old wiring emerges from open junction boxes. Some radiator and pipe sections have been cut away, leaving rusted brackets and pipe stubs.
+
+Furniture survives only as a few damaged carcasses: a warped brown chipboard wardrobe without doors, the frame of a bed, part of a polished wall unit with empty shelves, one overturned wooden chair and a kitchen cabinet leaning away from the wall. No intact furnished-room arrangement. Personal objects are few and accidental: one water-swollen book, a faded photograph face-down among debris, one child's shoe and an enamel mug. Nothing is artfully staged.
+
+ROOM 1 — HIS ROOM, STRAIGHT AHEAD
+A small rectangular ten-square-metre room. One large window supplies cold natural daylight. The wooden frame is warped; one sash remains with dirty dull glass while the neighbouring opening is empty. A torn curtain hangs in threads and moves in the draught.
+
+The bed has collapsed over time: one metal end stands against the wall, the other lies on the floor, and the rusted wire mesh sags almost to the parquet. A striped mattress has slid sideways, split open and darkened from moisture. A brown veneered wardrobe stands open with both doors missing and empty shelves. A small desk has lost one leg and rests crookedly against the wall; its detached drawer lies a metre away. An overturned chair rests among plaster fragments. One damp corner carries a small patch of bright moss close to the window, never across the whole room.
+
+ROOM 2 — LIVING ROOM, LEFT
+The largest room, seventeen square metres, with a wide window and damaged balcony door. A thick structural tree limb has grown in through the glassless window opening from outside. It crosses the sill, presses past the ruined frame and continues into the room. Fresh leaves and smaller twigs occupy part of the upper space. Moisture, leaves and organic debris beneath it support moss and a few thin shoots only near the window. The rest of the room remains an interior ruin, not a forest.
+
+A collapsed sofa frame sits against one wall. Nearby stands half of a polished Soviet wall unit: cloudy veneer, doors gone, shelves fallen and glass missing. On the floor lies an old Soviet television with a brown wooden case, rounded grey screen cracked, rear cover removed and internal parts stripped. No other functioning electronics.
+
+ROOM 3 — KITCHEN, RIGHT
+A narrow seven-square-metre kitchen. Lower walls retain dull turquoise-blue oil paint, upper walls chalky whitewash, both peeling in large curled flakes. The hand-painted boundary line remains visible. Buckled linoleum and fallen turquoise and white paint chips cover the floor.
+
+A chipped white enamel gas stove stands crooked and pulled away from the wall; the oven door hangs partly open on a dropped hinge and one cast-iron burner grate lies upside down nearby. A single wall cabinet has swollen and sagged. A small table under the window carries torn hardened oilcloth. One cloudy milk bottle and an enamel mug remain on the sill. A bare electrical wire hangs where the ceiling lamp was removed. No working refrigerator, running water, electric light, gas flame or neatly arranged dishes.
+
+ENVIRONMENT AND DAYLIGHT CONTINUITY
+Outside is the same late-spring afternoon as the preceding exterior: 1:00 PM, bright mostly sunny daylight, pale-blue sky with only a few small separated clouds, full new green foliage. No electrical light anywhere inside.
+
+Window light is neutral daylight at approximately 5600K. It enters strongly near the windows, becomes soft and green-tinted only where it passes through living leaves, and falls away naturally into the hallway. The corridor is low key but never crushed; the three room doorways read as brighter openings. Midtones remain readable, highlights retained, shadows detailed. Medium contrast. No horror-blue moonlight, sepia, radioactive green cast, teal-orange grade, stylised LUT, vignette, edge darkening or exposure pumping.
+
+FIRST FRAME AND SPATIAL BLOCKING
+Already standing on the third-floor landing at adult eye level, directly before the apartment door. A final concrete stair edge occupies the lower frame. The landing walls have faded turquoise oil paint below waist height and chalky pale paint above, both peeling. A plain steel balustrade sits at frame-left with blistered turquoise paint and orange rust. Moss follows the damp stair edge.
+
+The apartment door fills the centre ahead: a swollen Soviet timber entrance door covered in split brown vinyl padding, several upholstery studs missing, frame twisted out of square. The door is shut but not locked. No empty establishing pause; the unseen body is already leaning into it in frame one.
+
+FORMAT MODE
+ONE single continuous unbroken take lasting EXACTLY 26 SECONDS. ZERO cuts, transitions, dissolves, jumps, teleportation, hidden edits or separate shots. Every room is reached through physically connected doorways in the fixed layout. No montage and no impossible spatial transformation.
+
+OPTICS
+47° horizontal field of view — normal human spatial perception. Deep focus appropriate to a small apartment. Straight verticals and physical cine-lens perspective. No zoom, dolly, crane, fisheye, barrel distortion, anamorphic streak, lens flare, rack focus or artificial shallow depth of field.
+
+CAMERA — A HUMAN BODY
+The camera is the head of a walking adult, not a floating rig. Slow, calm, familiar movement. Very low-amplitude vertical rise and fall, small lateral weight transfer and organic imperfect correction after each step. Heel contact, mass settling and toe push-off. The head remains naturally level. No running, rushing, high bounce, springing, gimbal glide or mechanical motion.
+
+The body is invisible but has full physical volume and mass. It pushes the swollen entrance door with its unseen shoulder; no arm or hand enters frame. It steps over debris instead of passing through it. Movement is deliberate and spatially continuous.
+
+CAMERA PATH AND GAZE
+Begin at the landing, shoulder the front door inward and enter the hallway. Continue STRAIGHT into his room. Pause there without freezing. Back out only far enough to regain the hallway axis, turn LEFT into the living room, then return through the same doorway and turn RIGHT into the kitchen. End inside the kitchen.
+
+Every turn is a human head-and-body turn: quicker through the first third, easing longer at the end, subtle settling on arrival. Never a constant-speed pan, snap, orbit or detached camera sweep. The body and gaze turn together except during the short held observations.
+
+ACTION TIMING
+0.0–2.5s — the unseen shoulder presses the swollen entrance door. Vinyl creaks, wood flexes and the lower edge scrapes over grit. The door opens reluctantly inward. Camera mass shifts forward with the push; no body part appears.
+
+2.5–6.0s — step across the threshold into the narrow dim hallway. Debris crunches underfoot. Three brighter openings establish the fixed layout: his room straight ahead, living room left, kitchen right. Continue directly toward his room without looking into the side rooms yet.
+
+6.0–8.0s — cross the doorway into his room and take two slow steps inside. The collapsed bed enters frame-left, crooked desk and overturned chair frame-right, window ahead.
+
+8.0–14.0s — longest observation. Hold inside his room while remaining physically alive: faint breathing sway and sub-degree eye drift, never tripod-still. Read the broken bed, empty wardrobe, swollen book, split wallpaper and cold window. A loose curtain thread and hanging wallpaper move in the draught. Nothing else happens.
+
+14.0–15.5s — step backward into the hallway and turn LEFT in one continuous human movement. Do not reverse the apartment geometry or create a new corridor.
+
+15.5–20.0s — enter the living room. The thick tree limb through the broken window becomes the central event. Move one slow step closer, then hold long enough to read the leaves inside, moss beneath the sill, collapsed sofa, stripped wall unit and gutted television. The branch is static structural mass; only leaves and thin twigs move in the draught.
+
+20.0–21.5s — return through the same living-room doorway to the hallway and turn RIGHT toward the kitchen. One continuous body turn, no cut.
+
+21.5–26.0s — enter the kitchen and continue two slow steps toward the crooked stove and table beneath the window. End with the stove at lower-left, torn-oilcloth table and window ahead, peeling turquoise wall and hanging lamp wire visible. The camera is still settling from the final walking step when the shot ends; no frozen final pose.
+
+INTERIOR COLLIDER AND CONTACT
+The unseen body occupies space. Nothing passes through it. The shoulder physically loads and opens the swollen front door; the door moves on its real hinges, scrapes the floor and rebounds a few millimetres when pressure releases. Loose wallpaper beside the body lifts in the displaced air and settles afterward. Dry leaves and paint flakes shift locally at footfall. Glass and plaster compress or slide under the unseen shoes with weight and sound.
+
+Keep doorways and the walking line passable. Do not invent branches, furniture or debris directly across the route. If a thin twig from the living-room tree touches the invisible shoulder boundary, it bends away, shakes and recovers one beat later. No clipping, intersection or objects passing through the camera. No visible limbs.
+
+PHYSICS
+Gravity and inertia respected. The door, mattress, furniture and tree limb have real mass. Heavy objects remain still. Only light materials respond: wallpaper edges stir, curtain threads move, leaves tremble, fine dust and plaster shift at steps. No object levitates, crawls or moves by itself. Wind response is strongest near broken windows and weak in the enclosed hallway.
+
+AUDIO
+Diegetic environmental sound only — strained vinyl and timber as the door opens, lower door edge scraping grit, slow footsteps changing from concrete to buckled linoleum and broken parquet, glass and plaster crunching underfoot, room-specific reverberation, wind entering through broken windows, wallpaper flutter, leaves brushing the living-room frame, one irregular distant water drip and subtle building creaks. No music. No narration. No voices. Nobody speaks.
+
+STYLE
+Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
+Cinematography: immersive first-person camera that physically lives inside the space; natural motivated daylight only; restrained observational composition.
+Lighting: late-spring afternoon at 1:00 PM. Neutral daylight from windows, falling naturally into the apartment. No electric fixtures and no fill from the camera side.
+Color: weathered neutral concrete, faded turquoise paint, dirty off-white plaster, brown damaged veneer, muted rust and restrained new-growth green near windows.
+Camera: physical cine lens. 180° shutter motion blur.
+Surfaces: material-level realism — curled wallpaper, moisture-swollen chipboard, lifted parquet, buckled linoleum, rust, mould, glass, plaster and decades of weather exposure. Nothing looks recently placed.
+Physics: gravity and inertia respected. The invisible body has mass. Nothing passes through anything; contacted light materials move and recover with delay.
+Composition: rule of thirds and natural doorway framing.
+Continuity: fixed apartment layout, objects and lighting identical throughout. No spatial or environmental drift.
+Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette or edge darkening. Even exposure corner to corner.
+Audio: environmental SFX only. No music, subtitles, narration or voices.
+
+POSITIVE CONSTRAINTS
+EXACTLY 26 seconds. ONE continuous take with ZERO cuts. ZERO visible characters and ZERO visible body parts.
+Fixed layout throughout: room straight ahead, living room left, kitchen right. Never swap, mirror, duplicate or relocate the rooms.
+The entrance door opens only because the unseen shoulder physically pushes it. No hand appears and the door does not open by itself.
+This is a looted ordinary late-Soviet apartment, not an untouched 1986 time capsule and not a theatrical haunted house. Sparse broken furniture and few displaced personal objects only.
+Decay comes from forty years without heat or repair: moisture, frost, draught, vandalism and plant intrusion. No explosion damage, fire, blood, bodies, bones, mutants, supernatural motion or glowing radiation.
+One mature tree limb enters ONLY the living room through its broken window. No forest in the hallway, bedroom or kitchen.
+No staged dolls, gas masks, ritual arrangements or art-directed piles of memorabilia.
+No modern furniture, PVC windows, LED lighting, contemporary appliances, renovated surfaces or functioning utilities.
+No vignette, edge darkening, crushed blacks, clipped windows, flicker or exposure pumping.
+
+Photoreal. NON-IP. 16:9. EXACTLY 26s. SFX only. NO CGI. Cinematic. Present tense.
+```
