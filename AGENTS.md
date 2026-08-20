@@ -44,6 +44,9 @@ material and in the migration map in `SCENE_SHORTLIST.md`.
 These wrappers adapt the supplied source skills to this film. Their `references/` folders preserve the
 original material for audit; project rules override generic defaults.
 
+Useful process practices extracted from the separate template project are summarized in
+`docs/HELL_GRIND_PRACTICES.md`; that external project is evidence, not canon.
+
 ## Git and cleanup
 
 Preserve unrelated user changes. Old prompts are archived, not silently deleted. Do not commit generated
