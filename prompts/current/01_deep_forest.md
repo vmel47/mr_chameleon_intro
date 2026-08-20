@@ -1,13 +1,13 @@
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, hands, arms, legs, feet, boots, clothing, viewer shadow or reflection at any point.
 
 REFERENCE HIERARCHY
-@loc_forest_pripyat is the sole location element and spatial identity. Preserve its exact forest species, trunk spacing, terrain, undergrowth, road position, season, weather, time of day, colour response and abandonment. Use it as the same continuous physical forest. Do not inherit an aerial camera angle. Do not add a path, trail, road marking, sign, building, person or vehicle.
+@loc_forest_pripyat is the sole location element and spatial identity. Preserve its exact pine-and-birch forest, trunk spacing, terrain, undergrowth, season, weather, time of day, colour response and abandonment. This is the denser interior of the same forest used in generation 02. Do not inherit the reference camera angle. Do not add a path, trail, road, sign, building, person or vehicle.
 
 SCENE
-One continuous 16-second first-person walk inside the deeper part of this forest, still well before the road. The unseen person travels steadily through naturally spaced pine and birch trunks on raw forest floor. The road remains out of frame throughout this first part. Start already walking and never stop.
+One continuous 16-second first-person walk inside the deeper part of this forest, still well before the road. The unseen person travels steadily through naturally spaced trunks on ordinary raw forest floor. Start already walking and never stop.
 
-GROUND STATE
-The forest floor is not bare. Low natural vegetation approximately 20–30 cm high grows directly in the travel corridor: grass, soft ferns, thin herb stems, young shoots and scattered leaf litter. It is irregular wild growth, not a trail and not an impenetrable wall. The camera begins behind this vegetation; it does not suddenly generate beneath the viewer.
+ROUTE AND VEGETATION
+The direction of travel is a naturally passable gap between trunks, not a trail. Keep the immediate walking line visually clear and ordinary: leaf litter, moss, sparse short grass and low ground cover only. Do not generate tall grass, ferns, saplings, leafy shoots, bushes or branches directly in front of or directly beneath the camera. Denser undergrowth, 20–30 cm plants and leafy growth remain mainly along the sides of the route, never arranged as an obstacle course.
 
 CAMERA AND OPTICS
 The camera is the eyes and head of a real 1.8-metre-tall walking person, not a drone, gimbal or floating rig. Optical centre remains 1.8 metres above the supporting terrain. 47° diagonal field of view, spherical normal-lens character, fixed focal length, natural human perspective, 180° shutter, 24 fps. Moderate depth of field with readable nearby bark and coherent depth behind it. No zoom, orbit, crane, dolly glide, speed ramp, cut or transition.
@@ -15,34 +15,22 @@ The camera is the eyes and head of a real 1.8-metre-tall walking person, not a d
 MOVEMENT
 Slow, calm, measured human walking. Natural heel contact, mass settling, toe push-off, restrained vertical head rise and fall, slight lateral weight transfer and small independent gaze corrections. No running, bouncing, springing, mechanical stabilisation or perfectly level flight. The route subtly threads between trunks without inventing a trodden trail.
 
-GROUND COLLIDER — MANDATORY LOWER-BODY PHYSICS
-The camera belongs to a complete invisible human body. Invisible thighs, knees, shins, boots and moving feet occupy physical space below the camera. Ground vegetation must collide with those moving volumes even though no body part is rendered.
-
-For every step, show the complete local contact sequence:
-1. Before the step arrives, the grass and 20–30 cm stems stand naturally.
-2. The invisible leading boot and shin contact a small patch; stems bend forward and sideways away from the point of impact.
-3. As body weight passes over it, that patch compresses toward the soil; ferns fold, leaf litter shifts, and dry leaves slide or lift slightly.
-4. The invisible trailing leg releases the patch after the body has moved beyond it.
-5. The vegetation rises only partially and one beat late, with small residual oscillation; a faint temporary flattened footprint remains behind.
-
-Alternate left-foot and right-foot reactions at a believable walking cadence. Each reaction is local, narrow and sequential, matching the exact unseen foot placement. The vegetation must never remain rigid while the camera passes above it, must never pass through invisible legs, and must never flatten everywhere at once. The visible evidence of walking is the moving corridor of compressed plants directly beneath and just ahead of the camera, plus the delayed recovery behind it.
-
-FULL-BODY COLLISION CAPSULE
-The unseen head, shoulders, torso and hips also occupy space. Any higher fern, sapling or branch that reaches the route parts before reaching the lens, bends and slides around the invisible body, then releases behind with delayed spring-back. No branch touches or crosses the lens. No hands appear to clear vegetation. Body contact is stronger and more local than ambient wind.
+CONDITIONAL BODY COLLISION
+The camera belongs to a complete invisible human body with real volume and mass, but the route is composed to avoid deliberate contact. If an incidental grass tip, soft stem or side branch nevertheless reaches the moving body, it bends locally away from contact, slides past and recovers a beat later. Leaf litter and very short ground cover may compress subtly beneath unseen footfalls. Nothing passes through the invisible body or lens. Do not create vegetation in the route merely to demonstrate this effect. No body part is ever rendered.
 
 TIMING
-0.0–5.0s — already walking through the dense forest. The first alternating foot contacts immediately bend and compress the existing 20–30 cm ground growth. Choose a natural gap between trunks; no road is visible.
-5.0–11.0s — continue on the same heading and pace. Small human head turns inspect passing trunks while the step-by-step vegetation displacement continues continuously below.
-11.0–16.0s — continue toward a slightly brighter gap deeper ahead, ending still inside the woods before any road reveal. The final stride continues beyond the end of the clip; no slowdown or stop.
+0.0–5.0s — already walking forward through the denser forest along the naturally open line between trunks. The road is not visible.
+5.0–11.0s — continue with the same calm gait and heading. Small natural head corrections observe passing trunks and side undergrowth without stopping.
+11.0–16.0s — continue toward a slightly brighter but still wooded area ahead, ending fully inside the forest before any road reveal. The final stride continues beyond the end; no slowdown or stop.
 
 ENVIRONMENT AND LIGHT
-Late spring turning into early summer, exactly 1:00 PM. Bright mostly sunny sky above the canopy: pale blue with a few small separated soft-white clouds and large blue gaps, never overcast. High soft sun three-quarters behind creates restrained warm rim and broken dappled patches. Neutral daylight white balance around 5600K. New-growth foliage is true natural green; pine bark, birch bark, moss and leaf litter remain materially accurate. Medium contrast, open midtones, readable shadows, retained highlights, slight atmospheric haze. Even exposure corner to corner. No vignette, edge darkening, teal-orange grade, sepia, HDR halo, bloom or artificial fog.
+Late spring turning into early summer, exactly 1:00 PM. Bright mostly sunny sky above the canopy: pale blue with a few small separated soft-white clouds and large blue gaps, never overcast. High soft sun three-quarters behind creates restrained warm rim and broken dappled patches. Neutral daylight white balance around 5600K. New-growth foliage is true natural green; pine bark, birch bark, moss and leaf litter remain materially accurate. The denser canopy makes this part naturally darker than generation 02 without changing the weather or grade. Medium contrast, open midtones, readable shadows, retained highlights, slight atmospheric haze and even exposure corner to corner. No vignette, edge darkening, teal-orange grade, sepia, HDR halo, bloom or artificial fog.
 
-PHYSICS AND CONTINUITY
-Gravity, body mass, foot placement, terrain height and collision remain coherent. The head camera moves because a human body walks beneath it. Wind gently moves broad foliage on one frequency; foot and body contacts create stronger local bending on another. Nothing intersects the camera or unseen body. No newly appearing plants, teleporting branches, geometry drift, road reveal or artificial clearing.
+CONTINUITY WITH GENERATION 02
+This is the same forest, same day, same direction of travel and same unseen walker as generation 02. Preserve identical tree species, bark character, foliage maturity, ground moisture, wind direction, optics, camera height, gait, colour and light direction. Only density changes gradually: generation 01 is deeper and denser; generation 02 begins farther ahead where the same forest naturally thins toward the road.
 
 AUDIO
-Diegetic only: measured alternating footsteps on damp soil and leaf litter; soft compression and release of grass beneath each unseen boot; ferns and stems brushing invisible shins at the matching contact moments; subtle cloth movement; light wind through pine needles; sparse distant birds and insects. No narration. No voices. Nobody speaks. No music.
+Diegetic only: the same measured alternating footsteps on leaf litter and soft soil throughout; subtle cloth movement; light wind through pine needles; sparse distant birds and insects. Any incidental vegetation rustle occurs only at the exact moment of real contact. No narration. No voices. Nobody speaks. No music.
 
 QUALITY
 Photorealistic documentary-cinematic realism, 16:9, 16 seconds, 8K detail, material-level bark, moss and foliage, stable geometry, consistent exposure and clean natural motion blur. No CGI look, game-engine look, jitter, flicker, interpolation warping, clipping or floating-camera behaviour.

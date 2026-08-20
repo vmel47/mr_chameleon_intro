@@ -1,116 +1,38 @@
-SCENE CONTEXT
-EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no feet, no shadow of
-the viewer at any point. A person walks slowly, calmly and at an unhurried, leisurely, cinematic pace through
-wild forest floor inside an abandoned zone, looks up at the sky, and comes out of the trees toward an empty
-perpendicular road running across in the distance. One continuous 16-second take, no cuts.
+EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, hands, arms, legs, feet, boots, clothing, viewer shadow or reflection at any point.
 
+REFERENCE HIERARCHY
+@loc_forest_pripyat is the sole location element and spatial identity. Preserve its exact pine-and-birch forest, trunk spacing, terrain, undergrowth, abandoned asphalt road, season, weather, time of day, colour response and abandonment. This is the same forest and the same forward journey as generation 01, now farther ahead where the trees naturally thin toward the road. Do not inherit the reference camera angle. Do not add a path, trail, road marking, sign, building, person or vehicle.
 
-ENVIRONMENT
-Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
-Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps, revealed as the canopy opens; never overcast.
-Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
-Shadows: softly defined and readable, all falling the same way.
-Air: light haze thickening with distance, pollen drifting in bright gaps.
-Time: 1:00 PM, early afternoon daylight.
+SCENE
+One continuous 16-second first-person walk from the thinning edge of the forest to the verge of the abandoned road. Start already walking approximately 12–15 metres inside the trees. Continue without stopping until the near edge of the asphalt is reached at the end.
 
-COLOUR AND GRADE
-Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
-Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
-Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
-Medium contrast. Bright, clear, natural late-spring daylight, recorded the way an ordinary camera records it.
-NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
+ROUTE AND VEGETATION
+The direction of travel is a naturally passable gap between trunks, never a trodden path. Keep the immediate walking line visually clear and ordinary: leaf litter, moss, sparse short grass and low ground cover only. Do not generate tall grass, ferns, saplings, leafy shoots, bushes or branches directly in front of or beneath the camera. Denser plants stay mainly to the sides. The road is ordinary neglected Pripyat asphalt: aged, cracked and weathered, with irregular edge breakup and modest encroaching growth; no painted lane markings, maintained shoulder, curb, fresh repairs or active traffic.
 
-ROUTE
-One continuous walk along one route: deep forest, out to a road, then along that road to the city sign.
-00 — deep inside the forest. Canopy closed overhead, no sky visible, no road anywhere in frame. The darkest of the three.
-01 — the same forest thinning out. The canopy opens, sky appears, the light steadily increases, and at the end an asphalt road.
-02 — on that same road, walking along it. The city sign stands on the right-hand verge.
-The light gets BRIGHTER from 00 through 01 to 02 and never darker. The forest is the closed dark part of the walk; the road is the open bright part. Same asphalt, same verges, same direction of travel, same afternoon.
-ACTIVE REFERENCES
-@loc_MC_forest for location reference — take only the space and the texture: dense pine and birch trunks,
-low undergrowth, deep leaf litter, thin daylight through the canopy. Do not use as a starting frame, do
-not inherit the composition, the angle or the grade.
+CAMERA AND OPTICS
+The camera is the eyes and head of a real 1.8-metre-tall walking person, not a drone, gimbal or floating rig. Optical centre remains 1.8 metres above the supporting terrain. 47° diagonal field of view, spherical normal-lens character, fixed focal length, natural human perspective, 180° shutter, 24 fps. Moderate depth of field with readable nearby bark and coherent depth behind it. No zoom, orbit, crane, dolly glide, speed ramp, cut or transition.
 
-FIRST FRAME AND SPATIAL BLOCKING
-First frame is already mid-stride on wild forest floor: trunks passing close on both sides, stepping forward
-through leaf litter toward a break in the trees dead ahead. No empty establishing beat.
+MOVEMENT
+Slow, calm, measured human walking. Natural heel contact, mass settling, toe push-off, restrained vertical head rise and fall, slight lateral weight transfer and small independent gaze corrections. No running, bouncing, springing, mechanical stabilisation or perfectly level flight. The route subtly threads between trunks without inventing a trodden trail.
 
-FORMAT MODE
-Single continuous take, real time, no cuts, no speed ramps.
+CONDITIONAL BODY COLLISION
+The camera belongs to a complete invisible human body with real volume and mass, but the route is composed to avoid deliberate contact. If an incidental grass tip, soft stem or side branch nevertheless reaches the moving body, it bends locally away from contact, slides past and recovers a beat later. Leaf litter and very short ground cover may compress subtly beneath unseen footfalls. Nothing passes through the invisible body or lens. Do not create vegetation in the route merely to demonstrate this effect. No body part is ever rendered.
 
-OPTICS
-47° diagonal field of view, standard normal lens character, natural human-eye perspective. Deep enough
-focus to hold both the near trunks and the distant horizon. No distortion.
+TIMING
+0.0–5.0s — already walking with exactly the same gait and heading as generation 01. The canopy is still partly closed, but the road is now intermittently visible through the trunks ahead.
+5.0–8.0s — while the walk continues unchanged, the gaze makes one restrained natural lift toward the opening canopy and the pale-blue sky with a few separated clouds. No exaggerated tilt and no interruption of footfall rhythm.
+8.0–10.0s — the gaze settles naturally back onto the route, slower than it lifted. Walking remains continuous and measured.
+10.0–14.0s — the final trunks pass to the sides; the supporting surface changes gradually from leaf litter to sparse short grass and broken road-edge asphalt. The same gait continues, with only the physically natural change in footfall response.
+14.0–16.0s — reach the near edge of the empty road and continue the final step toward the asphalt. Do not stop, pose or look sideways. End in continuous forward motion.
 
-CAMERA
-The camera is a walking body moving at a slow, calm, unhurried gait, not a rig: gentle vertical rise
-and fall on each stride, small lateral sway, organic imperfect correction after every step. It never
-stabilises into a glide. Exactly two deliberate moves in the whole take — one look up, one look back down.
-The camera optical centre stays 1.8 metres above the local supporting surface throughout.
+ENVIRONMENT AND LIGHT
+Late spring turning into early summer, exactly 1:00 PM. Bright mostly sunny pale-blue sky with a few small separated soft-white clouds and large blue gaps, never overcast. High soft sun three-quarters behind creates restrained warm rim and broken dappled patches. Neutral daylight white balance around 5600K. New-growth foliage is true natural green; pine bark, birch bark, moss, leaf litter and asphalt remain materially accurate. The light increases naturally as the same canopy thins, without changing weather, white balance or grade. Medium contrast, open midtones, readable shadows, retained highlights, slight atmospheric haze and even exposure corner to corner. No vignette, edge darkening, teal-orange grade, sepia, HDR halo, bloom or artificial fog.
 
-ACTION TIMING
-0.0–5.0s — the canopy is still closed overhead and the light is low; walking forward slowly at an unhurried, calm, leisurely cinematic pace; trunks enter close on
-the left and pass out slowly; the break in the trees ahead widens and brightens.
-5.0–8.0s — the gaze lifts to the sky: broken cloud with one gap of direct sun, thin branches crossing it.
-The slow walk continues underneath the tilt without breaking rhythm. The tilt eases in and settles.
-8.0–9.0s — the gaze comes back down to the route, slower than it left.
-9.0–13.0s — the last trunks fall away left and right; the sky opens across the top of frame; the ground
-underfoot changes from leaf litter to dry grass and broken asphalt.
-13.0–16.0s — open ground. Far off about fifty metres ahead in the haze, an empty perpendicular road opens up
-running horizontally across in the background. The head drifts a few degrees to hold it centred.
-COLLIDER — the camera is a body, not a flying camera
-The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
-mass, and nothing in the world passes through it.
-Do not place anything in the path. Do not invent branches, bushes or obstacles in front of the camera — the
-way ahead stays clear and open, and the vegetation lives at the sides of frame, trunks and undergrowth
-passing by as the walk goes on.
-But if anything does end up in the path — a bush, a clump of tall grass, a low branch, thick undergrowth —
-it reacts. It bends, shakes and folds away where the unseen body meets it, and it recovers a beat later. It
-is never passed through as if it were not there.
-Grass and undergrowth underfoot bend and flatten where each step lands, then spring back after the foot
-lifts, one beat behind the walk. Dust, pollen and leaf litter lift from the ground where the foot lands.
-No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is seen is the vegetation
-reacting, never the body that made it react.
-No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
-
-PHYSICS
-Weight transfer on every slow step: heel contact, mass settling, toe push-off. The footfall sound and the
-body's vertical bounce change when the ground changes from soft litter to hard asphalt. Branches move on
-wind and rebound. Cloud moves at cloud speed, branches on a separate faster frequency. Wind is
-stronger in the open than under the canopy and moves the grass in travelling waves.
-
-LIGHTING
-This is the TRANSITION between the closed forest and the open road, and the light RISES steadily across the
-whole take — it starts one stop under and ends level with the open daylight of generation 02, and it never
-goes the other way. At the start the canopy is still mostly closed and the floor sits low key with moving
-dapple. As the trees thin, more sky enters the top of frame and the overall level climbs continuously. By
-the last beat the frame is open daylight. Mid-tones stay open throughout, shadows stay dark but never
-crushed, sky highlights are retained and never clipped.
+CONTINUITY WITH GENERATION 01
+Same forest, same day, same direction of travel and same unseen walker. Preserve identical tree species, bark character, foliage maturity, ground moisture, wind direction, optics, camera height, exact gait, colour and light direction. Generation 02 is not a different forest; it is the natural continuation of generation 01 after moving farther toward the road.
 
 AUDIO
-Diegetic only — 0.0–4.0s near-total forest silence: subtle wind through pine needles and soft footsteps on leaf litter only. No bird calls or sharp sounds in the opening seconds. From ~5.0s onward: distant sparse bird calls, soft wind, drifting insects. No music. No narration. No voices. Nobody speaks.
-
-STYLE
-Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
-Cinematography: physically grounded embodied POV; natural motivated light only; composed documentary frames with real mass and inertia.
-Lighting: Late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated clouds and large blue gaps. Soft sun high and three-quarters behind — restrained warm rim, camera side a stop and a half under, never blinding, no hard flare. Key from sky only. No fill from the camera side.
-Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
-Camera: Physical cine lens. 180° shutter motion blur.
-Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
-Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
-Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
-Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
-Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
-Composition: Rule of thirds + golden ratio.
-Continuity: Characters, props, environment identical across every cut. No identity drift.
-Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
+Diegetic only: the same measured alternating footsteps and subtle cloth movement as generation 01; soft leaf litter at first, then sparse grass and finally the harder response of broken asphalt; light wind through needles becoming slightly more open near the road; sparse distant birds and insects. Any incidental vegetation rustle occurs only at the exact moment of real contact. No narration. No voices. Nobody speaks. No music.
 
 QUALITY
-8K detail, bark and lichen at material level, clean cloud gradation, no jitter, no flicker.
-
-POSITIVE CONSTRAINTS
-Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
-Zero people visible anywhere. No hands, no arms, no feet, no body part and no cast shadow of the viewer
-enters frame at any time. The slow walk never stops — the body keeps moving slowly through the upward look.
-Exactly ONE break in the cloud; no clear blue sky, no aircraft, no contrails. No vehicles, no buildings, no signs.
-Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
+Photorealistic documentary-cinematic realism, 16:9, 16 seconds, 8K detail, material-level bark, moss, foliage and asphalt, stable geometry, consistent exposure and clean natural motion blur. No CGI look, game-engine look, jitter, flicker, interpolation warping, clipping or floating-camera behaviour.
