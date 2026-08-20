@@ -1,6 +1,6 @@
 # 07 · КВАРТИРА · ТЕКУЩИЙ РАБОЧИЙ ПРОМПТ · 20 СЕКУНД
 
-**Статус:** текущая лучшая версия по выбору пользователя · ещё не отснята · сохранить без автоматического объединения с другими вариантами
+**Статус:** текущая объединённая версия · лучшая дверь и закрытая лестничная клетка + лучший трёхзонный интерьер · ещё не отснята
 
 ```text
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, hands, arms, shoulders, legs, feet, reflection or cast shadow of the viewer enters frame at any moment. We only ever see what he sees.
@@ -8,10 +8,13 @@ EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, hands, arms, sh
 SCENE CONTEXT
 A person enters his former apartment inside a nine-storey late-Soviet panel block in Pripyat. The flat has stood unheated and abandoned for roughly forty years. It has been looted, repeatedly entered and physically damaged by moisture, frost, wind and vegetation. He moves through the landing, hallway, his small room, the living room and the kitchen. This was his home. He knows every doorway and does not explore it like a visitor.
 
-One continuous 20-second first-person take. No references. Generate the entire location from the architectural and material description below.
+One continuous 20-second first-person take. Use @Image 1 as a FLOOR-PLAN REFERENCE ONLY. Generate all appearance, materials, decay, lighting and objects from the architectural description below.
+
+REFERENCE BINDING — @Image 1
+@Image 1 defines ONLY the immutable apartment geometry and adjacency. Translate its top-down plan into one continuous photorealistic three-dimensional interior; never reproduce the diagram, labels, arrows, black plan lines, measurements or overhead viewpoint in the video. The entrance is at bottom centre. From the entrance, the living room is the LEFT bay, the bedroom is the CENTRAL bay, and the kitchen is the FAR-RIGHT bay. All three open independently from the same entrance/corridor spine. The camera must physically return through the same doorway to that corridor before reaching the next space. @Image 1 supplies no visual style, furniture, condition, colour, lighting, door design or camera framing.
 
 APARTMENT TYPE AND EXACT FIXED FLOOR PLAN
-An ordinary compact late-Soviet TWO-ROOM apartment inside a 1970s–1980s Ukrainian precast-panel block: approximately 44–48 square metres total, 27 square metres of living space, ceiling height 2.60–2.64 metres. It has TWO habitable rooms only: a 17 m² living room and a separate 10 m² bedroom. The 7 m² kitchen is not a habitable room. There is one entrance vestibule, one narrow distribution corridor, a separate bathroom and toilet, and a small utility/storage recess. This is a standard serial panel-flat layout with isolated rooms, not an open plan, enfilade, studio, Khrushchev walk-through layout, custom apartment, hotel or institution.
+An ordinary compact late-Soviet TWO-ROOM apartment inside a 1970s–1980s Ukrainian precast-panel block: approximately 44–48 square metres total, 27 square metres of living space, ceiling height 2.60–2.64 metres. It has TWO habitable rooms only: a 17 m² living room and a separate 10 m² bedroom, plus a separate 7 m² kitchen. These are the THREE DISTINCT SPACES visited in the take; none may be omitted, merged or substituted. There is one entrance vestibule, one narrow distribution corridor, a separate bathroom and toilet, and a small utility/storage recess. This is a standard serial panel-flat layout with isolated rooms, not an open plan, enfilade, studio, Khrushchev walk-through layout, custom apartment, hotel or institution.
 
 Treat the plan as an immutable measured rectangle divided into three parallel façade bays. The exterior WINDOW FAÇADE runs along the far side opposite the entrance. All three daylight spaces line this same façade in strict left-to-right order: LIVING ROOM — BEDROOM — KITCHEN. The apartment entrance is on the opposite inner wall near the bottom centre of the plan.
 
@@ -36,7 +39,7 @@ Hallway and kitchen linoleum is swollen into blisters, split into curling strips
 
 Doors are swollen and out of square. Veneer peels from their lower edges. One interior door hangs low on a strained hinge. Handles and metal hardware are partly missing, leaving screw holes and exposed latch cavities. Electrical switches are cracked; old wiring emerges from open junction boxes. Some radiator and pipe sections have been cut away, leaving rusted brackets and pipe stubs.
 
-Furniture survives only as a few damaged carcasses: a warped brown chipboard wardrobe without doors, collapsed bed frame, part of a polished wall unit with empty shelves, one overturned wooden chair and a kitchen cabinet leaning away from the wall. Personal objects are few and accidental: one water-swollen book, a faded photograph face-down, one child's shoe and an enamel mug. Nothing is artfully staged.
+Furniture survives only as a few damaged carcasses: a warped brown chipboard wardrobe without doors, collapsed bed frame, part of a polished wall unit with empty shelves, one overturned wooden chair and a kitchen cabinet leaning away from the wall. Personal objects are few and accidental: one closed water-swollen book, one child's shoe and an enamel mug. There are no photographs, portraits, albums, negatives or photographic paper anywhere. Nothing is artfully staged.
 
 ROOM 1 — HIS ROOM / BEDROOM, CENTRAL BAY
 A small rectangular ten-square-metre room. One large window supplies cold natural daylight. Its wooden frame is warped; one sash retains dirty dull glass while the neighbouring opening is empty. A torn curtain hangs in threads and moves in the draught.
@@ -51,7 +54,7 @@ A collapsed sofa frame sits against one wall. Half of a polished Soviet wall uni
 ROOM 3 — KITCHEN, FAR RIGHT END OF CORRIDOR
 A narrow seven-square-metre kitchen. Lower walls retain dull turquoise-blue oil paint and upper walls chalky whitewash, both peeling in large curled flakes. The hand-painted boundary line remains visible. Buckled linoleum and fallen turquoise and white paint chips cover the floor.
 
-A chipped white enamel gas stove stands crooked and pulled away from the wall; the oven door hangs partly open on a dropped hinge and one cast-iron burner grate lies upside down nearby. A single wall cabinet has swollen and sagged. A small table beneath the window carries torn hardened oilcloth. One cloudy milk bottle and an enamel mug remain on the sill. A bare electrical wire hangs where the ceiling lamp was removed. No working utilities or neatly arranged dishes.
+A period-correct narrow Uzhgorod PG 4/1-1-type four-burner Soviet enamel gas cooker stands crooked and pulled away from the wall: dull cream-white chipped enamel, rusted common grate, five cracked yellowed Bakelite knobs, no display and no modern glass oven styling. Beside it, clearly visible against the right wall, stands a dead Donbass-3 KSh-180-type single-door Soviet refrigerator: medium-height rectangular off-white enamelled steel cabinet, one large outer door with rounded edges, simple period pull handle, yellowed cracked gasket, rust around the lower corners and hinges, door slightly misaligned; the small freezer box is inside, never a second exterior door. A single wall cabinet has swollen and sagged. A small table beneath the window carries torn hardened oilcloth. One cloudy nearly empty Soviet milk bottle with only dry dark residue and an enamel mug remain on the sill. A bare electrical wire hangs where the ceiling lamp was removed. No working utilities or neatly arranged dishes.
 
 ENVIRONMENT AND DAYLIGHT CONTINUITY
 Outside is the same late-spring afternoon as the preceding exterior: 1:00 PM, bright mostly sunny daylight, pale-blue sky with a few small separated clouds and full new green foliage. No electrical light inside.
@@ -61,7 +64,7 @@ Window light is neutral daylight at approximately 5600K. It is strongest near wi
 FIRST FRAME AND SPATIAL BLOCKING
 Already approaching the apartment door on the THIRD-FLOOR INTERIOR LANDING at adult eye level, about 1.2 metres away. This is a fully enclosed stairwell deep inside a standard Soviet panel apartment building — NEVER an outdoor balcony, exterior access gallery or open-air landing.
 
-The landing is a small rectangular reinforced-concrete space enclosed by solid walls and ceiling. The apartment wall and door are straight ahead. A solid perpendicular concrete wall continues on the RIGHT. On the LEFT is a normal internal stairwell arrangement: a short horizontal landing edge, an old welded-steel balustrade guarding the CENTRAL INTERIOR STAIRWELL VOID, and beyond it the next concrete stair flight continuing within the building. The railing does not border the outdoors. Behind and beyond the railing are the opposite interior stairwell wall, concrete landings and shadowed continuation of the stairs — NEVER trees, sky, forest, daylight exterior or an unprotected drop outside the building. A dirty stairwell window may provide daylight only from a distant wall outside the immediate frame.
+The landing is a small rectangular reinforced-concrete space enclosed by solid walls and ceiling. The apartment wall and door are straight ahead. A solid perpendicular concrete wall continues on the RIGHT. On the LEFT is a normal internal stairwell arrangement: a short horizontal landing edge, an old welded-steel balustrade guarding the CENTRAL INTERIOR STAIRWELL VOID, and beyond it the next concrete stair flight continuing within the building. The railing does not border the outdoors. Behind and beyond the railing are the opposite interior stairwell wall, concrete landings and shadowed continuation of the stairs — NEVER trees, sky, forest, daylight exterior or an unprotected drop outside the building. A dirty stairwell window may exist only on a distant enclosed wall outside the immediate frame and may provide weak diffuse reflected daylight. No direct sunbeam or hard sun patch reaches this landing; it must read unmistakably as an enclosed internal stairwell.
 
 A final worn concrete stair edge occupies the lower-left frame and connects physically to the landing under the camera. The landing has enough solid floor to stand and turn safely. Walls carry faded turquoise oil paint below waist height and chalky dirty off-white paint above, both peeling and water-stained. The plain welded-steel balustrade at frame-left has a dark brown wooden or painted metal handrail, blistered turquoise uprights and orange rust. The landing floor is cracked dusty concrete with fallen paint and plaster. Only a very small trace of damp moss may follow one wall joint; this is not an exterior forest floor.
 
@@ -110,7 +113,7 @@ ACTION TIMING
 
 12.5–16.0s — turn approximately 180 degrees inside the living room, visibly find the SAME doorway and walk back through it. Turn RIGHT and proceed along the SAME 1.2–1.35 m corridor toward its far end. Pass the bedroom doorway on the LEFT, then the separate toilet and bathroom doors on the RIGHT. Corridor walls, repeated jambs, thresholds and floor debris remain continuously visible; no cut, substitution or spatial reset.
 
-16.0–20.0s — arrive at the FAR RIGHT END of the corridor, turn LEFT through the kitchen doorway at its terminus and take two slow steps inside. Only now reveal the unique 7 m² kitchen: window on the common exterior façade ahead, peeling turquoise lower wall, crooked enamel stove near the far-right corner, sink/cabinet run on the right wall, upside-down burner grate, sagging cabinet and torn-oilcloth table. The camera is still settling from the final walking step when the shot ends; no frozen pose.
+16.0–20.0s — arrive at the FAR RIGHT END of the corridor, turn LEFT through the kitchen doorway at its terminus and take two slow steps inside. Only now reveal the unique 7 m² kitchen: window on the common exterior façade ahead, peeling turquoise lower wall, corroded Uzhgorod PG 4/1-1-type cooker near the far-right corner, MANDATORY dead one-door Donbass-3 refrigerator clearly visible against the right wall, damaged sink/cabinet run, sagging cabinet and torn-oilcloth table. The camera is still settling from the final walking step when the shot ends; no frozen pose.
 
 INTERIOR COLLIDER AND CONTACT
 The unseen body occupies space. Nothing passes through it. The door remains still until the person reaches it and the unseen handle is physically depressed. The latch retracts with an audible click. Only after release does the shoulder load the door and rotate it inward on real hinges. The lower edge scrapes the floor and the door rebounds a few millimetres when pressure releases. There is no automatic, remote or anticipatory door movement.
@@ -128,7 +131,7 @@ Diegetic environmental sound only — strained vinyl and timber as the door open
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, game engine or game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
 Cinematography: immersive first-person camera physically living inside the space; natural motivated daylight only; restrained observational composition.
-Lighting: late-spring afternoon at 1:00 PM. Neutral daylight from windows, falling naturally into the apartment. No electric fixtures or fill from camera side.
+Lighting: late-spring afternoon at 1:00 PM. Neutral daylight enters only through the apartment's exterior windows and falls naturally into the rooms and corridor. The initial enclosed landing receives only weak diffuse reflected stairwell daylight, never direct sunshine. No electric fixtures or fill from camera side.
 Color: weathered neutral concrete, faded turquoise paint, dirty off-white plaster, brown damaged veneer, muted rust and restrained new-growth green near windows.
 Camera: physical cine lens. 180° shutter motion blur.
 Surfaces: material-level realism — curled wallpaper, moisture-swollen chipboard, lifted parquet, buckled linoleum, rust, mould, glass, plaster and decades of exposure. Nothing looks recently placed.
@@ -143,6 +146,7 @@ EXACTLY 20 seconds. ONE continuous take with ZERO cuts. ZERO visible characters 
 The opening landing is fully INSIDE the building: solid floor, walls and ceiling; internal concrete stair flights and an interior stairwell void behind the left railing. Never show trees, sky, forest or an outdoor drop directly beside the railing. Never turn the landing into an exterior balcony or access gallery.
 The entrance door is an original damaged Soviet timber door with roughly 50% of its brown dermatin upholstery torn away, exposing aged timber, fibreboard, rotten padding and nail holes. Exactly one old Soviet lever handle and one old mortise keyhole. Absolutely no doorbell, intercom, keypad, electronic device, peephole camera, modern cylinder, modern lock, shiny security hardware or renovated element.
 Fixed immutable TWO-ROOM layout: 17 m² living room in the LEFT bay, 10 m² bedroom in the CENTRAL bay, 7 m² kitchen at the FAR RIGHT END; all three windows share the same exterior façade. Entrance at bottom centre. One narrow corridor runs from entrance toward the right. Separate toilet and bathroom doors are on the RIGHT side of that corridor. Never swap, mirror, duplicate or relocate rooms.
+@Image 1 controls floor-plan geometry only. Never render the plan itself, its text, arrows, borders or top-down graphics. The take must visit all THREE distinct spaces in order: bedroom, living room, kitchen. None may disappear or replace another.
 There are exactly TWO habitable rooms, ONE kitchen, ONE bathroom, ONE toilet and ONE entrance door. Do not invent extra bedrooms, halls, doors, branches, connecting passages or duplicated service rooms.
 Every room change visibly crosses the correct doorway. Leaving a room requires turning around, seeing the same doorway from the reverse side and walking back into the hallway. A rotation alone can never change rooms. No teleportation, spatial reset, doorway morph or room-content substitution.
 The entrance door remains completely stationary until the person is within arm's reach. An unseen hand below frame depresses the real handle, the latch audibly releases, and only then does shoulder and torso pressure push the door inward. No hand appears. The door never opens by itself, remotely or before contact.
@@ -151,12 +155,15 @@ Decay comes from forty years without heat or repair: moisture, frost, draught, v
 One mature tree limb enters ONLY the living room through its broken window. No forest in the hallway, bedroom or kitchen.
 No staged dolls, gas masks, ritual arrangements or art-directed piles of memorabilia.
 No modern furniture, PVC windows, LED lighting, contemporary appliances, renovated surfaces or functioning utilities.
+The kitchen appliances are strictly Soviet and pre-1986: one Uzhgorod PG 4/1-1-type narrow four-burner enamel gas cooker with five Bakelite knobs and one Donbass-3 KSh-180-type off-white enamel ONE-DOOR refrigerator. The refrigerator is mandatory and clearly visible against the right wall upon kitchen entry. Never generate a contemporary stove, glass oven, induction hob, digital controls, stainless appliance, modern two-door refrigerator or modern branding.
+There are absolutely no photographs anywhere: no portraits, family pictures, loose snapshots, albums, negatives or photographic paper.
+The opening landing remains a closed interior volume. No direct sunlight, sky, trees, vegetation or exterior balcony appears beside the railing or door.
 No vignette, edge darkening, crushed blacks, clipped windows, flicker or exposure pumping.
 
 ROOM IDENTITY LOCK
 HIS ROOM / BEDROOM, CENTRAL BAY: collapsed bed, crooked desk, overturned chair, empty wardrobe, one centred exterior window.
 LIVING ROOM, LEFT BAY: wide window/balcony opening, tree limb through window, collapsed sofa, stripped wall unit, gutted television.
-KITCHEN, FAR RIGHT END: one exterior window, turquoise lower walls, crooked enamel stove at far-right corner, sink/cabinet run on right wall, burner grate, sagging cabinet, oilcloth table.
+KITCHEN, FAR RIGHT END: one exterior window, turquoise lower walls, corroded Uzhgorod PG 4/1-1-type cooker at far-right corner, mandatory dead Donbass-3 one-door refrigerator against right wall, damaged sink/cabinet run, sagging cabinet, oilcloth table.
 These objects remain permanently inside their assigned rooms and never appear in another room.
 
 Photoreal. NON-IP. 16:9. EXACTLY 20s. SFX only. NO CGI. Cinematic. Present tense.

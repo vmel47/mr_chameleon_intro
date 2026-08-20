@@ -7,23 +7,23 @@
 **Записывается отдельно живым голосом. Никогда не генерируется и никогда не попадает в промпт.**
 В каждом промпте стоит `No narration`.
 
-**Реплик:** 13 · **Первая:** 0:22 · **Последняя:** 3:47 · **Хронометраж:** 3:53
+**Реплик:** 13 · **Первая:** 0:22 · **Последняя:** 3:43 · **Хронометраж:** 3:49
 
 | # | Таймкод | Над чем идёт | Реплика |
 |---|---|---|---|
-| VO-01 | 0:22 | 01 · ЛЕС | "I remember. I know these places well." |
-| VO-02 | 0:39 | 02 · ЗНАК | "Home, sweet home." |
-| VO-03 | 1:06 | 03A · ПЛОЩАДЬ, ДК «ЭНЕРГЕТИК» | "My favourite city. You are more beautiful than I remember you." |
-| VO-04 | 1:22 | 05A · ПАРК: АВТОДРОМ | "I like to walk here. It is so quiet. Nobody bothers me." |
-| VO-05 | 1:58 | 06A · ДОМ: ДВОР И ПОДЪЕЗД | "This is me." |
-| VO-06 | 2:15 | 07 · КВАРТИРА | "This is my room. I did my homework here." |
-| VO-07 | 2:22 | 07 · КВАРТИРА | "This is our living room." |
-| VO-08 | 2:29 | 07 · КВАРТИРА | "And this is the kitchen." |
-| VO-09 | 3:01 | F2 · НАЕЗД НАЧИНАЕТСЯ | "They say the radiation changed me." |
-| VO-10 | 3:06 | F3 · ПОДВАЛ | "It was in the basement that I started to see things." |
-| VO-11 | 3:18 | F5 · ЗНАКИ | "Things nobody else can see." |
-| VO-12 | 3:35 | F7 · ЗЕРКАЛО | "That is when I started to change." |
-| VO-13 | 3:47 | F8 · КРИК | "But I am still good old me." (пауза ~1 сек) "Or am I?" |
+| VO-01 | 0:22 | 02 · ЛЕС | "I remember. I know these places well." |
+| VO-02 | 0:39 | 03 · ЗНАК | "Home, sweet home." |
+| VO-03 | 1:06 | 05 · ПЛОЩАДЬ, ДК «ЭНЕРГЕТИК» | "My favourite city. You are more beautiful than I remember you." |
+| VO-04 | 1:22 | 06 · ПАРК: АВТОДРОМ | "I like to walk here. It is so quiet. Nobody bothers me." |
+| VO-05 | 1:58 | 08 · ДОМ: ДВОР И ПОДЪЕЗД | "This is me." |
+| VO-06 | 2:15 | 09 · КВАРТИРА | "This is my room. I did my homework here." |
+| VO-07 | 2:22 | 09 · КВАРТИРА | "This is our living room." |
+| VO-08 | 2:29 | 09 · КВАРТИРА | "And this is the kitchen." |
+| VO-09 | 2:57 | 12 · НАЕЗД НАЧИНАЕТСЯ | "They say the radiation changed me." |
+| VO-10 | 3:02 | 13 · ПОДВАЛ | "It was in the basement that I started to see things." |
+| VO-11 | 3:14 | 15 · ЗНАКИ | "Things nobody else can see." |
+| VO-12 | 3:31 | 17 · ЗЕРКАЛО | "That is when I started to change." |
+| VO-13 | 3:43 | 18 · КРИК | "But I am still good old me." (пауза ~1 сек) "Or am I?" |
 
 ## Голос
 

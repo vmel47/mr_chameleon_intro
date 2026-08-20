@@ -1,7 +1,4 @@
-# MR. CHAMELEON — LEGACY SHOTLIST & VIDEO PROMPTS
-
-> **НЕ АКТИВНЫЙ ШОТЛИСТ.** Этот файл сохранён как история ранней структуры. Текущая нумерация находится
-> в `SCENE_SHORTLIST.md`, а копипастные промпты — только в `prompts/current/`.
+# MR. CHAMELEON — SHOTLIST & VIDEO PROMPTS
 
 **15 generations · 4:16 of raw material · 16:9 · Seedance 2.5 (Higgsfield), 20s max per generation**
 

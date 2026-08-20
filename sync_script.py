@@ -26,7 +26,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 SCRIPT = HERE / "SCRIPT.md"
 NARRATION = HERE / "NARRATION.md"
-SHOTLIST = HERE / "SHOTLIST_PROMPTS.md"
+PROMPT_DIR = HERE / "prompts" / "current"
 
 BLOCK_RE = re.compile(
     r"^## (?P<id>\S+) · (?P<name>.+?) — (?P<len>[\d.]+) сек · \*\*\d+:\d\d → \d+:\d\d\*\*$"
@@ -161,10 +161,11 @@ def main():
 
     # ---- guards ---------------------------------------------------------------
     leaks = []
-    if SHOTLIST.exists():
-        # only what is inside ``` fences matters — that is the text pasted into Seedance.
-        # prose around the prompts may discuss the narration freely.
-        raw = SHOTLIST.read_text(encoding="utf-8").split("\n")
+    if PROMPT_DIR.exists():
+        # Only fenced text inside active prompts matters. Archived prompts are historical and ignored.
+        raw = []
+        for prompt_file in sorted(PROMPT_DIR.glob("*.md")):
+            raw.extend(prompt_file.read_text(encoding="utf-8").split("\n"))
         fenced, on = [], False
         for ln in raw:
             if ln.lstrip().startswith("```"):
@@ -176,7 +177,7 @@ def main():
         for tag, _bid, _bname, _abs_s, text in cues:
             needle = plain(text).strip('"').split('"')[0].strip()
             if len(needle) > 12 and needle in shot:
-                leaks.append(f"{tag}: «{needle[:40]}…» найдено в SHOTLIST_PROMPTS.md")
+                leaks.append(f"{tag}: «{needle[:40]}…» найдено в prompts/current/")
 
     print(f"Блоков: {len(blocks)}  ·  реплик: {len(cues)}  ·  хронометраж: {tc(total)} ({int(total)} сек)")
     for tag, bid, _bn, abs_s, _t in cues:
