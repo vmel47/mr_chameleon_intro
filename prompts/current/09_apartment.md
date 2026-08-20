@@ -63,7 +63,7 @@ FORMAT MODE
 ONE single continuous unbroken take lasting EXACTLY 20 SECONDS. ZERO cuts, transitions, dissolves, jumps, teleportation, hidden edits or separate shots. Every room is reached through physically connected doorways in the fixed layout. No montage or impossible spatial transformation.
 
 OPTICS
-47° horizontal field of view — normal human spatial perception. Deep focus appropriate to a small apartment. Straight verticals and physical cine-lens perspective. No zoom, dolly, crane, fisheye, barrel distortion, anamorphic streak, lens flare, rack focus or artificial shallow depth of field.
+47° diagonal field of view — standard normal-lens character and natural human spatial perception. Deep focus appropriate to a small apartment. Straight verticals and physical spherical cine-lens perspective. No zoom, dolly, crane, fisheye, barrel distortion, anamorphic streak, lens flare, rack focus or artificial shallow depth of field.
 
 CAMERA — A HUMAN BODY
 The camera is the head of a walking adult, not a floating rig. Slow, calm, familiar movement. Very low-amplitude vertical rise and fall, small lateral weight transfer and organic imperfect correction after each step. Heel contact, mass settling and toe push-off. The head remains naturally level. No running, rushing, high bounce, springing, gimbal glide or mechanical motion.

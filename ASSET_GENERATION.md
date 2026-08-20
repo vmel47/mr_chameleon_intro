@@ -131,8 +131,8 @@ full figure head to feet. In the middle panel the same standing pose is seen fro
 head to feet. On the right panel a close-up head-and-shoulders portrait, calm neutral expression, mouth
 closed, eyes to camera with a clear catch-light in each pupil, the skin real and unretouched.
 
-Muted palette of 60 percent dark olive green, 30 percent neutral mid-grey backdrop, 10 percent dark leather and charcoal. Shot on ARRI Alexa Mini LF with ARRI Signature Prime lens, clean modern digital cinematic
-capture, crisp natural detail, minimal fine grain, soft cinematic falloff, hyperrealistic photographic
+Muted palette of 60 percent dark olive green, 30 percent neutral mid-grey backdrop, 10 percent dark leather and charcoal. Clean neutral studio photographic capture with a standard spherical normal-lens character,
+crisp natural detail, minimal fine grain, soft optical falloff, hyperrealistic photographic
 detail, natural living skin tones, medium contrast, true-to-life modern colour, no heavy desaturation.
 ```
 
@@ -141,7 +141,7 @@ detail, natural living skin tones, medium contrast, true-to-life modern colour, 
 | Was | Now | Reason |
 |---|---|---|
 | Front figure cropped headless | Full figure head to feet, all three panels | The headless trick belongs to a different template. Here it produces malformed bodies. |
-| No tech block | ARRI Alexa Mini LF + Signature Prime, clean digital register | Without it the model has no photographic anchor and drifts to illustration. The *clean* register on purpose — no film grain, no heavy desaturation — so the sheet does not carry a look into every scene. |
+| No tech block | Clean neutral studio photograph, normal spherical lens character | The model receives a visible photographic anchor without tying identity assets to a prestige camera brand. The clean register deliberately carries no scene grade. |
 | No palette line | 60/30/10 | Lira's template requires one. |
 | 350 words of anatomy | ~110 words, plain casting-note language | Named muscle groups render as an anatomy plate; ear and sideburn geometry grew flesh flaps; stacked aging cues added fifteen years; and past ~150 words the wardrobe simply dropped out. |
 
@@ -216,8 +216,8 @@ camera with a clear catch-light in each pupil, the mask visible loose under the 
 unretouched.
 
 Muted palette of 60 percent off-white cotton, 30 percent neutral mid-grey backdrop, 10 percent pale
-medical blue. Shot on ARRI Alexa Mini LF with ARRI Signature Prime lens, clean modern digital cinematic
-capture, crisp natural detail, minimal fine grain, soft cinematic falloff, hyperrealistic photographic
+medical blue. Clean neutral studio photographic capture with a standard spherical normal-lens character,
+crisp natural detail, minimal fine grain, soft optical falloff, hyperrealistic photographic
 detail, natural living skin tones, medium contrast, true-to-life modern colour, no heavy desaturation.
 ```
 
@@ -412,9 +412,9 @@ no wide view, no skyline. Rust has bled down the steel in long streaks; the pain
 have grown up through the lattice itself.
 
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
-Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps; never overcast.
 Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
-Shadows: soft-edged and long, all falling the same way.
+Shadows: softly defined and readable, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in bright gaps.
 Time: 1:00 PM, early afternoon daylight.
 

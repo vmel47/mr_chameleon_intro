@@ -47,10 +47,10 @@ FORMAT MODE
 Single continuous take, real time, no cuts.
 
 OPTICS
-84° diagonal field of view, classic wide lens character, camera three metres from her and low. The whole
-room stays visible to the frame edges — her at front-left, the shut door dead ahead — with deep
-edge-to-edge focus so she and the mirror above her are both readable. Straight lines stay rectilinear, no
-fisheye curve, no portrait bokeh.
+47° diagonal field of view, standard normal-lens character and natural human spatial perception, camera
+three metres from her and low. Her at front-left, the shut door dead ahead, and the mirror above her remain
+readable through blocking and deep practical focus rather than a wide lens. Straight lines stay rectilinear,
+with no fisheye curve, barrel distortion or portrait bokeh. The lens never changes.
 
 CAMERA
 The camera is a seated body: breath-driven micro-motion only, a small settle, and one very slow lean
@@ -83,8 +83,7 @@ in the room gets brighter as the pattern appears. No fill from the camera side.
 
 AUDIO
 Diegetic only — glass on metal, a drawer, liquid drawn into a barrel, the low hum of the overhead fixture,
-a small dead hard-walled room tone, no sound at all from outside the room. No music. No narration. No
-voices. Nobody speaks. No sound effect on the pattern.
+a small dead hard-walled room tone, no sound at all from outside the room. No music. No narration. No voices. Nobody speaks. No sound effect on the pattern.
 
 CHARACTER ACTING
 THE WORKER — absorbed and routine. What she wants in this moment: to finish the tray and move on. What she
@@ -96,15 +95,15 @@ aware of them, and the absence of any reaction is what makes them frightening.
 
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
-Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
-Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Cinematography: physically grounded seated viewpoint; natural motivated practical light only; composed documentary frames with real mass and inertia.
+Lighting: one dim overhead fixture directly above the work table. No windows, no daylight and no exterior sky contribution. The tray is the brightest value; the room falls into readable shade without crushed blacks. No fill from the camera side.
+Color: neutral-balanced practical light; off-white coat, neutral aged brick and plaster, muted rust and dark worn metal. No green cast, horror-blue cast, sepia or exterior foliage palette.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
 Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
 Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
 Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
-Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Environment: sealed basement interior, no vegetation, no wind and no daylight entering the room.
 Composition: Rule of thirds + golden ratio.
 Continuity: Characters, props, environment identical across every cut. No identity drift.
 Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.

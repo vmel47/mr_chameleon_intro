@@ -13,9 +13,9 @@ Use the actual videos, not web photographs, when judging the film's colour:
 
 | Reference | File | Useful sampled moments | What it establishes |
 |---|---|---|---|
-| Forest | `Videos/Forest/Forest_2.mp4` | 1.2s, 5.1s, 9.0s, 12.8s | Warm soft backlight through foliage, haze, bright exits, readable shadow detail |
-| DK Energetik | `Videos/DK_energetic/1080/DK_energetic_1.mp4` | 1.6s, 6.4s, 11.2s, 16.0s | Neutral weathered concrete, pale retained sky, restrained saturation, atmospheric depth |
-| Park | `Videos/Park cars/Park_2.mp4` | 1.2s, 4.8s, 8.4s, 12.0s | True spring green, sun patches, muted rust, medium contrast without crushed blacks |
+| Forest | `_archive/Videos/Forest/Forest_2.mp4` | 1.2s, 5.1s, 9.0s, 12.8s | Warm soft backlight through foliage, haze, bright exits, readable shadow detail |
+| DK Energetik | `_archive/Videos/DK_energetic/1080/DK_energetic_1.mp4` | 1.6s, 6.4s, 11.2s, 16.0s | Neutral weathered concrete, pale retained sky, restrained saturation, atmospheric depth |
+| Park | `_archive/Videos/Park cars/Park_2.mp4` | 1.2s, 4.8s, 8.4s, 12.0s | True spring green, sun patches, muted rust, medium contrast without crushed blacks |
 
 A contact sheet made from these samples is stored at:
 
@@ -24,7 +24,7 @@ A contact sheet made from these samples is stored at:
 ## Look distilled from the approved footage
 
 - Late spring turning into early summer, full fresh birch/poplar green.
-- 1:00 PM under half-broken cloud.
+- Exactly 1:00 PM, bright mostly sunny under lightly broken cloud: pale-blue sky, a few small separated clouds and large blue gaps.
 - High soft sun three-quarters behind; restrained warm rim, never a warm overall filter.
 - Neutral daylight white balance around 5600K.
 - Concrete stays neutral weathered grey; it must not drift blue, cyan, green or sepia.

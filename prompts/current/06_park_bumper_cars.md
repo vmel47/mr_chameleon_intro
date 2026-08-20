@@ -25,8 +25,9 @@ The avenue outside the railing: large square concrete paving slabs, grass throug
 dappled tree shadow across them. Dense birch and poplar in full new-green leaf pressing in from every side
 and growing through the structure itself.
 Far down the avenue, the yellow lattice Ferris wheel standing against the sky.
-Bright summer afternoon, blue sky with scattered white cumulus, sun fairly high, warm light through heavy
-green foliage, strong dappled shade on the ground. That weather and that light are the ones to use.
+Bright mostly sunny late-spring afternoon at exactly 1:00 PM, pale-blue sky with a few small separated
+soft-white clouds, high soft sun three-quarters behind, warm restrained light through full new-green
+foliage and readable dappled shade on the ground. That weather and that light are the ones to use.
 
 THE TWO ARROWS DRAWN ON @Image 1 ARE INSTRUCTIONS, AND THEY ARE EXACT.
 THE RED ARROW IS THE WALKING ROUTE. He walks ON the line the red arrow is drawn on — the same strip of
@@ -52,13 +53,13 @@ line, no marking, no paint on the ground, nothing drawn.
 Do not inherit the camera position or the framing of @Image 1 — the camera in this shot is a walking person
 at eye level, about 1.7 metres from the ground, moving along that line.
 
-ENVIRONMENT — matching @Image 1
-Season: full summer green. Birch and poplar in heavy leaf, everything overgrown, everything alive.
-Sky: blue with scattered white cumulus drifting slowly.
-Sun: fairly high, warm, coming through the tree canopy in broken light.
-Shadows: strong dappled tree shadow travelling across the paving, all falling the same way.
+ENVIRONMENT — project lock overrides @Image 1 weather and grade
+Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
+Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps, never overcast.
+Sun: high and soft, warm and directional, sitting three-quarters behind and coming through the canopy in broken light.
+Shadows: softly defined dappled tree shadow travelling across the paving, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in the bright gaps.
-Time: early afternoon.
+Time: exactly 1:00 PM, early afternoon daylight.
 
 COLOUR AND GRADE
 Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast
@@ -67,7 +68,7 @@ Natural saturation — foliage reads true green, concrete reads neutral grey, sk
 teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
 Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky
 retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
-Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+Medium contrast. Bright, clear, natural late-spring daylight, recorded the way an ordinary camera records it.
 NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across
 the entire frame.
 
@@ -103,7 +104,7 @@ The same applies to everything in frame: the ride, the railing and the paving sl
 and never jump, never re-position and never repeat.
 
 OPTICS
-47° horizontal field of view — normal, the way an eye reads a space. Deep focus: the railing at arm's length
+47° diagonal field of view — standard normal-lens character and natural human spatial perception. Deep focus: the railing at arm's length
 and the far end of the avenue are both sharp. No rack focus, no shallow depth of field, no lens flare, no
 anamorphic streaks, no fisheye, no barrel distortion at the edges.
 
@@ -185,15 +186,14 @@ falls into green shade so the trusses read as rusted lines against bright leaves
 travelling across the paving as he walks. The light level is constant across the whole take and never drops.
 
 AUDIO
-Diegetic environmental sound only — footsteps on hard concrete paving, wind through heavy summer foliage
+Diegetic environmental sound only — footsteps on hard concrete paving, wind through full new-green foliage
 close on both sides, one loose piece of metal ticking somewhere in the structure, sparse distant bird calls,
-drifting insects. No creaking ride, no turning machinery, no music, no fairground sound of any kind. No
-narration. No voices. Nobody speaks.
+drifting insects. No creaking ride, turning machinery or fairground sound of any kind. No music. No narration. No voices. Nobody speaks.
 
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
-Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Key light from sky only. No fill from the camera side.
+Cinematography: physically grounded embodied POV; natural motivated light only; composed documentary frames with real mass and inertia.
+Lighting: Late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated clouds and large blue gaps. Soft sun high and three-quarters behind — restrained warm rim, camera side a stop and a half under, never blinding, no hard flare. Key from sky only. No fill from the camera side.
 Color: 60:30:10 — 60% new-growth green, 30% weathered concrete grey and pale sky, 10% rust-orange and faded lemon yellow.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — corroded angle iron, chalky flaking paint, moss in sheets, split seats, leaf litter, heaved concrete paving, decades of dirt. Nothing looks recently placed.
@@ -237,7 +237,7 @@ The Ferris wheel appears only after 12.0s, straight ahead at the far end of the 
 Before that moment it is not in the frame at all.
 It is never approached, never centred as an event and never reacted to. It gets three seconds and no more,
 and the shot ends mid-walk without slowing or settling.
-Half broken cloud, never a clear cloudless sky.
+Bright mostly sunny pale-blue sky with a few separated small clouds; neither cloudless nor overcast.
 Late spring, full new green. Not autumn, not winter, no bare branches, no brown grass.
 Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching
 the lens.

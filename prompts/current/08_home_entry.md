@@ -24,7 +24,7 @@ Late spring turning to early summer. Birch, poplar and grass in full new green, 
 Preserve the visible façade exactly, and extend its decay plausibly wherever the moving viewpoint reveals surfaces hidden in @Image 1. On the less-visible right side of the entrance and farther along the façade, most window glass has been broken out or is entirely absent: dark empty window openings, stripped ageing frames and only occasional small jagged remnants, never clean modern glazing. No reflective new panes, PVC replacement windows or curtains suggesting habitation. Vegetation becomes denser to the RIGHT of the entrance and along the foundation: taller grass, nettles, ferns, shrubs and young saplings press close to the wall. This denser growth stays beside the route and never blocks the camera’s immediate walking line.
 
 COLOUR AND GRADE
-Match @Image 1 exactly. Neutral daylight white balance, approximately 5600K. Natural saturation: foliage true green, concrete neutral weathered grey, sky pale blue and rust muted orange. Medium contrast, open readable midtones, retained highlights and detailed shadows. Exposure stays stable outdoors and adapts gradually while entering the stairwell. No sudden black frame, exposure pumping, colour cast, teal-orange grade, stylised LUT, vignette, edge darkening or corner falloff.
+Use @Image 1 only for architecture, spatial layout and the starting composition; do not inherit its grade or exposure. Neutral daylight white balance, approximately 5600K. Natural saturation: foliage true green, concrete neutral weathered grey, sky pale blue and rust muted orange. Medium contrast, open readable midtones, retained highlights and detailed shadows. Exposure stays stable outdoors and adapts gradually while entering the stairwell. No sudden black frame, exposure pumping, colour cast, teal-orange grade, stylised LUT, vignette, edge darkening or corner falloff.
 
 FIRST FRAME AND SPATIAL BLOCKING
 @Image 1 is the exact first frame. The walk begins immediately in frame one; no static establishing pause. Adult eye level, approximately 1.7 metres above the ground. The entrance lies ahead-right of the left-foreground starting route and becomes centred only near the end of the broad curve.
@@ -35,7 +35,7 @@ FORMAT MODE
 ONE single continuous unbroken take lasting EXACTLY 16 SECONDS. ZERO cuts, transitions, dissolves, jumps, teleportation, changes of camera position or separate shots. The entire movement from @Image 1 through the doorway is one uninterrupted walk from one camera.
 
 OPTICS
-47° horizontal field of view — normal human spatial perception. Deep focus: nearby ground, entrance and façade remain readable. Physical cine lens and straight verticals. No zoom, rack focus, shallow depth of field, lens flare, anamorphic streaks, fisheye, barrel distortion or wide-angle stretching.
+47° diagonal field of view — standard normal-lens character and natural human spatial perception. Deep focus: nearby ground, entrance and façade remain readable. Physical spherical cine lens and straight verticals. No zoom, rack focus, shallow depth of field, lens flare, anamorphic streaks, fisheye, barrel distortion or wide-angle stretching.
 
 CAMERA — DK ENERGETIK WALK LOCK
 Use the established DK Energetik walking character. The camera is a real walking body moving at a slow, calm, unhurried everyday gait, not a floating rig. Gentle LOW-AMPLITUDE vertical rise and fall on each stride, very small lateral sway and subtle organic imperfect correction after every step. Real weight transfer: heel contact, mass settling and toe push-off.
@@ -70,7 +70,7 @@ LIGHTING
 Preserve the natural early-afternoon light of @Image 1. Warm restrained rim along leaves, canopy edges and weathered concrete; camera-facing surfaces remain neutral and readable. The doorway and vestibule are naturally dim. Exposure adapts gradually during the uninterrupted threshold crossing. No flicker, sudden darkness, lighting change or weather drift.
 
 AUDIO
-Diegetic environmental sound only — calm evenly spaced footsteps through low grass and soft ground, subtle local brushing of stems against clothing, firmer footfalls on concrete, controlled steps while climbing and a growing hollow stairwell reverberation after crossing the doorway; wind in leaves, sparse distant birds and insects. Footsteps never pause. No music, narration, voices or speech.
+Diegetic environmental sound only — calm evenly spaced footsteps through low grass and soft ground, subtle local brushing of stems against clothing, firmer footfalls on concrete, controlled steps while climbing and a growing hollow stairwell reverberation after crossing the doorway; wind in leaves, sparse distant birds and insects. Footsteps never pause. No music. No narration. No voices. Nobody speaks.
 
 STYLE
 8K IMAX photorealism. Documentary realism of an abandoned place, not a dressed set. Natural motivated light only. Physical cine lens, 180° shutter motion blur, 24fps. Material-level weathered concrete, cracked joints, rust, moss, grass and decades of dirt. Gravity and inertia respected. No CGI, game-engine look, jitter, flicker, vignette or environmental drift. No people, animals, vehicles or modern objects.

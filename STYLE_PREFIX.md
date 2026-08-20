@@ -10,16 +10,18 @@
 
 ```
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
-Sky: half broken cloud, slow-moving, with gaps of pale blue.
-Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
-Shadows: soft-edged and long, all falling the same way.
+Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps; never a continuous overcast sheet.
+Sun: high and soft, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Shadows: softly defined and readable, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in bright gaps.
 Time: 1:00 PM, early afternoon daylight.
 ```
 
 **The basement is the one exception** — no daylight reaches it. It carries its own light logic: one dim overhead fixture above the work table, the rest of the room falling away into shade. The environment lock is not pasted into basement prompts.
 
-**Why broken cloud and not flat overcast.** Flat grey is easy and dead. Half cloud gives moving light across a four-minute film — a wall goes warm, then cool, then warm again as cloud crosses the sun, and the whole city breathes. It is also what makes the green read as green rather than as grey-green. The sun never gets to blow out a frame; it stays behind thin cloud all afternoon.
+**Why lightly broken cloud and not flat overcast.** Flat grey is easy and dead. A mostly sunny sky with a few
+separated clouds gives gentle moving light across a four-minute film while preserving a pale-blue sky and
+readable sun direction. The sun never blows out a frame; passing thin cloud only softens it briefly.
 
 ---
 
@@ -40,7 +42,7 @@ Natural saturation — foliage reads true green, concrete reads neutral grey, sk
 teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
 Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky
 retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
-Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+Medium contrast. Bright, clear, natural late-spring daylight, recorded the way an ordinary camera records it.
 NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across
 the entire frame.
 ```
@@ -49,6 +51,10 @@ the entire frame.
 than all of them having it — it cannot be matched in post. Besides the block above, every prompt carries
 `no vignette, no edge darkening, even exposure corner to corner` in its `POSITIVE CONSTRAINTS` as well. Two
 mentions, because one is not enough.
+
+**Basement colour exception.** The basement keeps the same neutral, medium-contrast, readable-shadow colour
+science, but it does not inherit outdoor 5600K daylight, sky colours or foliage ratios. White-balance its
+single practical fixture to neutral without a green, blue or sepia cast.
 
 ---
 
@@ -133,8 +139,8 @@ the body.
 
 ```
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
-Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Cinematography: physically grounded camera appropriate to the shot; natural motivated light only; composed documentary frames with real mass and inertia.
+Lighting: Late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated soft-white clouds and large blue gaps. Soft sun high and three-quarters behind the subject — restrained warm rim on edges, camera side a stop and a half under, never blinding, no hard flare. Daylight interiors are lit only by window light falling naturally into the room. No fill from the camera side.
 Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
@@ -147,6 +153,18 @@ Continuity: Characters, props, environment identical across every cut. No identi
 Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.
 Audio: Environmental SFX only. No music. No subtitles. No narration. No voices unless written in the AUDIO block.
 ```
+
+## OPTICS LOCK
+
+- Every embodied first-person POV shot uses a **47° diagonal field of view**: a spherical normal-lens
+  character with natural human spatial perception, straight lines and no wide-angle stretching.
+- The focal length never changes inside a take. Scale changes only through physical camera movement.
+- Use deep practical focus unless a scripted close-up explicitly requires otherwise. No fisheye, anamorphic
+  streaks, barrel distortion, lens flare, artificial shallow depth of field or unexplained lens drift.
+- Aerial geography and the final telephoto reveal are motivated exceptions. Their focal lengths may differ
+  by shot, but each shot locks one lens and preserves the same neutral colour, contrast and exposure logic.
+- Starting-frame image prompts use the same visible field of view as the video they feed. Do not add a camera
+  brand or prestige-lens name unless it produces a required visible result that cannot be described directly.
 
 ## CLOSING TECHNICAL TAGS
 
@@ -207,7 +225,7 @@ Grow this list every time a shot fails because of wording.
 | post-apocalyptic | abandoned for decades, reclaimed by vegetation |
 | ghost town | empty city, no people anywhere |
 | nobody moves | held still, breath the only motion |
-| overcast / grey day | half broken cloud, soft sun behind thin cloud |
+| overcast / grey day | bright mostly sunny pale-blue sky, a few separated small clouds, high soft sun |
 | autumn, golden leaves | new green, late spring |
 | any age or age word, in any language | role, clothing, action |
 | softshell, technical fabric, performance shell | cotton canvas, cotton shirting, worn leather |

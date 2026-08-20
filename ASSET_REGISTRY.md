@@ -55,7 +55,7 @@ All location sheets shot in **3/4, never frontal**. Each carries an anchor objec
 
 ## THE ENVIRONMENT LOCK
 
-Every location except the basement is generated under the **same** season, sky and sun — see `STYLE_PREFIX.md`. Late spring into early summer, half broken cloud, soft sun high and three-quarters behind the subject, 1:00 PM (early afternoon).
+Every location except the basement is generated under the **same** season, sky and sun — see `STYLE_PREFIX.md`. Late spring into early summer, exactly 1:00 PM, bright mostly sunny pale-blue sky with a few small separated clouds and large blue gaps, soft sun high and three-quarters behind the subject.
 
 **Generate all the daylight locations back to back in one sitting.** The whole point is that twelve separately generated places read as one city at 1:00 PM. Come back a week later and the palette will have drifted.
 

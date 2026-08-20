@@ -24,8 +24,9 @@ Around it: birch and poplar saplings and young trees, six to twelve metres tall,
 paving on both sides and closing in behind the wheel, their crowns crossing in front of its lower gondolas.
 The clearing floor: large cracked concrete paving slabs, heaved and split, grass and moss through every
 joint, low weeds spreading in from the edges.
-Sky: deep blue with broken white cumulus, brightest behind the wheel. Bright summer afternoon, sun fairly
-high, strong clear light, crisp shadows. That weather and that light are the ones to use.
+Sky: pale blue and bright mostly sunny, with only a few small separated soft-white clouds and large blue
+gaps. Late-spring daylight at exactly 1:00 PM, high soft sun three-quarters behind, readable softly defined
+shadows. That weather and that light are the ones to use.
 
 THE COLOURED LINES ON @Image 1 ARE A DIAGRAM DRAWN ON TOP OF THE PHOTOGRAPH. THEY ARE NOT IN THE PLACE.
 @Image 1 has bright coloured lines and a handwritten word added onto it afterwards, in an image editor, to
@@ -55,23 +56,23 @@ he goes.
 Do not inherit the camera position of @Image 1 — the camera in this shot is a walking person at eye level,
 about 1.7 metres from the ground, moving along the red line.
 
-ENVIRONMENT — matching @Image 1
-Season: full summer green, everything overgrown, everything alive.
-Sky: deep blue with broken white cumulus, drifting slowly.
-Sun: fairly high, strong and clear.
-Shadows: crisp shadows of the saplings across the cracked paving, all falling the same way.
+ENVIRONMENT — project lock overrides @Image 1 weather and grade
+Season: late spring turning to early summer, full new green, everything overgrown, everything alive.
+Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps, never overcast.
+Sun: high and soft, warm and directional, sitting three-quarters behind the subject.
+Shadows: softly defined shadows of the saplings across the cracked paving, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in the bright gaps.
-Time: early afternoon.
+Time: exactly 1:00 PM, early afternoon daylight.
 
 COLOUR AND GRADE
 Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast
 of any kind.
-Natural saturation — foliage reads true green, concrete reads neutral grey, the sky reads deep blue, the
+Natural saturation — foliage reads true green, concrete reads neutral grey, the sky reads pale blue, the
 gondolas read chalky pale yellow. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised
 grade.
 Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky
 retained and never clipped, shadows dark but never crushed to black.
-Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+Medium contrast. Bright, clear, natural late-spring daylight, recorded the way an ordinary camera records it.
 NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner.
 
 FIRST FRAME AND SPATIAL BLOCKING
@@ -104,8 +105,8 @@ The approach is monotonic: the distance to the wheel only ever decreases. It nev
 never backs off, never resets to its opening size.
 
 OPTICS
-62° horizontal field of view — moderately wide, matching the way @Image 1 is photographed, so the whole
-twenty-six-metre wheel reads against the sky from a normal walking distance. Deep focus: the near paving and
+47° diagonal field of view — standard normal-lens character and natural human spatial perception. The whole
+twenty-six-metre wheel reads against the sky through camera distance and framing, not a wide lens. Deep focus: the near paving and
 the top of the wheel are both sharp. No rack focus, no shallow depth of field, no lens flare, no anamorphic
 streaks, no fisheye, no barrel distortion at the edges.
 THE FOCAL LENGTH NEVER CHANGES. There is no zoom of any kind at any moment. The wheel grows in frame ONLY
@@ -177,25 +178,25 @@ has been seized for forty years and the wind moves only the vegetation. Every ap
 is produced by the walk alone, by perspective.
 
 LIGHTING
-Bright summer afternoon daylight. Sun fairly high and strong, sky deep blue behind the wheel with broken
-white cumulus, the lemon yellow of the gondolas catching the light where it strikes them and going
+Bright late-spring daylight at exactly 1:00 PM. High soft sun three-quarters behind, pale-blue sky behind
+the wheel with a few small separated soft-white clouds, the lemon yellow of the gondolas catching the light and going
 grey-green in shade, so the lattice reads as fine rusted lines against bright sky and leaves. Crisp shadows
 of the saplings travelling across the paving as he walks. The light level is constant across the whole take
 and never drops. No bloom, no lens flare, no god rays, no light with no source in the scene.
 
 AUDIO
 Diegetic environmental sound only — footsteps on hard cracked concrete paving and grass, a long steady wind
-through heavy summer foliage, one loose piece of metal ticking somewhere high in the structure, sparse
-distant bird calls, drifting insects. No creaking ride, no turning machinery, no music, no fairground sound
-of any kind. No narration. No voices. Nobody speaks.
+through full new-green foliage, one loose piece of metal ticking somewhere high in the structure, sparse
+distant bird calls, drifting insects. No creaking ride, turning machinery or fairground sound of any kind.
+No music. No narration. No voices. Nobody speaks.
 
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary
 realism of an abandoned place, not a dressed set.
-Cinematography: floating immersive camera that lives inside the scene; natural motivated light only;
-painterly composed frames, strong silhouettes against the light.
-Lighting: bright summer afternoon under broken cumulus, sun fairly high, strong clear key from the sky only.
-Color: 60:30:10 — 60% new-growth green, 30% weathered concrete grey and deep sky blue, 10% rust-orange and
+Cinematography: physically grounded embodied POV; natural motivated light only; composed documentary
+frames with real mass and inertia.
+Lighting: late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated soft-white clouds and large blue gaps. High soft sun three-quarters behind, restrained warm rim and readable shadows. Key from the sky only.
+Color: 60:30:10 — 60% new-growth green, 30% weathered concrete grey and pale sky blue, 10% rust-orange and
 faded lemon yellow.
 Camera: physical cine lens. 180° shutter motion blur.
 Surfaces: material-level realism — corroded lattice steel, chalky flaking paint, rust bleeding from joints,

@@ -68,9 +68,9 @@ do not inherit the composition, the angle or the grade.
 
 ENVIRONMENT
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
-Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps; never overcast.
 Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
-Shadows: soft-edged and long, all falling the same way.
+Shadows: softly defined and readable, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in bright gaps.
 Time: 1:00 PM, early afternoon daylight.
 
@@ -122,7 +122,7 @@ very large steel lattice, and fades again as he passes. Distant crows. No music.
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
 Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Key light from sky only. No fill from the camera side.
+Lighting: Late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated soft-white clouds and large blue gaps. Soft sun high and three-quarters behind the subject — restrained warm rim on edges, camera side a stop and a half under, never blinding, no hard flare. Key light from sky only. No fill from the camera side.
 Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered steel grey and pale sky, 10% rust-orange oxidised metal.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, rusted steel, riveted angle iron, decades of settled dust. Nothing looks recently placed.

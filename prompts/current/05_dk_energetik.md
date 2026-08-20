@@ -20,18 +20,18 @@ the open square, parallel to the front of the building and never turning toward 
 RIGHT for the whole take. The arrow itself is an annotation and must never appear in the shot — no red
 line, no marking, no paint on the ground, nothing drawn.
 
-DO NOT take the weather from IMAGE 1. Its sky is clear cloudless blue; ours is half broken cloud with a
-soft sun behind thin cloud, described below. Do not take its camera position, its distance, its framing or
+DO NOT take the weather from IMAGE 1. Its sky is clear cloudless blue; ours is bright mostly sunny pale
+blue with a few small separated clouds and a high soft sun, described below. Do not take its camera position, its distance, its framing or
 its time of day either — the camera in this shot is a walking person at eye level, about 1.7 metres from
 the ground, moving along the arrow.
 
 ENVIRONMENT
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything
 overgrown, everything alive.
-Sky: half broken cloud, slow-moving, with gaps of pale blue. Not a clear sky.
+Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps; neither cloudless nor overcast.
 Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft
 warm rim on edges, camera side a stop and a half under.
-Shadows: soft-edged and long, all falling the same way.
+Shadows: softly defined and readable, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in the bright gaps.
 Time: 1:00 PM, early afternoon daylight.
 
@@ -42,7 +42,7 @@ Natural saturation — foliage reads true green, concrete reads neutral grey, sk
 teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
 Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky
 retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
-Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+Medium contrast. Bright, clear, natural late-spring daylight, recorded the way an ordinary camera records it.
 NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across
 the entire frame.
 
@@ -64,7 +64,7 @@ walk from one camera. The building entering or leaving the picture always happen
 the gaze turned — never because the shot changed.
 
 OPTICS
-47° horizontal field of view — normal, the way an eye reads an open space. Deep focus: the paving underfoot
+47° diagonal field of view — standard normal-lens character and natural human spatial perception. Deep focus: the paving underfoot
 and the treeline across the square are both sharp. No rack focus, no shallow depth of field, no lens flare,
 no anamorphic streaks, no fisheye, no barrel distortion at the edges.
 
@@ -134,13 +134,12 @@ openings read as flat voids. The light level is constant across the whole take a
 AUDIO
 Diegetic environmental sound only — footsteps on hard cracked asphalt with a faint open-square reverb, wind
 across open ground, wind moving through the empty window openings and the recess behind the fins, one
-distant sheet of loose metal moving on the wind, sparse distant bird calls, drifting insects. No music. No
-narration. No voices. Nobody speaks.
+distant sheet of loose metal moving on the wind, sparse distant bird calls, drifting insects. No music. No narration. No voices. Nobody speaks.
 
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
-Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Key light from sky only. No fill from the camera side.
+Cinematography: physically grounded embodied POV; natural motivated light only; composed documentary frames with real mass and inertia.
+Lighting: Late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated clouds and large blue gaps. Soft sun high and three-quarters behind — restrained warm rim, camera side a stop and a half under, never blinding, no hard flare. Key from sky only. No fill from the camera side.
 Color: 60:30:10 — 60% new-growth green, 30% chalky pale concrete and sky, 10% rust-orange corroded metal.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — chalky streaked concrete, lichen crust, corroded steel letters, rusted railings, heaved asphalt, decades of dirt in every seam. Nothing looks recently placed.
@@ -175,7 +174,7 @@ square. Its façade is a row of thin flat vertical fins — never round columns,
 The left side of the square stays open.
 Every opening in it is an empty black void with no glass in any frame. No working vehicles, no lit windows,
 no intact glazing, no modern signage, no banners, no barriers, no checkpoint, no tourist markers.
-Half broken cloud, never a clear cloudless sky.
+Bright mostly sunny pale-blue sky with a few separated small clouds; neither cloudless nor overcast.
 Late spring, full new green, leaves on every tree. Not autumn, not winter, no bare branches, no brown grass.
 Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching
 the lens.

@@ -8,9 +8,9 @@ CUT at 3.0 seconds. Real time.
 
 ENVIRONMENT
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
-Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps; never overcast.
 Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
-Shadows: soft-edged and long, all falling the same way.
+Shadows: softly defined and readable, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in bright gaps.
 Time: 1:00 PM, early afternoon daylight.
 
@@ -18,7 +18,7 @@ COLOUR AND GRADE
 Neutral daylight white balance, approximately 5600K. No warming filter, no cooling filter, no colour cast of any kind.
 Natural saturation — foliage reads true green, concrete reads neutral grey, sky reads pale blue. No teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
 Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
-Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+Medium contrast. Bright, clear, natural late-spring daylight, recorded the way an ordinary camera records it.
 NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across the entire frame.
 ACTIVE REFERENCES
 @char_MC_mr_chameleon for character reference — standing still, muted field clothing, a dark half-mask
@@ -95,14 +95,15 @@ Dust and grit lift where his feet land. He never changes pace for any of it and 
 No clipping, no intersection, no vegetation ignoring his mass.
 
 LIGHTING
-Flat overcast from a high sky in both shots — one light, one time of day, no hard shadows. His eyes carry a
-clear catch-light from the open sky; the eye sockets stay open and readable, never crushed. Nothing in the
-frame gets brighter when the pupils change — the face is not lit by them. No fill from the camera side, no
-bounce.
+The same bright mostly sunny late-spring 1:00 PM daylight in both shots: pale-blue sky, a few small
+separated clouds and high soft sun three-quarters behind. One light direction and one time of day, with a
+restrained warm rim and softly defined readable shadows. His eyes carry a clear catch-light from the open
+sky; the eye sockets stay open and readable, never crushed. Nothing in the frame gets brighter when the
+pupils change — the face is not lit by them. No fill from the camera side, no bounce.
 
 AUDIO
 Diegetic only — open wind across the courtyard, vegetation, distant crows, his breath arriving as the
-camera closes. The ambience does not change when the eyes do. No music. No narration. No voices. No sound
+camera closes. The ambience does not change when the eyes do. No music. No narration. No voices. Nobody speaks. No sound
 effect on the change.
 
 CHARACTER ACTING
@@ -116,8 +117,8 @@ entire performance.
 
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
-Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
+Cinematography: physically grounded camera appropriate to each shot; natural motivated light only; composed documentary frames with real mass and inertia.
+Lighting: Late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated clouds and large blue gaps. Soft sun high and three-quarters behind — restrained warm rim, camera side a stop and a half under, never blinding, no hard flare. Key from sky only. No fill from the camera side.
 Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.

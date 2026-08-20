@@ -36,6 +36,8 @@ material and in the migration map in `SCENE_SHORTLIST.md`.
   allowed there. Put all service notes in production documents or `_archive/`.
 - Current picture lock: late spring, 1:00 PM, bright mostly sunny daylight, pale-blue sky, a few small
   separated clouds, full new green foliage, readable shadows, no overcast blanket.
+- Embodied POV optics lock: 47° diagonal field of view, spherical normal-lens character, no focal-length
+  change inside a take. Aerial geography and the final telephoto reveal are motivated exceptions only.
 - Preserve the approved color and movement language in `LOOK_REFERENCE.md`.
 - One reference has one declared job. Do not let a location reference inherit composition unless wanted.
 - For a changed prompt, record what changed and the result. Prefer one surgical change per iteration.

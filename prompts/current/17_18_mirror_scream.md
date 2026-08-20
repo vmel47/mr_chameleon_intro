@@ -115,15 +115,15 @@ simply present, and the fact that she does not react is worse than anything she 
 
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
-Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Interiors lit only by window light falling away into the room. Key light from sky and windows only. No fill from the camera side.
-Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
+Cinematography: physically grounded camera move; natural motivated practical light only; composed documentary frames with real mass and inertia.
+Lighting: one dim overhead fixture directly above the work table. No windows, no daylight and no exterior sky contribution. The mirror is one stop brighter than her back; the room remains readable without crushed blacks. No fill.
+Color: neutral-balanced practical light; off-white coat, neutral aged brick and plaster, muted rust and dark worn metal. No green cast, horror-blue cast, sepia or exterior foliage palette.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.
 Skin: Pore-level realism — vellus hair, asymmetric moles, capillary flush, pore-shadow matching on-set light.
 Acting: micro-pauses before reactions, precise eye-line, wet living eyes with catch-lights, visible breath and chest rise.
 Physics: Gravity and inertia respected — mass has real weight, correct contact shadows. No floating props. Nothing passes through anything — no clipping, no intersection; whatever is touched bends, shakes and recovers a beat later.
-Vegetation: Birch and poplar reclaiming the built environment — saplings through asphalt, moss on steps, branches through broken glass, tall grass across every open space, all of it moving on real wind.
+Environment: sealed basement interior, no vegetation, no wind and no daylight entering the room.
 Composition: Rule of thirds + golden ratio.
 Continuity: Characters, props, environment identical across every cut. No identity drift.
 Technical: 24fps smooth motion. 8K detail. No jitter. No flicker. No vignette, no edge darkening, even exposure corner to corner.

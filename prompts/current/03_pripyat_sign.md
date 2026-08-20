@@ -51,10 +51,10 @@ the walk, and is passed.
 ENVIRONMENT
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything
 overgrown, everything alive.
-Sky: half broken cloud, slow-moving, with gaps of pale blue.
+Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps; never overcast.
 Sun: high and soft behind thin cloud, warm directional light sitting high and three-quarters behind, soft
 warm rim on edges, camera side a stop and a half under.
-Shadows: soft-edged and long, all falling the same way.
+Shadows: softly defined and readable, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in the bright gaps.
 Time: 1:00 PM, early afternoon daylight.
 
@@ -65,7 +65,7 @@ Natural saturation — foliage reads true green, concrete reads neutral grey, sk
 teal-and-orange, no bleach bypass, no film emulation LUT, no stylised grade.
 Exposure held constant across the whole shot: mid-tones open and clearly readable, highlights in the sky
 retained and never clipped, shadows dark but never crushed to black — detail visible everywhere in frame.
-Medium contrast. Bright, clear, natural summer daylight, recorded the way an ordinary camera records it.
+Medium contrast. Bright, clear, natural late-spring daylight, recorded the way an ordinary camera records it.
 NO VIGNETTE. No edge darkening, no corner falloff, no lens shading — even exposure corner to corner across
 the entire frame.
 
@@ -87,7 +87,7 @@ walk from one camera. The sign entering or leaving the picture always happens be
 gaze turned — never because the shot changed.
 
 OPTICS
-47° horizontal field of view — normal, the way an eye reads a road. Deep focus: the asphalt underfoot and
+47° diagonal field of view — standard normal-lens character and natural human spatial perception. Deep focus: the asphalt underfoot and
 the treeline at the horizon are both sharp. No rack focus, no shallow depth of field, no lens flare, no
 anamorphic streaks, no fisheye, no barrel distortion at the edges.
 
@@ -144,13 +144,12 @@ open and readable, sky highlights retained and never clipped, shadows dark but n
 
 AUDIO
 Diegetic environmental sound only — soft footsteps on cracked asphalt and gravel, wind through roadside
-grass and birch leaves, sparse distant bird calls, drifting insects. No music. No narration. No voices.
-Nobody speaks.
+grass and birch leaves, sparse distant bird calls, drifting insects. No music. No narration. No voices. Nobody speaks.
 
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
-Cinematography: floating immersive camera that lives inside the scene; natural motivated light only; painterly composed frames, strong silhouettes against the light.
-Lighting: Late spring afternoon at 1:00 PM under half broken cloud. Soft sun high and three-quarters behind the subject — warm rim on every edge, camera side a stop and a half under, never blinding, no hard flare. Key light from sky only. No fill from the camera side.
+Cinematography: physically grounded embodied POV; natural motivated light only; composed documentary frames with real mass and inertia.
+Lighting: Late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated clouds and large blue gaps. Soft sun high and three-quarters behind — restrained warm rim, camera side a stop and a half under, never blinding, no hard flare. Key from sky only. No fill from the camera side.
 Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, weathered concrete, rusted steel, cracked asphalt, decades of dirt in every seam. Nothing looks recently placed.
