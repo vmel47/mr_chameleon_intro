@@ -36,7 +36,7 @@ ACTIVE REFERENCES
 both sides, the season, the daylight and the palette. The shot happens in exactly this place, in exactly
 this weather, at exactly this time of year, and the walk follows this road in the direction of the arrow.
 Do not use it as a starting frame and do not inherit its aerial height, its composition or its angle — the
-camera is at the eye level of a walking person, about 1.7 metres from the ground, and never rises above
+camera is at the eye level of a walking person, 1.8 metres above the local supporting surface, and never rises above
 1.8 metres.
 
 @loc_pripyat_sign_2 for the sign — take the object exactly as it appears: the leaning wedge-shaped

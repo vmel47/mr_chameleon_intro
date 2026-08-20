@@ -47,7 +47,7 @@ focus to hold both the near trunks and the deeper forest background. No distorti
 CAMERA
 The camera is a walking person's eyes and head, not a heavy rig or mechanical pan: effortless, natural,
 light head turns with organic human eye-line movement, vertical rise and fall on each stride, small lateral sway.
-It never stabilises into a heavy mechanical glide. Eye height throughout.
+It never stabilises into a heavy mechanical glide. The camera optical centre stays 1.8 metres above the local supporting surface throughout.
 
 ACTION TIMING
 0.0–7.0s — walking forward slowly, calmly and steadily facing straight ahead deep inside the wild forest at an unhurried, cinematic pace; tall pine and birch trunks pass smoothly on both sides through deep leaf litter and moss. The canopy is closed overhead and stays closed — no sky, no opening, no brightening anywhere in the take.

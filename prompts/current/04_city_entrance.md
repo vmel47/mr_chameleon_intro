@@ -11,8 +11,8 @@ ACTIVE REFERENCE
 buried kerbs and pavement, the leaning dead street lamps, the long row of five- and nine-storey precast
 concrete panel blocks with their streaked joints, rusted balconies and empty black window openings, and the
 dense birch and poplar wall opposite. Do not use it as a starting frame and do not inherit its composition,
-its camera position or its angle — the camera is a walking person at eye level, about 1.7 metres from the
-ground, moving down the street.
+its camera position or its angle — the camera is a walking person at eye level, 1.8 metres above the local
+supporting surface, moving down the street.
 
 ENVIRONMENT
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything

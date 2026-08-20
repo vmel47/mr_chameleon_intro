@@ -46,7 +46,7 @@ CAMERA
 The camera is a walking body moving at a slow, calm, unhurried gait, not a rig: gentle vertical rise
 and fall on each stride, small lateral sway, organic imperfect correction after every step. It never
 stabilises into a glide. Exactly two deliberate moves in the whole take — one look up, one look back down.
-Eye height throughout.
+The camera optical centre stays 1.8 metres above the local supporting surface throughout.
 
 ACTION TIMING
 0.0–5.0s — the canopy is still closed overhead and the light is low; walking forward slowly at an unhurried, calm, leisurely cinematic pace; trunks enter close on

@@ -51,7 +51,7 @@ ALL until the camera turns.
 Both arrows are annotations, not objects. Neither may ever appear in the picture — no red line, no blue
 line, no marking, no paint on the ground, nothing drawn.
 Do not inherit the camera position or the framing of @Image 1 — the camera in this shot is a walking person
-at eye level, about 1.7 metres from the ground, moving along that line.
+at eye level, 1.8 metres above the local supporting surface, moving along that line.
 
 ENVIRONMENT — project lock overrides @Image 1 weather and grade
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
@@ -112,7 +112,7 @@ CAMERA PATH — where he walks
 He walks along the line marked by the red arrow on @Image 1: on the paving OUTSIDE the railing, roughly six
 metres clear of it, parallel to the ride, in one straight line. He never crosses the railing, never steps onto the deck, never turns off the avenue
 and never approaches the ride. The direction of travel is constant for the whole take.
-Eye level of a walking adult, about 1.7 metres from the ground.
+Eye level of a walking adult, 1.8 metres above the local supporting surface.
 
 CAMERA ORIENTATION — where it points, and when that changes
 Horizontal, left and right: THE CAMERA STARTS ALONG THE BLUE ARROW ON @Image 1 — turned well round to the

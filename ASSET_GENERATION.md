@@ -380,7 +380,7 @@ away two stops into shade. Palette of 60 percent dead institutional green-grey, 
 
 ```
 A three-quarter wide view along an overgrown path through the forest of the Chernobyl Exclusion Zone
-outside Pripyat, Ukraine, camera at eye height looking diagonally down the route. Dense mixed pine and
+outside Pripyat, Ukraine, camera optical centre 1.8 metres above the local ground looking diagonally down the route. Dense mixed pine and
 silver birch, tall bare trunks, deep leaf litter, low undergrowth, the path barely readable under grass
 and saplings. Ahead the trees thin toward a bright break in the treeline.
 ```
@@ -469,7 +469,7 @@ horizon three kilometres away, the vast pale steel arch of the New Safe Confinem
 ## 3.4 `@loc_MC_pripyat_entrance`
 
 ```
-A three-quarter view along the approach road into Pripyat, Ukraine, camera at eye height in the middle of
+A three-quarter view along the approach road into Pripyat, Ukraine, camera optical centre 1.8 metres above the local ground in the middle of
 the roadway looking diagonally down its length. Cracked asphalt split open by birch saplings growing
 through it, the verges gone to tall grass and young trees, the first five-storey precast concrete panel
 blocks of the city standing up behind a thick screen of poplar and birch ahead.

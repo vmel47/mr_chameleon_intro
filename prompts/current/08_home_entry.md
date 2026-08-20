@@ -27,7 +27,7 @@ COLOUR AND GRADE
 Use @Image 1 only for architecture, spatial layout and the starting composition; do not inherit its grade or exposure. Neutral daylight white balance, approximately 5600K. Natural saturation: foliage true green, concrete neutral weathered grey, sky pale blue and rust muted orange. Medium contrast, open readable midtones, retained highlights and detailed shadows. Exposure stays stable outdoors and adapts gradually while entering the stairwell. No sudden black frame, exposure pumping, colour cast, teal-orange grade, stylised LUT, vignette, edge darkening or corner falloff.
 
 FIRST FRAME AND SPATIAL BLOCKING
-@Image 1 is the exact first frame. The walk begins immediately in frame one; no static establishing pause. Adult eye level, approximately 1.7 metres above the ground. The entrance lies ahead-right of the left-foreground starting route and becomes centred only near the end of the broad curve.
+@Image 1 is the exact first frame. The walk begins immediately in frame one; no static establishing pause. The camera optical centre is 1.8 metres above the local supporting surface and follows the terrain and entrance steps without drifting relative to the body. The entrance lies ahead-right of the left-foreground starting route and becomes centred only near the end of the broad curve.
 
 The immediate curved route ahead is naturally traversable and relatively open: low grass, moss and sparse soft stems, not a wall of vegetation. Do not invent a formal footpath, asphalt strip, waist-high grass, thick bushes, branches or saplings directly before the face or lens. Denser grass, ferns, shrubs and saplings remain mainly along the façade, at the sides and especially to the right of the entrance.
 

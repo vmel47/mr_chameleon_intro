@@ -54,7 +54,7 @@ air-line direction, and because he is converging past the wheel the two directio
 he goes.
 
 Do not inherit the camera position of @Image 1 — the camera in this shot is a walking person at eye level,
-about 1.7 metres from the ground, moving along the red line.
+1.8 metres above the local supporting surface, moving along the red line.
 
 ENVIRONMENT — project lock overrides @Image 1 weather and grade
 Season: late spring turning to early summer, full new green, everything overgrown, everything alive.
@@ -120,7 +120,7 @@ roughly twenty-two metres of ground covered over the fourteen seconds, at one un
 not reach the wheel and does not stop, and the wheel is still well ahead of him when the take ends.
 The line is straight for the whole take. He never curves toward the wheel, never drifts left to line himself
 up with it, never steps off the paving into the saplings on either side.
-Eye level of a walking adult, about 1.7 metres from the ground.
+Eye level of a walking adult, 1.8 metres above the local supporting surface.
 
 CAMERA ORIENTATION — where it points
 THE CAMERA IS LOCKED ON THE FERRIS WHEEL FOR THE ENTIRE TAKE. This is a LOOK-AT on the wheel, not a fixed

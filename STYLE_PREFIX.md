@@ -158,6 +158,9 @@ Audio: Environmental SFX only. No music. No subtitles. No narration. No voices u
 
 - Every embodied first-person POV shot uses a **47° diagonal field of view**: a spherical normal-lens
   character with natural human spatial perception, straight lines and no wide-angle stretching.
+- Every standing or walking embodied POV shot keeps the camera optical centre **1.8 metres above the local
+  supporting surface**. It rises with terrain and stairs but never drifts relative to the body. A scripted
+  seated POV is the only height exception and stays at its natural seated level.
 - The focal length never changes inside a take. Scale changes only through physical camera movement.
 - Use deep practical focus unless a scripted close-up explicitly requires otherwise. No fisheye, anamorphic
   streaks, barrel distortion, lens flare, artificial shallow depth of field or unexplained lens drift.

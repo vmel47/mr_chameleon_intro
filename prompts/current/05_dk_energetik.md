@@ -22,8 +22,8 @@ line, no marking, no paint on the ground, nothing drawn.
 
 DO NOT take the weather from IMAGE 1. Its sky is clear cloudless blue; ours is bright mostly sunny pale
 blue with a few small separated clouds and a high soft sun, described below. Do not take its camera position, its distance, its framing or
-its time of day either — the camera in this shot is a walking person at eye level, about 1.7 metres from
-the ground, moving along the arrow.
+its time of day either — the camera in this shot is a walking person at eye level, 1.8 metres above the
+local supporting surface, moving along the arrow.
 
 ENVIRONMENT
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything

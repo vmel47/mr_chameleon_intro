@@ -18,7 +18,7 @@
 
 ## 02 · ЛЕС, ВЫХОД К ДОРОГЕ
 
-Natural three-quarter wide composition, camera at standing eye height looking diagonally down an overgrown path. Dense mixed pine and birch forest inside an exclusion zone, tall trunks, deep leaf litter, low undergrowth, a single overgrown path running away toward a bright break in the treeline about fifty metres ahead in the distance, where a perpendicular overgrown road is faintly visible opening up.
+Natural three-quarter wide composition, camera optical centre 1.8 metres above the local ground looking diagonally down an overgrown path. Dense mixed pine and birch forest inside an exclusion zone, tall trunks, deep leaf litter, low undergrowth, a single overgrown path running away toward a bright break in the treeline about fifty metres ahead in the distance, where a perpendicular overgrown road is faintly visible opening up.
 
 ENVIRONMENT LOCK — identical in every shot of this film, no exceptions:
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive and taking the place back.
@@ -30,7 +30,7 @@ Time: exactly 1:00 PM, early afternoon daylight. Nothing in this film happens at
 
 Palette of 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal. Empty deserted place, no people anywhere, no vehicles, no lit windows, no intact glazing. Vegetation growing through every hard surface. Cinematic film still, natural film texture, no grain stacking.
 
-OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception at eye height. Deep practical focus, straight lines and even exposure corner to corner. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained highlights and readable shadows. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
+OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception, with the optical centre 1.8 metres above the local ground. Deep practical focus, straight lines and even exposure corner to corner. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained highlights and readable shadows. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
 
 
 ## 03 · ЗНАК «ПРИПЯТЬ»
@@ -55,11 +55,11 @@ Palette of 60 percent new-growth birch and grass green, 30 percent weathered con
 sky, 10 percent rust-orange oxidised metal. Empty deserted place, no people anywhere, no vehicles,
 still air. Cinematic film still, natural film texture, no grain stacking.
 
-OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception at eye height. Deep practical focus, straight lines and even exposure corner to corner. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained highlights and readable shadows. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
+OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception, with the optical centre 1.8 metres above the local ground. Deep practical focus, straight lines and even exposure corner to corner. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained highlights and readable shadows. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
 
 ## 04 · УЛИЦА ВНУТРИ ГОРОДА
 
-A three-quarter view along the approach road into Pripyat, Ukraine, camera at the eye level of a standing person in
+A three-quarter view along the approach road into Pripyat, Ukraine, camera optical centre 1.8 metres above the local ground in
 the middle of the roadway, looking diagonally down the road as it runs away and slightly to the left
 toward a vanishing point. Two lanes of cracked asphalt, the faded centre line barely readable, the
 surface split open by birch saplings pushing up through it, a broken kerb line appearing on the right.
@@ -87,7 +87,7 @@ Palette of 60 percent new-growth birch and grass green, 30 percent weathered con
 windows, no intact glazing, no modern signage. Cinematic film still, natural film texture, no grain
 stacking.
 
-OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception at eye height. Deep practical focus, straight architecture and even exposure corner to corner. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained highlights and readable shadows. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
+OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception, with the optical centre 1.8 metres above the local ground. Deep practical focus, straight architecture and even exposure corner to corner. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained highlights and readable shadows. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
 
 ---
 
@@ -128,7 +128,7 @@ exposure corner to corner.
 Rule of thirds. Empty deserted street, no people, no vehicles, no working lights, no signage, no graffiti,
 no washing lines.
 
-OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception at eye height. Deep practical focus, straight architecture and even exposure corner to corner. Clean documentary digital capture with crisp natural detail and restrained fine texture. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
+OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception, with the optical centre 1.8 metres above the local ground. Deep practical focus, straight architecture and even exposure corner to corner. Clean documentary digital capture with crisp natural detail and restrained fine texture. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
 
 ---
 
@@ -138,7 +138,7 @@ Wide three-quarter cinematic film still of the Palace of Culture "Energetik" on 
 Pripyat, the abandoned Soviet nuclear town in the Chernobyl exclusion zone, photographed today. This is a
 real, specific building — the real one, as it stands now.
 
-Camera at the eye level of a person standing out on the square, turned about thirty-five degrees off the
+Camera optical centre 1.8 metres above the square, turned about thirty-five degrees off the
 face of the building so the façade runs diagonally away from the left of frame toward a vanishing point in
 the right third — never square on, never symmetrical, never a flat elevation.
 
@@ -165,7 +165,7 @@ base of the building and buries the lower steps.
 
 ENVIRONMENT AND COLOUR LOCK: late spring turning into early summer at exactly 1:00 PM. Bright mostly sunny pale-blue sky with a few small separated soft-white clouds and large blue gaps, never overcast. High soft sun three-quarters behind the building, restrained warm rim on concrete fins and leaves, façades facing camera about a stop and a half under, softly defined readable shadows all falling the same way, and light atmospheric haze with distance. Neutral daylight white balance around 5600K. Natural new-growth green, neutral weathered concrete grey, pale-blue sky and muted orange-brown rust. Medium contrast, open midtones, retained highlights, readable shadows and even exposure corner to corner.
 
-OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character at standing eye height, useful three-quarter geometry and deep practical focus. Straight architecture, no converging fantasy geometry. Clean documentary digital capture with natural detail. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
+OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character with the optical centre 1.8 metres above the local ground, useful three-quarter geometry and deep practical focus. Straight architecture, no converging fantasy geometry. Clean documentary digital capture with natural detail. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
 
 ---
 
