@@ -34,6 +34,10 @@ material and in the migration map in `SCENE_SHORTLIST.md`.
 - Every prompt file directly inside `prompts/current/` contains only one copy/paste-ready prompt body.
   No title, Markdown fence, commentary, comparison, changelog, QC checklist, status or next-scene queue is
   allowed there. Put all service notes in production documents or `_archive/`.
+- Before replacing a prompt in `prompts/current/`, preserve the outgoing complete prompt as the next
+  immutable snapshot under `prompts/history/<scene>/`, then update that scene's history README. Never keep
+  two competing "current" copies: the active version exists only in `prompts/current/`; history contains
+  earlier full prompts and exact restoration instructions.
 - Current picture lock: late spring, 1:00 PM, bright mostly sunny daylight, pale-blue sky, a few small
   separated clouds, full new green foliage, readable shadows, no overcast blanket.
 - Embodied POV optics lock: 47° diagonal field of view, spherical normal-lens character, no focal-length
