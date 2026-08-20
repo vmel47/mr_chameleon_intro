@@ -1,3 +1,43 @@
+# TEST · 02 · ROAD TO THE PRIPYAT SIGN · 20s
+
+**Experimental. Not merged into `SHOTLIST_PROMPTS.md` yet.**
+
+---
+
+## THREE REFERENCES — and each one has exactly one job
+
+| # | What | Take from it | Take NOTHING else |
+|---|---|---|---|
+| 1 | `@loc_MC_forest_pripyat_sign_path` — forest with the road, red arrow | The route, the road surface, the verges, the forest, the season, the light, the palette | Its aerial height — the camera is at eye level |
+| 2 | `@loc_pripyat_sign_2` — the edited sign frame | The sign: shape, lean, flaking paint, rusted 1970, concrete pier — and its place on the right verge, turned slightly toward the road | Its camera position, distance and framing |
+| 3 | `@ref_MC_walk_gaze_02` — the grey blocking animatic, 20 s | **Timing and geometry only:** when the gaze leaves the road, when it comes back, how far it turns, where the sign sits and how it passes | **The gait, the steps, the shake, the smoothness of the turn, and the entire look** |
+
+**Why reference 3 is deliberately crippled.** It was built in Blender to settle one argument — when exactly
+the gaze moves and how far — and it settles it exactly. But its rotation is a computed curve, so it moves
+like a mechanism, and its walk is a placeholder sine wave. If the model copies those, the shot is worse than
+having no reference at all. So the prompt tells it, in as many words, to take the schedule from the animatic
+and to invent the movement itself, as human as it can.
+
+That split is the whole idea: **the animatic says WHEN and HOW FAR. The prompt says HOW.**
+
+## Where the narration lands
+
+`VO-02 "Home, sweet home."` goes in at **+8.0s**, in the middle of the stretch where the gaze is on the sign.
+The line and the look are one event: he glances over, says it, goes back to the road. The prompt itself
+carries `No narration` — the voice is recorded separately and added in the edit.
+
+## Why the prompt is 20 seconds now, not 16
+
+The animatic is 20 s and its beats are exact. Translating them into a 16-second version means rescaling
+every number by hand, and every rescale is a chance to introduce a mismatch between what the reference shows
+and what the text says — which is precisely the class of bug that produced the hard cuts earlier. Seedance
+allows 20 s, so the prompt now uses the animatic's own timeline unchanged.
+
+---
+
+# THE PROMPT — copy and go
+
+```
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no shoulders, no feet
 and no cast shadow of the viewer enters frame at any moment. We only ever see what he sees.
 
@@ -193,3 +233,42 @@ Nothing passes through the camera or the body carrying it — no clipping, no in
 the lens.
 No vignette, no edge darkening, even exposure corner to corner.
 Photoreal. NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic. Present tense. Short sentences.
+```
+
+---
+
+## What makes this one cinematic rather than a location card
+
+**The sign is unreadable for the first four seconds.** It is a shape on the grass before it is a word. The
+audience does the resolving, and the letters arrive as a consequence of walking, not as a title.
+
+**The letters come out one at a time.** They emerge as the angle opens, and the rusted 1970 lands last —
+so there is a small delivered beat instead of a flat reveal.
+
+**It is backlit, not lit.** The face turned to camera sits a stop and a half under and the letters read by
+their own relief and their own shadow. Concrete lettering read by shadow is the whole reason this object is
+photogenic; lighting it flat throws that away.
+
+**Living against dead.** The grass at the base moves on the wind for the whole pass and the concrete does
+not move at all. One shot, two states, no comment.
+
+**He does not look.** Two or three degrees of head drift and back. The most expressive thing available here
+is indifference — and it is also the only honest option, because a man who has lived here forty years does
+not stop for the name of his own town.
+
+**And it leaves.** The sign slides out of frame and the shot keeps walking without it. Nothing is held on,
+nothing is underlined. The first roofline of the city is already coming up in the haze before the audience
+has finished with the sign.
+
+---
+
+## If it comes back wrong
+
+| Symptom | Fix |
+|---|---|
+| The camera stops or slows at the sign | Repeat `the walk never stops and never slows` inside the 7.0–9.5s beat |
+| The sign is centred instead of passing in the right third | Add `the sign never enters the centre of frame; it stays in the right third and exits at the right edge` to FIRST FRAME |
+| The sign is readable from the first frame | Strengthen 0.0–4.0s: `an angular pale mass with no readable detail of any kind` |
+| Garbled Cyrillic | Generate with the slab blank and add `ПРИПЯТЬ` and `1970` in Nano Banana Pro with the exact strings in quotes |
+| Aerial or high angle | The eye-level clause is already in the reference 1 line — repeat it in CAMERA |
+| Sign on the left | Flip every `RIGHT` in FIRST FRAME and ACTION TIMING |

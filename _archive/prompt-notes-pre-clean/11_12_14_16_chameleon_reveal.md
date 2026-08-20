@@ -1,3 +1,6 @@
+# 11+12+14+16 · КАМЕЛЕОН У ДОМА · 20s SOURCE GENERATION
+
+```
 SCENE CONTEXT
 EXACT 1 CHARACTER — NO DUPLICATES: MR CHAMELEON. He stands outside the entrance of the block looking out
 toward the street, tiny under a huge sky with the reactor confinement on the horizon far behind him. The
@@ -145,3 +148,6 @@ lens flare, no particles, no rays. Both eyes change identically and at the same 
 in both eyes throughout. Exactly ONE confinement structure on the horizon, never duplicated. No vehicles,
 no aircraft, no lit windows, no smoke. Exactly ONE hard cut, at 3.0 seconds. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 20s.
 SFX only. NO CGI. Cinematic.
+```
+
+---

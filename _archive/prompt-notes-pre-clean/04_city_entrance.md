@@ -1,3 +1,9 @@
+# 04 · УЛИЦА ВНУТРИ ГОРОДА · ОДНА ВИДЕОГЕНЕРАЦИЯ
+
+**Модель:** Seedance 2.5 · 16:9 · **20s**
+**Референс:** только `@loc_MC_pripyat_street`
+
+```
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no shoulders, no feet
 and no cast shadow of the viewer enters frame at any moment. We only ever see what he sees.
 
@@ -164,3 +170,38 @@ Nothing passes through the camera or the body carrying it — no clipping, no in
 the lens.
 No vignette, no edge darkening, even exposure corner to corner.
 Photoreal. NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic. Present tense. Short sentences.
+```
+
+---
+
+# 3 · ЧТО ИЗМЕНИЛОСЬ ПРОТИВ ВЕРСИИ В ШОТЛИСТЕ
+
+| Было | Стало | Почему |
+|---|---|---|
+| 14 сек | 20 сек | Снимаем с запасом, режем на монтаже |
+| Поворот головы описан одной строкой | Отдельный блок `GAZE` с человеческой механикой | Иначе выходит панорама механизма |
+| Нет блока `COLLIDER` | Есть | Камера должна иметь тело |
+| `FORMAT MODE: single continuous take` | Развёрнутый запрет склеек | На знаке модель резала кадр на куски, когда встречала противоречие |
+| Ничего про то, что он не реагирует | `He does not slow down, does not stop and does not react — he lives here` | Это характер, а не техника |
+
+---
+
+# 4 · СЛЕДУЮЩИЕ ПО ОЧЕРЕДИ, ТОЖЕ БЕЗ ПЕРСОНАЖА
+
+**Генерацию 03 надо разрезать надвое** — сейчас в ней 16 секунд от первого лица и 4 секунды вида на него со
+стороны. Первые 16 снимаются сейчас, вид сбоку доснимем отдельно, когда будет персонаж.
+
+| Ген | Что | Локация | Персонаж |
+|---|---|---|---|
+| **02B** | Улица в городе | `@loc_MC_pripyat_street` | нет — **снимаем сейчас** |
+| **03A** | Площадь, вид от первого лица, проход вдоль колоннады ДК | `@loc_MC_dk_energetic` | нет — снимаем сейчас |
+| 03B | Он же на площади, вид сбоку издалека, телевик | `@loc_MC_dk_energetic` | **да** — потом |
+| **04A** | Аэропанорама города | `@loc_MC_pripyat_city` | нет |
+| **04B** | Три интерьера: спортзал, класс, магазин | `@loc_MC_school`, `@loc_MC_shop` | нет |
+| **05A** | Парк: колесо и машинки | `@loc_MC_park` | нет |
+| **05B** | Парк: качели и общий план | `@loc_MC_park` | нет |
+| **07** | Комната и зал в квартире | `@loc_MC_home_appartment` | нет |
+| **08** | Кухня | `@loc_MC_home_appartment` | нет |
+
+Разрез 03 добавляет к первой фазе ещё 16 секунд — итого без персонажа снимается уже не 160, а **176 секунд
+из 256**, то есть 69% фильма.

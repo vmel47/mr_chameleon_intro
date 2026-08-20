@@ -10,7 +10,7 @@ Read in this order before changing the project:
 4. `SCRIPT.md` — story and narration source.
 5. `LOOK_REFERENCE.md` — approved light, weather, palette and moving-image references.
 6. `ASSET_REGISTRY.md` — character, location and prop identities.
-7. `prompts/current/README.md` — preserved prompt candidates from before the reset.
+7. `prompts/current/README.md` — короткий указатель по готовым видеопромптам.
 
 User-supplied image prompts are saved verbatim in `prompts/image/IMAGE_PROMPT_INBOX.md`. Never promote a
 video prompt by guessing which file is newest; the user explicitly names the accepted latest version.
@@ -31,6 +31,9 @@ material and in the migration map in `SCENE_SHORTLIST.md`.
 - Narration is recorded separately. Video prompts always say: `No narration. No voices. Nobody speaks.`
 - Use `@Image 1`, `@Image 2`, `@Video 1` exactly. Never use filenames as in-prompt reference tags.
 - Generation prompts are delivered in full, in English, without placeholders.
+- Every prompt file directly inside `prompts/current/` contains only one copy/paste-ready prompt body.
+  No title, Markdown fence, commentary, comparison, changelog, QC checklist, status or next-scene queue is
+  allowed there. Put all service notes in production documents or `_archive/`.
 - Current picture lock: late spring, 1:00 PM, bright mostly sunny daylight, pale-blue sky, a few small
   separated clouds, full new green foliage, readable shadows, no overcast blanket.
 - Preserve the approved color and movement language in `LOOK_REFERENCE.md`.

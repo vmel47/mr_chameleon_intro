@@ -1,3 +1,34 @@
+# 07 · ПАРК, КОЛЕСО ОБОЗРЕНИЯ · 14s · ОДНА ГЕНЕРАЦИЯ
+
+Второй кадр парка, и он простой. Он идёт по открытой площадке, держит колесо во взгляде и не отпускает его.
+Колесо растёт, потому что он подходит. Больше в кадре не происходит ничего.
+
+**Ход, коллайдер, физика и оптика шага взяты один в один с ДК «Энергетик» и с `05A`.** Не переписывал —
+там это отработало, и трогать не за чем. Отличие ровно одно: там взгляд поворачивался один раз, здесь он не
+поворачивается вообще, он просто прилипает к колесу.
+
+**Генерация локации отменена.** Есть настоящая фотография — она и есть `@Image 1`. Прежний запрос в
+GPT Image 2 не нужен, кредиты не тратим.
+
+**Модель:** Seedance 2.5 · 16:9 · **14s**
+**Референс один: `@Image 1`** — фотография колеса с разметкой. Линия по земле — направление движения,
+линия в воздухе — направление камеры.
+
+**Почему красная линия лезла в кадр, а синяя нет.** Красная нарисована ПО ЗЕМЛЕ, вдоль плит. Для модели это
+читается как разметка на асфальте — вещь, которая в реальности бывает, поэтому она её честно рисует. Синяя
+висит в воздухе над деревьями, объектом быть не может, и модель её отбрасывает сама.
+Поэтому лечение не «запретить стрелку» ещё раз, а **описать, что на земле есть вместо неё**. В конце промпта
+стоит блок `THE GROUND IS BARE`, где перечислено, чем покрыт пол площадки, и сказано, что это всё. Плюс
+слово «стрелка» из инструкций убрано вообще — теперь это `the marked direction of travel`, чтобы не
+подсказывать модели картинку, которую мы не хотим видеть.
+И отдельный запрет на текст: ты подписал на картинке «Направление» — кириллица тоже отлично уезжает в кадр.
+
+**Оптика шире, чем в `05A`, и это единственный расчёт во всём промпте.** На 47° колесо в двадцать шесть
+метров влезает по высоте только со ста метров, а за четырнадцать секунд шага он проходит двадцать два —
+рост вышел бы двадцать процентов, глазом не читается. На 62° старт с семидесяти пяти метров, финиш с
+пятидесяти трёх, колесо растёт в полтора раза. И фотография сама снята широким, так что кадр с ней сойдётся.
+
+```
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no shoulders, no feet
 and no cast shadow of the viewer enters frame at any moment. We only ever see what he sees.
 
@@ -247,3 +278,27 @@ diagram drawn on the reference is not a physical object and does not appear in a
 NO TEXT ANYWHERE IN FRAME. No words, no letters, no Cyrillic, no handwriting, no caption, no label, no
 signage, no watermark, no subtitle — nothing written on the ground, on the structure or over the picture.
 Photoreal. NON-IP. 16:9. 14s. SFX only. NO CGI. Cinematic. Present tense. Short sentences.
+```
+
+**Что проверить в `05B`**
+
+| Симптом | Что делать |
+|---|---|
+| Колесо не растёт, размер стоит | Главное. Усилить `THE WHEEL ONLY EVER GETS BIGGER` и `every second it is slightly larger than the second before` |
+| Растёт зумом, а не шагами | Усилить `THE FOCAL LENGTH NEVER CHANGES`, `grows in frame ONLY because he is walking` |
+| Колесо уезжает вбок из центра | Потерян look-at. Усилить `This is a LOOK-AT on the wheel, not a fixed heading` |
+| Резкий подъём головы в одном месте | Усилить `NOT a head-lift, NOT a look-up, NOT a tilt that happens at any one moment` |
+| Верх колеса срезан | Усилить `The whole wheel stays inside the frame — the top is never cropped off` |
+| Он идёт прямо в кольцо, под колесо | Усилить `THE LINE PASSES THE WHEEL ON ITS RIGHT — IT DOES NOT GO INTO IT` и `never walks between the two legs` |
+| Свернул в кусты справа | Усилить `threads the open paving BETWEEN the clump of saplings at the foot of the wheel and the treeline` |
+| Подворачивает к колесу по ходу | Усилить `The line is straight for the whole take. He never curves toward the wheel` |
+| Он идёт по синей стрелке, вбок | Усилить `Read the blue arrow as the aim, not as a path` |
+| Колесо крутится, гондолы качаются | Усилить `NOTHING ON THE FERRIS WHEEL MOVES`, `seized solid`, `not one of them shifts` |
+| Камера облетает колесо | Усилить `no arc, no orbit`, `ONE straight line` |
+| Походка пружинит | Формулировка та же, что в 03A и 05A — там отработала. Не переписывать |
+| Дёрганье раз в пару секунд | Блок `MOTION CONTINUITY` стоит для этого; если осталось — вынести его в самый конец и продублировать |
+| В кадре стрелки, красная полоса на плитах | Запрет теперь стоит трижды, последний раз отдельным блоком `NO ARROWS IN THE PICTURE` в самом конце. Если всё равно лезет — давать референс без нарисованных стрелок и описывать путь словами |
+| Картинка не похожа на фото | `@Image 1` потерял вес. Усилить `THE MAIN REFERENCE. The whole look of this shot comes from here` |
+
+---
+

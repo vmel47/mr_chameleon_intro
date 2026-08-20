@@ -1,3 +1,13 @@
+# 06B · ПОДХОД ПО ДУГЕ И ВХОД В ПОДЪЕЗД · ЛОКАЦИЯ 8 · 16s · POV
+
+**Модель:** Seedance 2.5 · Image-to-Video · 16:9 · **16s**
+
+**Единственный референс:** `@Image 1` = `Videos/Home area/8.png`.
+
+Размеченную картинку с красной стрелкой в генерацию **не загружать**. Её траектория уже переведена в текст блока
+`CAMERA PATH`.
+
+```text
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, hands, arms, shoulders, legs, feet or cast shadow of the viewer enters frame at any moment. We only ever see what he sees.
 
 SCENE CONTEXT
@@ -83,3 +93,4 @@ The way ahead is relatively open low grass and moss; denser vegetation remains a
 The invisible body has a real collider. Vegetation that touches it bends, compresses and recovers naturally. No vegetation passes through the body. Climb the steps and enter the stairwell in one continuous rhythm. The red route arrow is guidance only and is NOT part of @Image 1: no red line, arrow, paint, graphic, overlay, text or path marking may appear in the video. Final frame remains mid-walk inside the entrance. No shortcut directly toward the door, sideways exploration, upward look, additional entrance, visible body or cast shadow of the viewer.
 
 Photoreal. NON-IP. 16:9. EXACTLY 16s. SFX only. NO CGI. Cinematic. Present tense.
+```

@@ -1,3 +1,8 @@
+# 07 · КВАРТИРА · ОСНОВНАЯ ПЛАНИРОВКА + ЛУЧШАЯ ДВЕРЬ · 20 СЕКУНД
+
+**Статус:** новая тестовая сборка · основа интерьера из первого промпта, дверь и её физика из второго · ещё не отснята
+
+```text
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, hands, arms, shoulders, legs, feet, reflection or cast shadow of the viewer enters frame at any moment. We only ever see what he sees.
 
 SCENE CONTEXT
@@ -143,3 +148,4 @@ KITCHEN, RIGHT: peeling turquoise lower walls, crooked Soviet enamel stove, mand
 These objects remain permanently inside their assigned rooms and never migrate, duplicate or appear in another room.
 
 Photoreal. NON-IP. 16:9. EXACTLY 20s. SFX only. NO CGI. Cinematic. Present tense.
+```

@@ -1,9 +1,11 @@
+# 01 · FOREST · 16s · 0:00
+
+```
 SCENE CONTEXT
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no feet, no shadow of
-the viewer at any point. A person walks slowly, calmly and at an unhurried, leisurely, cinematic pace deep
-inside a dense, wild, untouched forest on raw forest floor in the abandoned exclusion zone. No trodden paths,
-no beaten tracks, no openings, no roads, no structures anywhere visible — only deep unbroken wild forest and
-dense canopy. One continuous 16-second take, no cuts.
+the viewer at any point. A person walks slowly, calmly and at an unhurried, leisurely, cinematic pace through
+wild forest floor inside an abandoned zone, looks up at the sky, and comes out of the trees toward an empty
+perpendicular road running across in the distance. One continuous 16-second take, no cuts.
 
 
 ENVIRONMENT
@@ -33,31 +35,32 @@ low undergrowth, deep leaf litter, thin daylight through the canopy. Do not use 
 not inherit the composition, the angle or the grade.
 
 FIRST FRAME AND SPATIAL BLOCKING
-First frame is already mid-stride on raw wild forest floor deep in the woods: tall pine and birch trunks
-surrounding the viewer closely on all sides, dense unbroken canopy above, deep leaf litter and moss underfoot.
-No trodden path, no road, no horizon opening, no clearings.
+First frame is already mid-stride on wild forest floor: trunks passing close on both sides, stepping forward
+through leaf litter toward a break in the trees dead ahead. No empty establishing beat.
 
 FORMAT MODE
 Single continuous take, real time, no cuts, no speed ramps.
 
 OPTICS
 47° diagonal field of view, standard normal lens character, natural human-eye perspective. Deep enough
-focus to hold both the near trunks and the deeper forest background. No distortion.
+focus to hold both the near trunks and the distant horizon. No distortion.
 
 CAMERA
-The camera is a walking person's eyes and head, not a heavy rig or mechanical pan: effortless, natural,
-light head turns with organic human eye-line movement, vertical rise and fall on each stride, small lateral sway.
-It never stabilises into a heavy mechanical glide. Eye height throughout.
+The camera is a walking body moving at a slow, calm, unhurried gait, not a rig: gentle vertical rise
+and fall on each stride, small lateral sway, organic imperfect correction after every step. It never
+stabilises into a glide. Exactly two deliberate moves in the whole take — one look up, one look back down.
+Eye height throughout.
 
 ACTION TIMING
-0.0–7.0s — walking forward slowly, calmly and steadily facing straight ahead deep inside the wild forest at an unhurried, cinematic pace; tall pine and birch trunks pass smoothly on both sides through deep leaf litter and moss. The canopy is closed overhead and stays closed — no sky, no opening, no brightening anywhere in the take.
-7.0–10.0s — turn the camera slightly to the right, as if the walking person effortlessly looked to the right toward the soft sunlight filtering through the trees, while continuing the slow walk forward.
-10.0–12.0s — turn the camera slightly to the left, as if the walking person effortlessly looked to the left toward the passing forest undergrowth.
-12.0–16.0s — turn the camera back to centre, as if the walking person looked straight ahead again, continuing the calm, steady walk forward to the end of the take.
-
-PHYSICS
-Weight transfer on every slow step: heel contact, mass settling, toe push-off. Footfall bounce stays consistent on soft wild forest floor and leaf litter. Branches move gently on wind. Cloud moves at cloud speed, foliage on a separate faster frequency.
-
+0.0–5.0s — the canopy is still closed overhead and the light is low; walking forward slowly at an unhurried, calm, leisurely cinematic pace; trunks enter close on
+the left and pass out slowly; the break in the trees ahead widens and brightens.
+5.0–8.0s — the gaze lifts to the sky: broken cloud with one gap of direct sun, thin branches crossing it.
+The slow walk continues underneath the tilt without breaking rhythm. The tilt eases in and settles.
+8.0–9.0s — the gaze comes back down to the route, slower than it left.
+9.0–13.0s — the last trunks fall away left and right; the sky opens across the top of frame; the ground
+underfoot changes from leaf litter to dry grass and broken asphalt.
+13.0–16.0s — open ground. Far off about fifty metres ahead in the haze, an empty perpendicular road opens up
+running horizontally across in the background. The head drifts a few degrees to hold it centred.
 COLLIDER — the camera is a body, not a flying camera
 The camera has a physical body attached to it. The body is never seen, but it occupies space and it has
 mass, and nothing in the world passes through it.
@@ -73,18 +76,22 @@ No arms, no hands, no shoulders, no legs and no feet ever enter frame. What is s
 reacting, never the body that made it react.
 No clipping. Nothing intersects or passes through the camera, and nothing touches the lens.
 
+PHYSICS
+Weight transfer on every slow step: heel contact, mass settling, toe push-off. The footfall sound and the
+body's vertical bounce change when the ground changes from soft litter to hard asphalt. Branches move on
+wind and rebound. Cloud moves at cloud speed, branches on a separate faster frequency. Wind is
+stronger in the open than under the canopy and moves the grass in travelling waves.
+
 LIGHTING
-This is the CLOSED, DARK end of the walk — the darkest shot in the opening sequence, and it never brightens
-across the take. The canopy is shut overhead: no open sky anywhere in frame at any point. Light arrives only
-as small soft dapple patches on the forest floor where the canopy thins, moving slowly as the branches move.
-Mid-tones stay open and readable, shadows stay dark but never crushed to black. The overall level is
-consistently one stop under generation 01 and two stops under generation 02, and it does not change from the
-first frame to the last.
+This is the TRANSITION between the closed forest and the open road, and the light RISES steadily across the
+whole take — it starts one stop under and ends level with the open daylight of generation 02, and it never
+goes the other way. At the start the canopy is still mostly closed and the floor sits low key with moving
+dapple. As the trees thin, more sky enters the top of frame and the overall level climbs continuously. By
+the last beat the frame is open daylight. Mid-tones stay open throughout, shadows stay dark but never
+crushed, sky highlights are retained and never clipped.
 
 AUDIO
-Diegetic only — 0.0–4.0s near-total forest silence: subtle wind through pine needles and soft footsteps on
-leaf litter only. No bird calls or sharp sounds in the opening seconds. From ~5.0s onward: distant sparse
-bird calls, soft wind through leaves, drifting insects. No loud impact SFX. No music. No narration. No voices.
+Diegetic only — 0.0–4.0s near-total forest silence: subtle wind through pine needles and soft footsteps on leaf litter only. No bird calls or sharp sounds in the opening seconds. From ~5.0s onward: distant sparse bird calls, soft wind, drifting insects. No music. No narration. No voices.
 
 STYLE
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
@@ -107,6 +114,10 @@ QUALITY
 POSITIVE CONSTRAINTS
 Nothing passes through the camera or the body carrying it — no clipping, no intersection, nothing touching the lens. Nothing is placed in the path; but anything that does end up in it bends, shakes and recovers instead of being passed through.
 Zero people visible anywhere. No hands, no arms, no feet, no body part and no cast shadow of the viewer
-enters frame at any time. The slow walk never stops — the body keeps moving slowly forward.
-No trodden paths, no beaten tracks, no roads, no clearings, no buildings, no signs, no vehicles anywhere.
-Deep unbroken forest only. No vignette, no edge darkening, even exposure corner to corner. Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
+enters frame at any time. The slow walk never stops — the body keeps moving slowly through the upward look.
+Exactly ONE break in the cloud; no clear blue sky, no aircraft, no contrails. No vehicles, no buildings, no signs.
+Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
+```
+
+---
+

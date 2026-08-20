@@ -1,3 +1,6 @@
+# 13+15 · ПОДВАЛ, ПРОЯВЛЕНИЕ ЗНАКОВ · 16s SOURCE GENERATION
+
+```
 SCENE CONTEXT
 EXACT 1 CHARACTER — NO DUPLICATES: THE WORKER. Strict first-person POV from a seated position, low, in a
 low basement room with the door shut. No body, no hands, no arms, no feet, no shadow of the viewer at any
@@ -122,3 +125,6 @@ or script. The pattern DOES NOT GLOW — no light, no colour, no emission, no pa
 in the air, no overlay, no screen effect. It appears only on the neck, the hand and the forearm, never on
 the coat, the walls or the instruments. The door stays closed for the whole take. Nobody speaks. Photoreal.
 NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
+```
+
+---

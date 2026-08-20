@@ -1,6 +1,3 @@
-# 01 · FOREST · 16s · 0:00
-
-```
 SCENE CONTEXT
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no feet, no shadow of
 the viewer at any point. A person walks slowly, calmly and at an unhurried, leisurely, cinematic pace through
@@ -117,7 +114,3 @@ Zero people visible anywhere. No hands, no arms, no feet, no body part and no ca
 enters frame at any time. The slow walk never stops — the body keeps moving slowly through the upward look.
 Exactly ONE break in the cloud; no clear blue sky, no aircraft, no contrails. No vehicles, no buildings, no signs.
 Photoreal. NON-IP. 16:9. 16s. SFX only. NO CGI. Cinematic.
-```
-
----
-

@@ -1,3 +1,12 @@
+# F0B · ПАНОРАМА ПРИПЯТИ → ЧАЭС · 20 СЕКУНД · БЕЗ ПЕРСОНАЖА
+
+**Модель:** Seedance 2.5 · Text-to-Video · 16:9 · **20s** · без референсов
+
+**Функция варианта:** не повторять уже показанный парк, а собрать прогрессию: общественный центр → жилой город → ЧАЭС как причина его пустоты → весь город и станция как единая география.
+
+**Режиссёрское решение по «Дуге»:** не включать в F0B. РЛС «Дуга» находится вне города и не должна виднеться рядом с домами Припяти как ещё один «аттракцион». Если она понадобится, это будет отдельный эпизод в другой точке зоны.
+
+```text
 EXACTLY ZERO CHARACTERS THROUGHOUT. Create one continuous twenty-second generated sequence composed as FOUR distinct five-second aerial shots with clean HARD CUTS exactly at 00:05, 00:10 and 00:15. This is a photorealistic documentary portrait of the real present-day abandoned city of Pripyat, Ukraine, and its true geographical relationship to the Chornobyl Nuclear Power Plant approximately three kilometres away. Every shot belongs to the same city, same day, same weather and same photographic world. No person, human figure, silhouette, vehicle or camera operator appears anywhere.
 
 DRAMATIC FUNCTION
@@ -65,3 +74,22 @@ No amusement-park hero shot in this variant. The Ferris wheel may exist only as 
 No horror-blue grade, teal-orange grade, HDR halos, lens flare, anamorphic streaks, excessive bloom, vignette, edge darkening, captions, titles, subtitles, logos or watermarks.
 
 Photoreal. NON-IP. 16:9. EXACTLY 20s. SFX only. NO CGI. Documentary cinematic realism. Present tense.
+```
+
+## РЕЖИССЁРСКАЯ ПРОВЕРКА
+
+- **Прогрессия:** общественная жизнь → жилая жизнь → причина → вся география.
+- **Новая информация:** парк не повторяется; зритель впервые видит реальную близость города и станции.
+- **Кадр 3:** 70mm сжимает глубину, но параллакс обязан показать, что ЧАЭС находится вдали, а не стоит сразу за домом.
+- **«Дуга»:** исключена осознанно; её появление в этом монтаже сломает географию и сместит акцент с города.
+- **Motion budget:** в каждом 5-секундном кадре нет персонажа, есть одно медленное движение камеры и одно слабое движение среды.
+
+## ЧТО ПРОВЕРИТЬ ПОСЛЕ ГЕНЕРАЦИИ
+
+1. Ровно четыре кадра по 5 секунд, без морфинга.
+2. Погода солнечная, большая часть неба голубая, облака раздельные.
+3. Кадр 3 сохраняет город на переднем плане и показывает ЧАЭС в нескольких километрах за ним.
+4. Арка НБК одна; она закрывает блок №4, а блок №3 находится рядом.
+5. Нет дыма, пара, градирен, второй арки, гигантской АЭС вплотную к домам и РЛС «Дуга».
+6. В кадре 4 город важнее станции: ЧАЭС остаётся маленькой и смещённой от центра.
+7. Нигде нет персонажа и не начинается снижение к нему.

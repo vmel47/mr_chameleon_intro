@@ -1,3 +1,6 @@
+# 17+18 · ЗЕРКАЛО И КРИК · 20s SOURCE GENERATION
+
+```
 SCENE CONTEXT
 EXACT 2 CHARACTERS — NO DUPLICATES BEYOND THESE TWO: THE WORKER and THE COPY. The camera moves in behind
 the woman at her table toward the mirror above it, stops, and holds on the glass. A second woman with the
@@ -144,3 +147,7 @@ react to the scream. Only THE WORKER makes sound, and that sound is a scream wit
 camera stays on the door side of the room and never crosses behind the table. The overhead light does not
 flicker, dim or change colour. No green, no glow, no pattern and no effect anywhere in this shot. Photoreal.
 NON-IP. 16:9. 20s. SFX only. NO CGI. Cinematic.
+```
+
+---
+

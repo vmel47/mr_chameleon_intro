@@ -1,3 +1,19 @@
+# 06 · ПАРК, АВТОДРОМ · 15s · ОДНА ГЕНЕРАЦИЯ
+
+**Модель:** Seedance 2.5 · 16:9 · **15s**
+**Референс один: `@Image 1`** — фотография автодрома с двумя стрелками. Красная — путь, синяя — начальное
+направление камеры. Отсюда всё: локация, материалы, свет, погода, зелень, маршрут и угол.
+
+**`@Image 2` убран.** Это был кадр из прошлой генерации, и качество у него было низкое — модель потянула
+из него не угол, а разрешение, и весь дубль вышел мыльный. Кадр из генерации вообще нельзя давать
+референсом рядом с фотографией: он всегда хуже неё, и модель равняется по худшему.
+
+**Видеореференс убран раньше и не возвращается.** Он сбивал генерацию — модель тянула из него серую заливку
+и механику движения вместо того, чтобы брать вид из фотографии.
+
+`VO-04` на **+4.0s**: *"I like to walk here. It is so quiet. Nobody bothers me."*
+
+```
 EXACT 0 CHARACTERS VISIBLE — STRICT FIRST-PERSON POV. No body, no hands, no arms, no shoulders, no feet
 and no cast shadow of the viewer enters frame at any moment. We only ever see what he sees.
 
@@ -243,3 +259,29 @@ Nothing passes through the camera or the body carrying it — no clipping, no in
 the lens.
 No vignette, no edge darkening, even exposure corner to corner.
 Photoreal. NON-IP. 16:9. 15s. SFX only. NO CGI. Cinematic. Present tense. Short sentences.
+```
+
+---
+
+# ЧТО ПРОВЕРИТЬ В `05A`
+
+| Симптом | Что делать |
+|---|---|
+| Кадр начинается взглядом вперёд, потом поворот влево | Главное. Усилить `The shot BEGINS with the gaze already on the ride`, `we join him already looking` |
+| Взгляд возвращается и снова уходит на колесо | Усилить `no glance at the wheel`, `the camera turns exactly ONCE` |
+| Колесо появляется слишком рано или крупно | Усилить `appears only after 12.0s, small and distant` |
+| У павильона сплошная крыша | Усилить `THE ROOF COVERING IS COMPLETELY GONE` |
+| Машинки катаются, фермы качаются | Усилить `NOTHING ON THE RIDE MOVES`, `seized for forty years` |
+| Камера панорамирует вместо ходьбы | Усилить `they travel across frame because he is moving, not because the camera is panning` |
+| В кадре красная стрелка | Запрет стоит дважды; если пролезло — добавить третий раз в конец |
+| Походка пружинит | Формулировка походки та же, что в 03A «Энергетик» — там она отработала. Не переписывать |
+| Картинка не похожа на фото | `@Image 1` потерял вес. Усилить `THE MAIN REFERENCE. The whole look of this shot comes from here` |
+| Камера панорамирует вместо ходьбы | Усилить `Everything moves because he is walking, not because the camera is panning` |
+| Дёрганье примерно раз в две секунды | Обычно это модель «переприцеливается» на референс. Блок `MOTION CONTINUITY` стоит для этого; если осталось — вынести его в самый конец промпта и продублировать |
+| Колесо видно с первых секунд | Камера не встала на синюю стрелку. Усилить `THE BLUE ARROW IS THE STARTING DIRECTION OF THE CAMERA` и `IS NOT IN THE PICTURE AT ALL until the camera turns` |
+| Машинки видны вскользь, боком | Тот же корень — угол недобран. Усилить `close to square to the side`, `THE RIDE FILLS THE FRAME` |
+| Он идёт вбок, на ограду, по синей стрелке | Усилить `Read the blue arrow as the aim, not as a path`, `body going one way, view going the other` |
+| В кадре синяя стрелка | Запрет стоит дважды; если пролезло — добавить третий раз в конец |
+| Взгляд ползает по машинкам | Убрано специально. Взгляд просто повёрнут вбок и держится, никакого слежения за отдельными машинками |
+| Идёт не по стрелке — дальше от ограды или прямо вдоль неё | Усилить `He walks ON the line the arrow is drawn on — the same strip of paving, the same distance out from the railing` |
+| Кадр начинается ровно с хвоста стрелки и обрывается на острие | Усилить `starts a couple of metres BEHIND the tail`, `continues past the arrowhead` |
