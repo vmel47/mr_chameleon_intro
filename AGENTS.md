@@ -42,6 +42,11 @@ material and in the migration map in `SCENE_SHORTLIST.md`.
   supporting surface. It follows terrain and stairs without drifting relative to the body. A scripted
   seated POV uses its natural seated height instead.
 - Preserve the approved color and movement language in `LOOK_REFERENCE.md`.
+- Real-location research gate: before writing or revising any prompt for a real Pripyat or Chornobyl
+  location, first verify its actual geometry, materials and present-day condition from dated photographic
+  documentation. Never invent maintenance, paths, road markings, landscaping, entrances, architecture or
+  props. If the necessary fact is not already recorded in `RESEARCH_NOTES.md`, research it and add the
+  evidence there before drafting the prompt. User-supplied references override generic web imagery.
 - One reference has one declared job. Do not let a location reference inherit composition unless wanted.
 - For a changed prompt, record what changed and the result. Prefer one surgical change per iteration.
 - Never overwrite a canonical prompt with a speculative version. Put experiments under
