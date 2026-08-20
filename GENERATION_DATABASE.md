@@ -34,12 +34,14 @@
 | 03 | Знак «Припять» | `prompts/current/03_pripyat_sign.md` | `CANDIDATE` | `RESET` |
 | 04 | Улица внутри города | `prompts/current/04_city_entrance.md` | `CANDIDATE` | `RESET` |
 | 05 | ДК «Энергетик» | `prompts/current/05_dk_energetik.md` | `CANDIDATE` | `RESET` |
-| 06 | Парк: автодром | `prompts/current/06_07_park.md` | `CANDIDATE` | `RESET` |
-| 07 | Парк: колесо | `prompts/current/06_07_park.md` | `CANDIDATE` | `RESET` |
+| 06 | Парк: автодром | `prompts/current/06_park_bumper_cars.md` | `CANDIDATE` | `RESET` |
+| 07 | Парк: колесо | `prompts/current/07_park_ferris_wheel.md` | `CANDIDATE` | `RESET` |
 | 08 | Двор и вход в подъезд | `prompts/current/08_home_entry.md` | `CANDIDATE` | `RESET` |
 | 09 | Вход в квартиру и обход | `prompts/current/09_apartment.md` | `CANDIDATE` | `RESET` |
 | 10 | Панорама Припяти и ЧАЭС | `prompts/current/10_city_panorama.md` | `CANDIDATE` | `RESET` |
-| 11–18 | Камелеон и подвал | `prompts/current/11_18_final_crosscut.md` | `CANDIDATE`, требуется полная пересборка после character lock | `RESET` |
+| 11, 12, 14, 16 | Камелеон у дома, один 20s source-ролик | `prompts/current/11_12_14_16_chameleon_reveal.md` | `CANDIDATE`, после character lock | `RESET` |
+| 13, 15 | Подвал и проявление знаков, один 16s source-ролик | `prompts/current/13_15_basement_marks.md` | `CANDIDATE`, после character lock | `RESET` |
+| 17, 18 | Зеркало и крик, один 20s source-ролик | `prompts/current/17_18_mirror_scream.md` | `CANDIDATE`, после character lock | `RESET` |
 
 Слово `current` в старом пути означает только «последняя сохранённая версия до reset». Оно не означает,
 что промпт уже утверждён для новой съёмки.

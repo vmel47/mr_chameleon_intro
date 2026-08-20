@@ -37,8 +37,8 @@
 | 03 | Знак «Припять» | 12 | `prompts/current/03_pripyat_sign.md` | **FULL RESET**; промпт-кандидат, все inputs заново |
 | 04 | Улица в городе | 14 | `prompts/current/04_city_entrance.md` | **FULL RESET** |
 | 05 | Площадь, ДК «Энергетик» | 20 | `prompts/current/05_dk_energetik.md` | **FULL RESET**; формулировку шага можно переиспользовать |
-| 06 | Парк, автодром | 15 | `prompts/current/06_07_park.md` | **FULL RESET** |
-| 07 | Парк, колесо | 14 | `prompts/current/06_07_park.md` | **FULL RESET** |
+| 06 | Парк, автодром | 15 | `prompts/current/06_park_bumper_cars.md` | **FULL RESET** |
+| 07 | Парк, колесо | 14 | `prompts/current/07_park_ferris_wheel.md` | **FULL RESET** |
 | 08 | Двор и подъезд | 16, тест | `prompts/current/08_home_entry.md` | **FULL RESET**; старый `8.png` только ориентир |
 | 09 | **Квартира, один кадр** | **20, тест** | `prompts/current/09_apartment.md` | **FULL RESET**; заново план, локации, starting frame и видео |
 
@@ -49,8 +49,9 @@
 | # | Что | Длина | Статус |
 |---|---|---|---|
 | 10 | Панорама города к ЧАЭС, без персонажа | 20 | **FULL RESET**; старый промпт — кандидат |
-| 11–12 | Наезд сверху вниз, сходится на нём у подъезда. **Первое появление** | 8 | заблокировано до character lock |
-| 13–18 | Крос-кат с подвалом, знаки, зеркало, крик | 48 | `prompts/current/11_18_final_crosscut.md`; переписать после character lock |
+| 11, 12, 14, 16 | Наезд и возвраты к Камелеону; один 20s source-ролик | 20 raw | `prompts/current/11_12_14_16_chameleon_reveal.md`; после character lock |
+| 13, 15 | Подвал и проявление знаков; один 16s source-ролик | 16 raw | `prompts/current/13_15_basement_marks.md`; после character lock |
+| 17, 18 | Зеркало и крик; один 20s source-ролик | 20 raw | `prompts/current/17_18_mirror_scream.md`; после character lock |
 
 Итого финал: **1:20**
 

@@ -1,4 +1,77 @@
-# 04 · УЛИЦА ВНУТРИ ГОРОДА · ОДНА ВИДЕОГЕНЕРАЦИЯ
+# 02B · УЛИЦА В ГОРОДЕ · 20s · без персонажа
+
+Следующая генерация после знака. Строгий вид от первого лица, людей в кадре нет — снимается сейчас.
+
+**Он уже в городе.** Не подъездная дорога, не «первые дома показались из-за деревьев» — настоящая улица:
+длинный ряд домов уходит вдаль по одной стороне, по другой всё заросло лесом и парком.
+
+**Порядок: сначала картинка локации, потом видео.**
+
+---
+
+# 1 · ЛОКАЦИЯ — сгенерировать первой
+
+**Модель:** Higgsfield **Soul Cinema** · aspect **16:9** · quality **2k**
+**Тег:** `@loc_MC_pripyat_street`
+**Референсов не прикладывать.** Описание несёт всё само.
+
+```
+Wide three-quarter cinematic film still of a long empty street inside an abandoned Soviet new town. Camera
+at the eye level of a person standing in the middle of the carriageway, turned about thirty degrees off the
+axis of the street so the street runs diagonally away from the lower left of frame to a vanishing point in
+the right third — never square on, never symmetrical, never straight down the centre line. Because the view
+is off-axis, both the long façades and the end walls of the blocks are visible at once and the row reads as
+a row receding into depth rather than as a flat wall.
+
+Down the LEFT side, a continuous row of at least six or seven residential blocks stretching all the way
+into the distance — five-storey and nine-storey precast concrete panel buildings standing shoulder to
+shoulder with gaps of overgrowth between them, flat rooflines stepping away in perspective, regular grids
+of empty black window openings with no glass in any frame, panel joints streaked black with forty years of
+rain, balconies with rusted railings and birch saplings growing out of them, faded painted numbers and
+blank ceramic-tile panels on the end walls. The nearest block fills the left third of frame; the furthest
+is a pale grey silhouette in the haze.
+
+Down the RIGHT side, no buildings at all — a dense wall of birch and poplar in full new-green leaf that has
+swallowed whatever used to be there, white trunks bare for most of their height, crowns high and airy,
+undergrowth spilling over a broken concrete kerb and onto the asphalt.
+
+The street itself: wide cracked grey asphalt, a faded centre line barely readable, young birch saplings and
+thick weeds growing straight up through every seam, kerbs buried under grass, a buried pavement running
+along the building side, leaning dead street lamps on plain steel poles at intervals, a rusted litter bin
+tipped in the grass. Nothing has been maintained for forty years and nothing has been vandalised — it is
+simply abandoned and overgrown.
+
+Late spring afternoon at one o'clock under half broken cloud, soft sun high and three-quarters behind, warm
+rim along the roof edges, the panel joints and the tops of the grass, façades turned to camera a stop and a
+half under so the window openings read as flat black voids. Soft-edged shadows all falling the same way.
+Light haze thickening with distance, pollen in the bright gaps.
+
+Palette of 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange
+oxidised metal. Neutral daylight white balance around 5600K, natural saturation, medium contrast, even
+exposure corner to corner.
+
+Rule of thirds. Empty deserted street, no people, no vehicles, no working lights, no signage, no graffiti,
+no washing lines.
+
+Shot on ARRI Alexa Mini LF with ARRI Signature Prime lens, clean modern digital cinematic capture, crisp
+natural detail, minimal fine grain, soft cinematic falloff, hyperrealistic photographic detail.
+```
+
+**Что проверить в результате**
+
+| Симптом | Что делать |
+|---|---|
+| Домов два-три, а не ряд | Усилить: `at least six or seven blocks receding all the way to the vanishing point` |
+| Дома с обеих сторон | Повторить в конце: `the right side has no buildings at all, only forest` |
+| Дома целые, со стёклами | Добавить `every window is an empty black opening, no glass in any frame` |
+| Кадр тесный, не читается улица | Усилить `wide`, `long street`, `vanishing point in the right third` |
+| Вид строго по оси, ряд домов читается плоской стеной | Это потеря ракурса 3/4. Усилить `turned about thirty degrees off the axis of the street`, `never square on` |
+| Осень или зима | Повторить `full new-green leaf, late spring` в конце |
+| Похоже на рендер, не на кадр | Усилить `cinematic film still`, убрать всё, что звучит как 3D |
+
+---
+
+# 2 · ВИДЕО — после того как локация сгенерена
 
 **Модель:** Seedance 2.5 · 16:9 · **20s**
 **Референс:** только `@loc_MC_pripyat_street`
