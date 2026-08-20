@@ -11,11 +11,18 @@
 ```
 Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything overgrown, everything alive.
 Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps; never a continuous overcast sheet.
-Sun: high and soft, warm directional light sitting high and three-quarters behind, soft warm rim on edges, camera side a stop and a half under.
+Sun: use the scene-group sun direction below; keep one coherent world azimuth inside each continuous sequence.
 Shadows: softly defined and readable, all falling the same way.
 Air: light haze thickening with distance, pollen drifting in bright gaps.
-Time: 1:00 PM, early afternoon daylight.
+Time: scenes 01–02 forest opening — 11:30 AM; later Pripyat daylight material — 1:00 PM.
 ```
+
+**Forest 01–02 sun lock:** 11:30 AM. Soft sun high through the trees from the left side of the walking
+axis, near the upper-left edge of a forward view. The disc is not required in frame; filtered side light and
+dapple establish it. Both forest clips use the same world azimuth.
+
+**Later Pripyat sun lock:** 1:00 PM. Preserve the established 1:00 PM direction consistently across the
+city, park, residential and daylight-interior sequences.
 
 **The basement is the one exception** — no daylight reaches it. It carries its own light logic: one dim overhead fixture above the work table, the rest of the room falling away into shade. The environment lock is not pasted into basement prompts.
 
@@ -140,7 +147,7 @@ the body.
 ```
 Style: 8K IMAX. Photorealistic — no 3D render, no game engine, no game-cutscene aesthetic. Documentary realism of an abandoned place, not a dressed set.
 Cinematography: physically grounded camera appropriate to the shot; natural motivated light only; composed documentary frames with real mass and inertia.
-Lighting: Late spring turning into early summer at exactly 1:00 PM, bright mostly sunny with a pale-blue sky, a few small separated soft-white clouds and large blue gaps. Soft sun high and three-quarters behind the subject — restrained warm rim on edges, camera side a stop and a half under, never blinding, no hard flare. Daylight interiors are lit only by window light falling naturally into the room. No fill from the camera side.
+Lighting: Late spring turning into early summer, bright mostly sunny with a pale-blue sky, a few small separated soft-white clouds and large blue gaps. Use the exact time and sun direction from the active scene-group environment lock: 11:30 AM for forest scenes 01–02, 1:00 PM for later Pripyat material. Daylight interiors are lit only by window light falling naturally into the room. No unmotivated fill from the camera side.
 Color: 60:30:10 — 60% new-growth birch and grass green, 30% weathered concrete grey and pale sky, 10% rust-orange oxidised metal.
 Camera: Physical cine lens. 180° shutter motion blur.
 Surfaces: Material-level realism — flaking paint, lichen crust, dust-matte glass, wet concrete stain, rusted steel, decades of settled dust on horizontal surfaces. Nothing looks recently placed.

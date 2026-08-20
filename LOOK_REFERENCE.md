@@ -24,8 +24,8 @@ A contact sheet made from these samples is stored at:
 ## Look distilled from the approved footage
 
 - Late spring turning into early summer, full fresh birch/poplar green.
-- Exactly 1:00 PM, bright mostly sunny under lightly broken cloud: pale-blue sky, a few small separated clouds and large blue gaps.
-- High soft sun three-quarters behind; restrained warm rim, never a warm overall filter.
+- Timeline lock: forest scenes 01–02 are at 11:30 AM; the later Pripyat material is at 1:00 PM after the long walk. Both use bright mostly sunny weather under lightly broken cloud: pale-blue sky, a few small separated clouds and large blue gaps.
+- Forest 01–02: soft high 11:30 AM sun from the left side of the walking axis, near the upper-left edge and filtered through trunks; the disc is optional, never forced. Later Pripyat material retains its established 1:00 PM direction. In both groups the warm edge is restrained, never a warm overall filter.
 - Neutral daylight white balance around 5600K.
 - Concrete stays neutral weathered grey; it must not drift blue, cyan, green or sepia.
 - Foliage is naturally saturated new-growth green, not emerald, teal or autumn yellow.

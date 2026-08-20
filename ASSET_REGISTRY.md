@@ -55,13 +55,13 @@ All location sheets shot in **3/4, never frontal**. Each carries an anchor objec
 
 ## THE ENVIRONMENT LOCK
 
-Every location except the basement is generated under the **same** season, sky and sun — see `STYLE_PREFIX.md`. Late spring into early summer, exactly 1:00 PM, bright mostly sunny pale-blue sky with a few small separated clouds and large blue gaps, soft sun high and three-quarters behind the subject.
+Every location except the basement is generated under the **same** late-spring season and bright mostly sunny lightly broken sky — see `STYLE_PREFIX.md`. Forest locations used in scenes 01–02 are locked to 11:30 AM. The later Pripyat locations are locked to 1:00 PM after the long walk.
 
-**Generate all the daylight locations back to back in one sitting.** The whole point is that twelve separately generated places read as one city at 1:00 PM. Come back a week later and the palette will have drifted.
+**Generate each time-of-day group back to back in one sitting.** Scenes 01–02 must match one another at 11:30 AM; the later daylight locations must read as one city at 1:00 PM. Come back a week later and the palette will have drifted.
 
 The reactor confinement is not its own tag — it lives inside `@loc_MC_pripyat_city` and `@loc_MC_home_area` as a horizon element, because it is only ever seen at distance.
 
-**State splits:** none needed. One weather, one hour, one film. If a night or rain version is ever required it becomes a **separate tag**, never an adjective inside a prompt.
+**State split:** one continuous weather system, with a deliberate time progression from the 11:30 AM forest opening to the 1:00 PM city. If a night or rain version is ever required it becomes a **separate tag**, never an adjective inside a prompt.
 
 ---
 

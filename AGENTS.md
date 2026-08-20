@@ -38,8 +38,9 @@ material and in the migration map in `SCENE_SHORTLIST.md`.
   immutable snapshot under `prompts/history/<scene>/`, then update that scene's history README. Never keep
   two competing "current" copies: the active version exists only in `prompts/current/`; history contains
   earlier full prompts and exact restoration instructions.
-- Current picture lock: late spring, 1:00 PM, bright mostly sunny daylight, pale-blue sky, a few small
-  separated clouds, full new green foliage, readable shadows, no overcast blanket.
+- Current picture lock: late spring, bright mostly sunny daylight, pale-blue sky, a few small separated
+  clouds, full new green foliage, readable shadows, no overcast blanket. Opening forest scenes 01–02 are
+  at 11:30 AM; the later Pripyat material is at 1:00 PM after the long walk.
 - Embodied POV optics lock: 47° diagonal field of view, spherical normal-lens character, no focal-length
   change inside a take. Aerial geography and the final telephoto reveal are motivated exceptions only.
 - Embodied standing or walking POV height lock: the camera optical centre is 1.8 metres above the local
