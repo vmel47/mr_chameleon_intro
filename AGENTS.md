@@ -12,6 +12,9 @@ Read in this order before changing the project:
 6. `ASSET_REGISTRY.md` — character, location and prop identities.
 7. `prompts/current/README.md` — preserved prompt candidates from before the reset.
 
+User-supplied image prompts are saved verbatim in `prompts/image/IMAGE_PROMPT_INBOX.md`. Never promote a
+video prompt by guessing which file is newest; the user explicitly names the accepted latest version.
+
 ## Current production state
 
 The project entered a full reset on 2026-08-20. Every video, image, starting frame, location sheet,
