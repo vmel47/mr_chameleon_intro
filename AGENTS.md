@@ -4,17 +4,19 @@ This file is the common entry point for Codex, Claude, Gemini and other agents.
 
 Read in this order before changing the project:
 
-1. `PRODUCTION.md` — current reshoot status and next work.
-2. `SCENE_SHORTLIST.md` — canonical scene order and new numbering.
-3. `SCRIPT.md` — story and narration source.
-4. `LOOK_REFERENCE.md` — approved light, weather, palette and moving-image references.
-5. `ASSET_REGISTRY.md` — character, location and prop identities.
-6. `prompts/current/README.md` — current prompt routing.
+1. `GENERATION_DATABASE.md` — full-reset database for prompts, images, references and assets.
+2. `PRODUCTION.md` — current reshoot status and next work.
+3. `SCENE_SHORTLIST.md` — canonical scene order and new numbering.
+4. `SCRIPT.md` — story and narration source.
+5. `LOOK_REFERENCE.md` — approved light, weather, palette and moving-image references.
+6. `ASSET_REGISTRY.md` — character, location and prop identities.
+7. `prompts/current/README.md` — preserved prompt candidates from before the reset.
 
 ## Current production state
 
-The project entered a full-reshoot cycle on 2026-08-20. Every previously generated video is now a
-reference only and must be regenerated. Never mark a scene shot merely because an `.mp4` exists.
+The project entered a full reset on 2026-08-20. Every video, image, starting frame, location sheet,
+character sheet, prop sheet and reference asset must be generated again. Existing material is only a
+candidate prompt or visual orientation source. Never mark an asset complete because a file already exists.
 
 Active IDs are sequential `01–18`. Legacy IDs (`00`, `02B`, `03A`, `F0–F8`) exist only in archived
 material and in the migration map in `SCENE_SHORTLIST.md`.

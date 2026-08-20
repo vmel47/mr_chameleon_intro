@@ -1,4 +1,8 @@
-# MR. CHAMELEON — ASSET GENERATION
+# MR. CHAMELEON — ASSET GENERATION · PRESERVED PROMPT CANDIDATES
+
+> **FULL RESET:** all prompts in this file are old candidates, not active approvals. Every character,
+> location, prop, starting frame and reference asset must be generated again and tracked in
+> `GENERATION_DATABASE.md`.
 
 Prompts for building every asset in the film. **Nothing in `SHOTLIST_PROMPTS.md` gets generated until everything here is `LOCKED`.**
 
