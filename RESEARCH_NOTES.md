@@ -45,9 +45,13 @@ Applied movement findings:
 - A brief exploratory eye-and-head glance can occur without changing the travel direction. Keep the torso
   and feet on course; avoid turning the whole body merely because the head looks at a passing tree.
 
-Prompt consequence for scene 01: use one small 10–15° course correction toward a more comfortable gap,
-prepared by gaze and completed over several steps. Add one later independent 15–20° head glance toward a
-passing birch, with no second course change. Avoid scripted slalom, sudden yaw and obstacle-centred orbiting.
+Generation-test consequence for scene 01, updated 2026-08-21: a requested long clear body corridor produced
+an artificial visible trail and two parallel walls of trees. Do not reserve empty space along the complete
+future trajectory. Keep only the next one or two foot placements locally passable while staggered trunks
+overlap the central perspective. Use one pine visible from frame one, one lateral displacement of about
+60 cm with body yaw capped at 5°, then continue parallel to the original bearing. Keep all lower branches
+outside the face volume without clearing the forest floor into a lane. Avoid scripted slalom, sudden yaw,
+obstacle-centred orbiting and multiple course changes.
 
 Evidence:
 
