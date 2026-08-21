@@ -63,3 +63,40 @@ Evidence:
 - Hollands et al., “How trunk turns affect locomotion when you are not looking where you go”: moderate
   eye/head exploration produces far less heading deviation than turning the trunk:
   https://pubmed.ncbi.nlm.nih.gov/18639359/
+
+## Pripyat “ПРИПЯТЬ 1970” southern entrance monument
+
+Verified 2026-08-21 for the scene 03 location-reference image prompt.
+
+Observed location and geometry:
+
+- The photographed monument is the famous white Soviet stele marked with separate raised three-dimensional
+  letters `ПРИПЯТЬ` and the founding year `1970`, not an ordinary metal traffic sign.
+- Wikimedia Commons locates the monument at approximately `51.388333, 30.076667`; a geotagged 2017 image
+  gives the nearby camera position `51.388397, 30.076922`.
+- Dated photographs from 2010, 2017, 2018 and 2019 consistently show a long asymmetrical horizontal wedge
+  supported by a short rectangular pier, separate block letters above the slab and the year on its lower
+  right face.
+- The stele stands in an open grassy roadside area at a junction on the southern approach rather than in
+  the carriageway. The approach road therefore passes in front of the lettered face and can support a
+  walking composition that approaches and continues past the sign.
+- The low black chain/metal enclosure visible in some tourism-era photographs is not required architectural
+  geometry and is excluded by the director. Do not replace it with another fence, kerb or landscaped border.
+- Use the already verified abandoned-road condition: dull cracked and patched asphalt, broken overgrown
+  edges and no fresh readable markings or maintained shoulder.
+- Director-supplied images are authoritative for the desired readable white paint, dark side planes of the
+  letters, exact word and clean silhouette. Allow only restrained present-day weathering; do not fictionalise
+  severe collapse or obscure the text.
+
+Evidence:
+
+- Wikimedia Commons category with object coordinates and 24 documented views:
+  https://commons.wikimedia.org/wiki/Category:Pripyat_1970_sign
+- Wikimedia Commons, geotagged photograph dated 4 November 2017:
+  https://commons.wikimedia.org/wiki/File:Pripyat_welcome_sign_(38071252145).jpg
+- IAEA Imagebank photograph dated 10 October 2010:
+  https://commons.wikimedia.org/wiki/File:The_town_sign_of_Pripyat_(02710144).jpg
+- Wikimedia Commons photograph dated 25 July 2018, documenting the sign and field behind it:
+  https://commons.wikimedia.org/wiki/File:Pripyat_1970_sign_hnapel_02.jpg
+- Wikimedia Commons photograph dated 4 May 2019:
+  https://commons.wikimedia.org/wiki/File:Pripyat_1970_sign_20190504.jpg

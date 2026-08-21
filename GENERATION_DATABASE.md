@@ -54,9 +54,9 @@
 |---|---:|---|---|---|---|---|
 | `IMG-01-A` | 01 | Глубокий лес, начальная позиция POV | чистый 16:9 starting frame | есть старые forest refs/video | `TODO` | `RESET` |
 | `IMG-02-A` | 02 | Тот же лес ближе к дороге | continuity starting frame | есть старые forest refs/video | `TODO` | `RESET` |
-| `LOC-FOREST` | 01–02 | Общий forest location sheet, только нужные направления | 3/4 coverage + единый descriptor | старый `@loc_MC_forest` | старый кандидат в `ASSET_GENERATION.md` | `RESET` |
+| `LOC-FOREST` | 01–02 | Общий forest location sheet, только нужные направления | 3/4 coverage + единый descriptor | старый `@loc_MC_forest` | новый запрос использован | `SELECTED` |
 | `IMG-03-A` | 03 | Дорога и знак «ПРИПЯТЬ 1970» | чистый starting frame | старые кадры знака | `TODO` | `RESET` |
-| `LOC-SIGN` | 03 | Знак и его точная дорожная география | location reference | старые sign refs | старый кандидат в `ASSET_GENERATION.md` | `RESET` |
+| `LOC-SIGN` | 03 | Знак и его точная дорожная география | location reference | старые sign refs | `prompts/image/IMAGE_PROMPT_INBOX.md`, раздел 03 | `DRAFT` |
 | `IMG-04-A` | 04 | Заросшая улица внутри Припяти | чистый starting frame | старое city-entrance video | `TODO` | `RESET` |
 | `LOC-STREET` | 04 | Панельные дома слева, лес справа, маршрут | location sheet/descriptor | старый `@loc_MC_pripyat_street` | старый кандидат требует обновления | `RESET` |
 | `IMG-05-A` | 05 | Площадь и ДК «Энергетик» с нужной позиции | чистый starting frame | фото и старое video | `TODO` | `RESET` |
@@ -117,8 +117,8 @@ Next single change:
 ## D · Порядок новой сборки
 
 1. Пересобрать и залочить единый look/weather descriptor.
-2. Создать заново `LOC-FOREST` и стартовые кадры `IMG-01-A`, `IMG-02-A`.
-3. Двигаться последовательно по сценам `03–10`, не перескакивая через незалоченную географию.
+2. `LOC-FOREST` уже выбран; отдельно подготовить стартовые кадры `IMG-01-A`, `IMG-02-A`, если они понадобятся.
+3. Подготовить и сгенерировать `LOC-SIGN`, затем двигаться последовательно по сценам `03–10`, не перескакивая через незалоченную географию.
 4. Параллельно после утверждения look начать character sheets `CHAR-01–05` и stress tests.
 5. Только после location/character lock собирать keyframes и видеопромпты `11–18`.
 

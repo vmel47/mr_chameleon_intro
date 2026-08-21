@@ -35,27 +35,23 @@ OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens 
 
 ## 03 · ЗНАК «ПРИПЯТЬ»
 
-A three-quarter view from the roadside of the concrete city sign of Pripyat, Ukraine — the white
-wedge-shaped monument standing alone on the approach road from Chernobyl, the word ПРИПЯТЬ in tall
-raised relief letters across the top slab and the year 1970 on the lower panel. Camera at the eye
-level of a standing person, the sign angled across frame. Weathered white concrete, lichen crust in the letter troughs,
-rust bleed at the fixings, grass and birch saplings grown up around the base, flat empty ground and a
-treeline behind it. No flowers, no wreaths, no tourist markers, no modern signage.
+A photorealistic cinematic location-reference still of the real southern entrance monument of Pripyat, Ukraine, photographed as it stands today near coordinates 51.38833 N, 30.07667 E. This is the famous Soviet city stele reading exactly “ПРИПЯТЬ” and “1970”, not a generic road sign and not a redesigned interpretation.
 
-Season: late spring turning to early summer. Birch, poplar and grass in full new green, everything
-overgrown, everything alive.
-Sky: bright mostly sunny pale blue with a few small separated soft-white clouds and large blue gaps; never overcast.
-Sun: high and soft, warm directional light sitting high and three-quarters behind,
-restrained warm rim on edges, camera side a stop and a half under.
-Shadows: softly defined and readable, all falling the same way.
-Air: light haze thickening with distance, pollen drifting in bright gaps.
-Time: 1:00 PM, early afternoon daylight.
+CAMERA ANCHOR AND ROAD GEOGRAPHY: a useful eye-level three-quarter view for a future walking shot. The optical centre is exactly 1.8 metres above the asphalt, positioned on the right half of the abandoned approach road about 25 metres before the monument. The two-lane Soviet asphalt road enters from the lower-left foreground and continues diagonally toward the middle-right distance. It is a recognisable road but has been unmaintained for decades: dull uneven grey asphalt, long cracks, old patch repairs, leaf litter and moss at the broken edges, with no fresh or clearly readable lane markings. The monument stands several metres beyond the road edge in an open overgrown grassy verge on the RIGHT side of the walker’s forward direction. Its lettered face is turned toward approaching traffic and is fully readable in three-quarter view. The road remains visible both before and beyond the monument, creating one clear forward walking direction past the sign toward Pripyat. No footpath, tourist trail, paved lay-by, kerb, checkpoint, barrier or maintained shoulder.
 
-Palette of 60 percent new-growth birch and grass green, 30 percent weathered concrete grey and pale
-sky, 10 percent rust-orange oxidised metal. Empty deserted place, no people anywhere, no vehicles,
-still air. Cinematic film still, natural film texture, no grain stacking.
+EXACT MONUMENT GEOMETRY: a long, low, asymmetrical white-painted reinforced-concrete stele, approximately four times wider than its main body is tall. The principal slab is a massive horizontal wedge: a long sharp triangular point projects to the LEFT, while the RIGHT end is thick and squared. Its upper edge is nearly horizontal and its lower edge angles inward toward a short central support, giving the body the unmistakable tapered arrow-like silhouette. A single stout white rectangular concrete pier descends beneath the right-of-centre portion and anchors the structure into the grass. The slab is not a wall, billboard, box, plinth or freestanding rectangular panel.
 
-OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception, with the optical centre 1.8 metres above the local ground. Deep practical focus, straight lines and even exposure corner to corner. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained highlights and readable shadows. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
+Across the top stands one row of seven separate monumental three-dimensional Cyrillic block letters spelling exactly “ПРИПЯТЬ”. Each letter is a tall, heavy, squared white concrete volume with narrow gaps between letters, flat faces, deep dark side planes and subtle red-brown exposed support lines underneath. The letters sit above the slab rather than being painted onto it. Preserve the exact Cyrillic sequence П-Р-И-П-Я-Т-Ь, including the final soft sign Ь. No Latin letters, no apostrophe, no added words.
+
+On the lower right face of the main slab, place the exact dark charcoal numerals “1970”, large but clearly smaller than the city name. The four numerals form one compact horizontal group, cleanly readable, with the distinctive rounded 9 and 0. No plaque, subtitle, emblem, radiation symbol or additional typography.
+
+CURRENT CONDITION: the monument is maintained only enough to remain recognisable. White paint is sun-faded and slightly uneven, with restrained grey weather streaks, small chips along concrete edges and a few muted rust stains beneath metal fixings. It is not freshly glossy, but it is also not collapsed, graffiti-covered or severely ruined. The text remains complete and legible. Tall wild grass and low weeds grow naturally around the pier and slab without hiding the silhouette.
+
+SURROUNDINGS: a broad open grassy strip around the monument, then mixed birch, poplar and pine woodland behind and farther along the road. Keep the spatial arrangement sparse enough that the entire sign is readable. No buildings dominate the frame. No black decorative fence, no chain barrier, no low metal enclosure around the monument, no flowers, wreaths, flags, memorial candles, tourist plaques, radiation-warning props, people, buses, cars or modern street furniture.
+
+ENVIRONMENT LOCK: late spring turning into early summer at exactly 1:00 PM. Bright mostly sunny daylight under a pale-blue sky with only a few small separated soft-white clouds and large blue gaps, never overcast. High soft sun from camera-left and slightly behind the walking axis creates restrained warm edge light on the raised letters and grass while leaving the white faces neutral and readable. All softly defined shadows fall consistently to camera-right. Light atmospheric haze in the distant trees. Full fresh natural green foliage, neutral weathered white and grey concrete, muted charcoal numerals and small restrained rust accents. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained sky detail and readable shadows.
+
+OPTICS AND CAPTURE: 16:9 horizontal frame, 47° diagonal field of view, standard spherical normal-lens character and natural human perspective. Deep practical focus keeps the road surface, entire monument and background treeline coherent. Straight geometry and even exposure corner to corner. Clean documentary-cinematic realism with natural material detail. No drone view, high angle, frontal elevation, fisheye, ultra-wide stretching, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom, HDR halo, CGI or game-engine look.
 
 ## 04 · УЛИЦА ВНУТРИ ГОРОДА
 

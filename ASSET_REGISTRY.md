@@ -29,10 +29,10 @@ All location sheets shot in **3/4, never frontal**. Each carries an anchor objec
 
 | Tag | What | Anchor | Status |
 |---|---|---|---|
-| `@loc_MC_forest` | Dense pine/birch forest inside the zone, full new green, raw forest floor and low undergrowth. No trodden path: the unseen route is only a direction through naturally spaced trunks. | The gap in the trees ahead | TODO |
+| `@loc_MC_forest` | Dense pine/birch forest inside the zone, full new green, raw forest floor and low undergrowth. No trodden path: the unseen route is only a direction through naturally spaced trunks. A newly generated result has been selected but not yet continuity/stress-test locked. | The gap in the trees ahead | DRAFT |
 | `@loc_MC_duga_fragment` | **OPTIONAL** — only if the Duga shot in `OPTIONAL_SHOTS.md` is used. A fragment of the Duga radar array among the trees — one lattice leg and a section of mesh, never the full silhouette. Seen before the city sign, so it must stay unrecognisable. | The lattice leg and its concrete foot | TODO |
 | `@loc_MC_forest_pripyat_sign_path` | The route from raw forest floor onto an abandoned ordinary asphalt road and onward to the city sign. No forest trail, maintained shoulder, fresh markings or landscaped verge. Must be generated again; old asset is visual orientation only. | The road running away between the trees | TODO |
-| `@loc_pripyat_sign_2` | The concrete "ПРИПЯТЬ 1970" city sign on the right-hand verge. Must be generated again; old asset is visual orientation only. | The sign slab itself | TODO |
+| `@loc_pripyat_sign_2` | The real concrete "ПРИПЯТЬ 1970" southern entrance monument and its roadside geography at approximately 51.38833, 30.07667. New researched image prompt prepared; asset not generated yet. | The sign slab itself | DRAFT |
 | `@loc_MC_pripyat_city` | Master reference for the whole city — texture, palette, atmosphere, era. Used as an atmosphere anchor in interior clips and for the aerial panorama. | Skyline of 16-storey blocks | TODO |
 | `@loc_MC_pripyat_street` | A long street **inside** the city: a row of six or more panel blocks receding down the LEFT side, forest and nothing else down the RIGHT, wide cracked asphalt with saplings through every seam. Replaces the old `pripyat_entrance` — the approach road is already covered by generations 02 and 02B's opening. | The receding row of blocks | TODO |
 | `@loc_MC_dk_energetic` | The Palace of Culture "Energetik" on the central square, ruined façade, colonnade. | The colonnade | TODO |
