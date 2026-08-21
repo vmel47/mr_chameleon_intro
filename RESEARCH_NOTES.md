@@ -88,6 +88,16 @@ Observed location and geometry:
   letters, exact word and clean silhouette. Allow only restrained present-day weathering; do not fictionalise
   severe collapse or obscure the text.
 
+Director’s scene-03 starting-frame decision, 2026-08-21:
+
+- The starting frame is a long straight two-lane asphalt road through continuous forest, viewed at human eye
+  height toward a distant central vanishing point.
+- The monument is not yet part of the visible starting-frame geography. It will enter much later on the right
+  during the generated walk and is supplied separately as `LOC-SIGN`.
+- Preserve the reference road’s broad continuous asphalt surface and parallel forest walls, but remove the
+  faint old centre paint completely. The road must remain recognisable through width, asphalt continuity and
+  road crown rather than markings.
+
 Evidence:
 
 - Wikimedia Commons category with object coordinates and 24 documented views:

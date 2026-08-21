@@ -33,7 +33,25 @@ Palette of 60% new-growth birch and grass green, 30% weathered concrete grey and
 OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character and natural human spatial perception, with the optical centre 1.8 metres above the local ground. Deep practical focus, straight lines and even exposure corner to corner. Neutral daylight white balance around 5600K, natural saturation, medium contrast, open midtones, retained highlights and readable shadows. No camera-brand styling, wide-angle stretching, fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom or HDR halos.
 
 
-## 03 · ЗНАК «ПРИПЯТЬ»
+## 03 · ДОРОГА К ЗНАКУ «ПРИПЯТЬ» — СТАРТОВЫЙ КАДР
+
+A photorealistic cinematic first-person starting frame on a long, straight, abandoned Soviet two-lane asphalt road through the forest outside Pripyat, Ukraine. The complete visible world contains only the road, its grassy shoulders, dense woodland and sky.
+
+CAMERA AND COMPOSITION: 16:9 horizontal frame from the eye position of a standing person, optical centre exactly 1.8 metres above the asphalt. Camera stands slightly right of the carriageway centre and looks straight forward along the road. The road begins broad across the entire lower frame, remains perfectly straight and narrows gradually toward one central vanishing point very far ahead. Long uninterrupted sightline. Level horizon. No turn, junction, side road, hill, bend or change of direction is visible.
+
+ROAD GEOMETRY AND CONDITION: a broad ordinary Soviet two-lane carriageway approximately 6.5–7 metres wide, formed by one continuous asphalt surface with a subtle shallow crown. It is clearly a paved vehicular road, not a dirt track, forest clearing or footpath. Forty years without regular maintenance have left dull uneven charcoal-grey asphalt, long fine cracks, occasional restrained old patch repairs, soft discoloration and scattered dry leaf litter concentrated near the edges. The surface remains mostly flat and continuously walkable; no giant potholes, collapsed trenches or dramatic destruction. Both asphalt edges are irregular, chipped and softly crumbling into narrow unmanaged grass shoulders. All former painted traffic markings have weathered away completely: no visible centre line, edge line, arrows, crossings or paint fragments.
+
+FOREST CORRIDOR: dense mature woodland forms two continuous parallel walls along the road while leaving the carriageway completely open. On the LEFT, tall straight Scots pines dominate, with dark reddish-brown trunks, sparse high crowns and mixed birch beneath. On the RIGHT, mature birch, poplar and young pine create a brighter full-green edge with pale trunks and layered leaves. Low bushes and grass occupy the shoulders but do not enter the asphalt. The forest extends continuously to the vanishing point. No ornamental planting, trimmed verge, kerb, pavement, drainage ditch, utility pole, building or maintained roadside furniture.
+
+DEPTH AND ATMOSPHERE: the nearest asphalt and forest edges are crisp and materially detailed. Repeating trunks and foliage compress gradually into light natural atmospheric haze at the distant vanishing point. The far distance remains only forest and road; nothing interrupts the silhouette or becomes a focal object. The frame feels empty, quiet and geographically continuous with the previously established pine-and-birch forest.
+
+ENVIRONMENT LOCK: late spring turning into early summer at exactly 1:00 PM. Bright mostly sunny daylight under a pale-blue sky with a few small separated soft-white clouds and large blue gaps, never overcast. High soft sun remains on camera-left and slightly behind the walking axis, producing restrained warm highlights on left-side pine trunks and leaf edges while keeping the asphalt and right woodland in open readable midtones. Softly defined shadows cross the asphalt consistently from left to right. Neutral daylight white balance around 5600K. Fresh natural green foliage, neutral charcoal-grey asphalt, restrained warm bark and pale sky. Medium contrast, retained highlights, readable shadows and even exposure corner to corner.
+
+OPTICS AND CAPTURE: 47° diagonal field of view, standard spherical normal-lens character, fixed natural human perspective and deep practical focus. Straight road geometry with no wide-angle bowing. Clean documentary-cinematic realism and natural material texture. No drone view, high angle, vehicle hood, visible person, hands, feet, body, shadow or reflection. No vehicles, people, animals, barriers, structures, text or graphic elements. No fisheye, anamorphic distortion, lens flare, vignette, edge darkening, stylised LUT, teal-orange grade, sepia, excessive bloom, HDR halo, CGI or game-engine look.
+
+---
+
+## LOC-SIGN · ОТДЕЛЬНЫЙ LOCATION-ELEMENT ЗНАКА «ПРИПЯТЬ»
 
 A photorealistic cinematic location-reference still of the real southern entrance monument of Pripyat, Ukraine, photographed as it stands today near coordinates 51.38833 N, 30.07667 E. This is the famous Soviet city stele reading exactly “ПРИПЯТЬ” and “1970”, not a generic road sign and not a redesigned interpretation.
 
