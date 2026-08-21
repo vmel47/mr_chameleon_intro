@@ -13,12 +13,13 @@
 | v09 | Герметичный глубокий лес, но движение почти всё время по прямой | [`v09_sealed_forest_straight_walk.md`](v09_sealed_forest_straight_walk.md) |
 | v10 | Постановочный обход двух групп деревьев оказался слишком похож на слалом | [`v10_choreographed_two_tree_slalom.md`](v10_choreographed_two_tree_slalom.md) |
 | v11 | Новый heading на 10–15° модель преувеличила до нескольких разворотов | [`v11_heading_change_overrotated.md`](v11_heading_change_overrotated.md) |
-| v12 | **Текущий:** единый мировой курс; только боковое смещение 30–40 см и независимый взгляд головы | [`../../current/01_deep_forest.md`](../../current/01_deep_forest.md) |
+| v12 | Единый мировой курс, но условный collider всё ещё допускал ветку возле лица | [`v12_fixed_bearing_conditional_contact.md`](v12_fixed_bearing_conditional_contact.md) |
+| v13 | **Текущий:** единый мировой курс и полностью свободный объём движения без контакта с растительностью | [`../../current/01_deep_forest.md`](../../current/01_deep_forest.md) |
 
 ## Быстрый откат
 
 Чтобы вернуть прежнюю версию, скопировать **всё содержимое** нужного файла в
-`prompts/current/01_deep_forest.md`. Перед этим текущую v12 сохранить здесь как следующий снимок.
+`prompts/current/01_deep_forest.md`. Перед этим текущую v13 сохранить здесь как следующий снимок.
 
 Git также сохраняет точное состояние каждого коммита; эта папка нужна, чтобы версии можно было найти и
 сравнить без поиска по истории Git.
