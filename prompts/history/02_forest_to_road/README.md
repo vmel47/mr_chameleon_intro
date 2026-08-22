@@ -7,7 +7,12 @@
 | v03 | Солнце совпадает с 01, но расположено слишком близко к оси взгляда | [`v03_sun_too_close_to_forward_axis.md`](v03_sun_too_close_to_forward_axis.md) |
 | v04 | Тест: 1:00 PM, солнце очень высоко справа вне обычного кадра | [`v04_sun_high_far_right_1300.md`](v04_sun_high_far_right_1300.md) |
 | v05 | Утренний свет утверждён, но нет естественного поворота вдоль дороги | [`v05_morning_light_no_road_turn.md`](v05_morning_light_no_road_turn.md) |
-| v06 | **Текущий:** без тропы; перпендикулярный выход и непрерывный поворот направо вдоль дороги | [`../../current/02_forest_to_road.md`](../../current/02_forest_to_road.md) |
+| v06 | Без тропы; перпендикулярный выход и непрерывный поворот направо; ещё не было явного запрета шишек | [`v06_perpendicular_exit_right_turn_before_cone_lock.md`](v06_perpendicular_exit_right_turn_before_cone_lock.md) |
+| v07 | Поверхность без шишек, но выход получался темнее глубокого леса | [`v07_cone_lock_before_exposure_repair.md`](v07_cone_lock_before_exposure_repair.md) |
+| v08 | Свет выхода исправлен, но модель могла выбрать левое направление дороги | [`v08_exposure_repair_before_right_turn_lock.md`](v08_exposure_repair_before_right_turn_lock.md) |
+| v09 | Правый поворот зафиксирован, но свет ошибочно сравнивался с невидимой generation 01 | [`v09_right_turn_lock_before_standalone_exposure.md`](v09_right_turn_lock_before_standalone_exposure.md) |
+| v10 | Автономная яркость исправлена, но выход получился слишком прямо и полностью освещённым | [`v10_bright_direct_exit_before_soft_light.md`](v10_bright_direct_exit_before_soft_light.md) |
+| v11 | **Текущий:** 11:30; мягкий верхне-левый свет; дорога умеренно ярче и освещена частично; правый поворот сохранён | [`../../current/02_forest_to_road.md`](../../current/02_forest_to_road.md) |
 
 Чтобы вернуть прежнюю версию, скопировать весь файл в `prompts/current/02_forest_to_road.md`, предварительно сохранив
 текущую версию следующим снимком в этой папке.

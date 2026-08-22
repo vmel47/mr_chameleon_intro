@@ -78,12 +78,15 @@ Observed location and geometry:
   letters `ПРИПЯТЬ` and the founding year `1970`, not an ordinary metal traffic sign.
 - Wikimedia Commons locates the monument at approximately `51.388333, 30.076667`; a geotagged 2017 image
   gives the nearby camera position `51.388397, 30.076922`.
-- Dated photographs from 2010, 2017, 2018 and 2019 consistently show a long asymmetrical horizontal wedge
-  supported by a short rectangular pier, separate block letters above the slab and the year on its lower
-  right face.
-- The stele stands in an open grassy roadside area at a junction on the southern approach rather than in
-  the carriageway. The approach road therefore passes in front of the lettered face and can support a
-  walking composition that approaches and continues past the sign.
+- Dated photographs from 2010, 2017, 2018 and 2019 consistently show a long asymmetrical body with a level
+  top and one underside that descends from the thin blunt left end toward the deep right end. The right end
+  becomes the broad integral ground support; there is no separate centre pier. The `1970` numerals are large
+  raised dark volumes mounted low on this right pedestal.
+- The seven thick geometric letters stand individually on a continuous rust-red steel rail above the white
+  body. Their narrow rectangular counters and deep side planes are important identity features.
+- The stele stands in an open grassy island between branches of a road fork on the southern approach rather
+  than beside one uninterrupted straight carriageway. For a location-element image, the monument must remain
+  dominant and the asphalt should appear only as secondary junction context, not as the main composition.
 - The low black chain/metal enclosure visible in some tourism-era photographs is not required architectural
   geometry and is excluded by the director. Do not replace it with another fence, kerb or landscaped border.
 - Use the already verified abandoned-road condition: dull cracked and patched asphalt, broken overgrown
@@ -91,6 +94,8 @@ Observed location and geometry:
 - Director-supplied images are authoritative for the desired readable white paint, dark side planes of the
   letters, exact word and clean silhouette. Allow only restrained present-day weathering; do not fictionalise
   severe collapse or obscure the text.
+- The director's earlier straight-road image is evidence only for the asphalt material and abandonment state;
+  it is not a composition reference for the monument location.
 
 Director’s scene-03 starting-frame decision, 2026-08-21:
 
@@ -102,6 +107,18 @@ Director’s scene-03 starting-frame decision, 2026-08-21:
   faint old centre paint completely. The road must remain recognisable through width, asphalt continuity and
   road crown rather than markings.
 
+Director’s LOC-SIGN continuity correction, 2026-08-21:
+
+- Keep the monument prompt otherwise unchanged, but make the main approach branch visibly continuous with
+  the preceding forest-road asset: an ordinary Soviet two-lane carriageway approximately 6.5–7 metres wide,
+  with the same dull charcoal-grey cracked and lightly patched asphalt, shallow crown and broken unmanaged
+  edges.
+- The intended walking direction runs from the lower-left foreground diagonally away toward the upper-left
+  background, onward toward Pripyat.
+- Present the monument in a stronger three-quarter orientation: its broad grounded right pedestal is nearer
+  camera, while its long body and thin left end recede toward the upper-left in the city direction. It must
+  not read as a flat frontal object placed perpendicular to the viewer.
+
 Evidence:
 
 - Wikimedia Commons category with object coordinates and 24 documented views:
@@ -112,5 +129,8 @@ Evidence:
   https://commons.wikimedia.org/wiki/File:The_town_sign_of_Pripyat_(02710144).jpg
 - Wikimedia Commons photograph dated 25 July 2018, documenting the sign and field behind it:
   https://commons.wikimedia.org/wiki/File:Pripyat_1970_sign_hnapel_02.jpg
+- Wikimedia Commons wide monument view dated 25 July 2018, documenting the exact wedge, right pedestal,
+  steel rail and raised numerals:
+  https://commons.wikimedia.org/wiki/File:Pripyat_1970_sign_hnapel_01.jpg
 - Wikimedia Commons photograph dated 4 May 2019:
   https://commons.wikimedia.org/wiki/File:Pripyat_1970_sign_20190504.jpg

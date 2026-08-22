@@ -15,12 +15,14 @@
 | v11 | Новый heading на 10–15° модель преувеличила до нескольких разворотов | [`v11_heading_change_overrotated.md`](v11_heading_change_overrotated.md) |
 | v12 | Единый мировой курс, но условный collider всё ещё допускал ветку возле лица | [`v12_fixed_bearing_conditional_contact.md`](v12_fixed_bearing_conditional_contact.md) |
 | v13 | Свободный объём по всему маршруту создал видимую тропу и два ряда деревьев | [`v13_clear_corridor_created_path.md`](v13_clear_corridor_created_path.md) |
-| v14 | **Текущий:** хаотичные перекрывающиеся стволы, локальная проходимость и один мягкий обход сосны | [`../../current/01_deep_forest.md`](../../current/01_deep_forest.md) |
+| v14 | Конкретная сосна и жёстко рассчитанный обход всё ещё создавали отдельную постановочную механику | [`v14_single_pine_bypass_still_pathlike.md`](v14_single_pine_bypass_still_pathlike.md) |
+| v15 | Механика и структура перенесены из второго лесного промпта; ещё не было явного запрета шишек | [`v15_second_prompt_gait_no_cone_lock.md`](v15_second_prompt_gait_no_cone_lock.md) |
+| v16 | **Текущий:** та же механика второго промпта; видимая поверхность леса без шишек | [`../../current/01_deep_forest.md`](../../current/01_deep_forest.md) |
 
 ## Быстрый откат
 
 Чтобы вернуть прежнюю версию, скопировать **всё содержимое** нужного файла в
-`prompts/current/01_deep_forest.md`. Перед этим текущую v14 сохранить здесь как следующий снимок.
+`prompts/current/01_deep_forest.md`. Перед этим текущую v16 сохранить здесь как следующий снимок.
 
 Git также сохраняет точное состояние каждого коммита; эта папка нужна, чтобы версии можно было найти и
 сравнить без поиска по истории Git.

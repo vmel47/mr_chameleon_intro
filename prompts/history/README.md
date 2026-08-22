@@ -7,6 +7,7 @@
 |---|---|---|
 | 01 · Глубоко в лесу | [`../current/01_deep_forest.md`](../current/01_deep_forest.md) | [`01_deep_forest/README.md`](01_deep_forest/README.md) |
 | 02 · Выход из леса к дороге | [`../current/02_forest_to_road.md`](../current/02_forest_to_road.md) | [`02_forest_to_road/README.md`](02_forest_to_road/README.md) |
+| 03 · Знак «Припять» | [`../current/03_pripyat_sign.md`](../current/03_pripyat_sign.md) | [`03_pripyat_sign/README.md`](03_pripyat_sign/README.md) |
 
 При следующей замене сначала сохранить действующий полный промпт новым файлом `vNN_*.md`, затем заменить
 файл в `current/` и обновить README сцены. Исторические снимки после создания не редактировать.
